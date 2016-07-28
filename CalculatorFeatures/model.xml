@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+	<featureModel chosenLayoutAlgorithm="1">
+		<struct>
+			<and abstract="true" mandatory="true" name="CalculatorFeatures">
+				<feature mandatory="true" name="Base"/>
+				<feature name="Plus"/>
+				<feature name="Minus"/>
+				<feature name="Divide"/>
+				<feature name="Times"/>
+			</and>
+		</struct>
+		<constraints>
+			<rule>
+				<disj>
+					<var>Plus</var>
+					<disj>
+						<var>Minus</var>
+						<disj>
+							<var>Times</var>
+							<var>Divide</var>
+						</disj>
+					</disj>
+				</disj>
+			</rule>
+		</constraints>
+		<calculations Auto="true" Constraints="true" Features="true" Redundant="true" Tautology="true"/>
+		<comments/>
+		<featureOrder userDefined="false"/>
+	</featureModel>
