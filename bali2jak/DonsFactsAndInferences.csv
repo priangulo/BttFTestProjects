@@ -1,0 +1,1221 @@
+Identifier,TypeID,Type,Package,Class,Member,Feature,Is_fprivate?,Is_inferred?,Parent_features,Is_terminal?,Is_hook?,Inferences,User_comment,Member_modifier
+bali2jak.Statements,2,Class,bali2jak,Statements,,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak,1,Package,bali2jak,,,kernel,FALSE,FALSE,,TRUE,FALSE,,Package is always kernel,
+bali2jak.AstList,2,Class,bali2jak,AstList,,kernel,FALSE,FALSE,,FALSE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstVisitor,2,Class,bali2jak,AstVisitor,,kernel,FALSE,FALSE,,FALSE,FALSE,,set by Bali2JakSol,public
+bali2jak.Dispatcher,2,Class,bali2jak,Dispatcher,,kernel,FALSE,FALSE,,FALSE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstVisitor.visit(AstList list),4,Method,bali2jak,AstVisitor,visit(AstList list),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstNode,2,Class,bali2jak,AstNode,,kernel,FALSE,FALSE,,FALSE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstNode.arg,3,Field,bali2jak,AstNode,arg,kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstNode.right,3,Field,bali2jak,AstNode,right,kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.Dispatcher.dispatch(Object object),4,Method,bali2jak,Dispatcher,dispatch(Object object),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstVisitor.visit(AstNode node),4,Method,bali2jak,AstVisitor,visit(AstNode node),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstVisitor.visit(AstOptNode node),4,Method,bali2jak,AstVisitor,visit(AstOptNode node),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstOptNode,2,Class,bali2jak,AstOptNode,,kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.CodeBuffer,2,Class,bali2jak,CodeBuffer,,codegen,FALSE,FALSE,,FALSE,FALSE,,set by Bali2JakSol,public
+bali2jak.CodeBuffer.append(char character),4,Method,bali2jak,CodeBuffer,append(char character),codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.CodeBuffer.append(String string),4,Method,bali2jak,CodeBuffer,append(String string),codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.CodeBuffer.append(List tokensInPhrase),4,Method,bali2jak,CodeBuffer,append(List tokensInPhrase),codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.CodeBuffer.SPACE,3,Field,bali2jak,CodeBuffer,SPACE,codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,private
+bali2jak.CodeBuffer.LINE_LIMIT,3,Field,bali2jak,CodeBuffer,LINE_LIMIT,codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.CodeBuffer.buffer,3,Field,bali2jak,CodeBuffer,buffer,codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,private
+bali2jak.CodeBuffer.indentation,3,Field,bali2jak,CodeBuffer,indentation,codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,private
+bali2jak.CodeBuffer.hasSeparation(String text),4,Method,bali2jak,CodeBuffer,hasSeparation(String text),codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,private
+bali2jak.CodeBuffer.beginLine(),4,Method,bali2jak,CodeBuffer,beginLine(),codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,private
+bali2jak.CodeBuffer.lineLength(),4,Method,bali2jak,CodeBuffer,lineLength(),codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.CodeBuffer.endLine(),4,Method,bali2jak,CodeBuffer,endLine(),codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.CodeBuffer.hasSeparation(),4,Method,bali2jak,CodeBuffer,hasSeparation(),codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,private
+bali2jak.CodeBuffer.append(StringEnumeration value),4,Method,bali2jak,CodeBuffer,append(StringEnumeration value),codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.StringEnumeration,2,Class,bali2jak,StringEnumeration,,codegen,FALSE,FALSE,,FALSE,FALSE,,set by Bali2JakSol,public
+bali2jak.StringEnumeration.toString(),4,Method,bali2jak,StringEnumeration,toString(),codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.CodeBuffer.appendLines(String text),4,Method,bali2jak,CodeBuffer,appendLines(String text),codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.CodeBuffer.EOL_PATTERN,3,Field,bali2jak,CodeBuffer,EOL_PATTERN,codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,private
+bali2jak.CodeBuffer.leadingSpaces(List strings),4,Method,bali2jak,CodeBuffer,leadingSpaces(List strings),codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,private
+bali2jak.CodeBuffer.clear(),4,Method,bali2jak,CodeBuffer,clear(),codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.Main,2,Class,bali2jak,Main,,kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.Main.LINE_SEPARATOR,3,Field,bali2jak,Main,LINE_SEPARATOR,bali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.CodeBuffer.indent(String indentString),4,Method,bali2jak,CodeBuffer,indent(String indentString),codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.CodeBuffer.indent(),4,Method,bali2jak,CodeBuffer,indent(),codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.CodeBuffer.INDENTATION,3,Field,bali2jak,CodeBuffer,INDENTATION,codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,private
+bali2jak.CodeBuffer.length(),4,Method,bali2jak,CodeBuffer,length(),codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.CodeBuffer.outdent(String indentString),4,Method,bali2jak,CodeBuffer,outdent(String indentString),codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.CodeBuffer.outdent(),4,Method,bali2jak,CodeBuffer,outdent(),codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.CodeBuffer.size(),4,Method,bali2jak,CodeBuffer,size(),codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.CodeBuffer.spaceToColumn(int column),4,Method,bali2jak,CodeBuffer,spaceToColumn(int column),codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.CodeBuffer.toString(),4,Method,bali2jak,CodeBuffer,toString(),codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.CodeBuffer.leadingSpaces(String string),4,Method,bali2jak,CodeBuffer,leadingSpaces(String string),codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,private
+bali2jak.ArgList,2,Class,bali2jak,ArgList,,kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.ArgList.NO_LAYER,3,Field,bali2jak,ArgList,NO_LAYER,kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.ArgList.NO_CLASS,3,Field,bali2jak,ArgList,NO_CLASS,kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.ArgList.layerFilter,3,Field,bali2jak,ArgList,layerFilter,kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,package-private
+bali2jak.ArgList.classFilter,3,Field,bali2jak,ArgList,classFilter,kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,package-private
+bali2jak.ArgList.csrIndex,3,Field,bali2jak,ArgList,csrIndex,kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,package-private
+bali2jak.ArgList.locate(int start),4,Method,bali2jak,ArgList,locate(int start),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,private
+bali2jak.CommandLineArg,2,Class,bali2jak,CommandLineArg,,kernel,FALSE,FALSE,,FALSE,FALSE,,set by Bali2JakSol,public
+bali2jak.CommandLineArg.layerID,3,Field,bali2jak,CommandLineArg,layerID,kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,package-private
+bali2jak.ArgList.first(),4,Method,bali2jak,ArgList,first(),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.ArgList.first(Class cls),4,Method,bali2jak,ArgList,first(Class cls),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.ArgList.first(int _layer),4,Method,bali2jak,ArgList,first(int _layer),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.ArgList.first(Class cls; int _layer),4,Method,bali2jak,ArgList,first(Class cls; int _layer),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.ArgList.next(),4,Method,bali2jak,ArgList,next(),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.ArgList.next(Class cls),4,Method,bali2jak,ArgList,next(Class cls),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.ArgList.next(int _layer),4,Method,bali2jak,ArgList,next(int _layer),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.ArgList.next(Class cls; int _layer),4,Method,bali2jak,ArgList,next(Class cls; int _layer),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.ArgList.find(String name),4,Method,bali2jak,ArgList,find(String name),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.CommandLineArg.name,3,Field,bali2jak,CommandLineArg,name,kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,package-private
+bali2jak.ArgList.find(String name; Class cls),4,Method,bali2jak,ArgList,find(String name; Class cls),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.ArgList.find(String name; int _layer),4,Method,bali2jak,ArgList,find(String name; int _layer),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.ArgList.find(String name; Class cls; int _layer),4,Method,bali2jak,ArgList,find(String name; Class cls; int _layer),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.BaliTokenDefinition,2,Class,bali2jak,BaliTokenDefinition,,balibali,FALSE,FALSE,,FALSE,FALSE,,set by Bali2JakSol,public
+bali2jak.Statement,2,Class,bali2jak,Statement,,balibali,FALSE,FALSE,,FALSE,FALSE,,set by Bali2JakSol,public
+bali2jak.StringEnumeration.compareTo(Object that),4,Method,bali2jak,StringEnumeration,compareTo(Object that),codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.StringEnumeration.token,3,Field,bali2jak,StringEnumeration,token,codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,private
+bali2jak.StringEnumeration.equals(Object object),4,Method,bali2jak,StringEnumeration,equals(Object object),codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.StringEnumeration.StringEnumeration(String token),5,Constructor,bali2jak,StringEnumeration,StringEnumeration(String token),codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,protected
+bali2jak.BaliParserTokenManager,2,Class,bali2jak,BaliParserTokenManager,,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.BaliParserConstants,2,Class,bali2jak,BaliParserConstants,,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.BaliParserTokenManager.debugStream,3,Field,bali2jak,BaliParserTokenManager,debugStream,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.BaliParserTokenManager.setDebugStream(java.io.PrintStream ds),4,Method,bali2jak,BaliParserTokenManager,setDebugStream(java.io.PrintStream ds),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.BaliParserTokenManager.jjStopStringLiteralDfa_0(int pos; long active0),4,Method,bali2jak,BaliParserTokenManager,jjStopStringLiteralDfa_0(int pos; long active0),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,private
+bali2jak.BaliParserTokenManager.jjmatchedKind,3,Field,bali2jak,BaliParserTokenManager,jjmatchedKind,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,package-private
+bali2jak.BaliParserTokenManager.jjmatchedPos,3,Field,bali2jak,BaliParserTokenManager,jjmatchedPos,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,package-private
+bali2jak.BaliParserTokenManager.jjStartNfa_0(int pos; long active0),4,Method,bali2jak,BaliParserTokenManager,jjStartNfa_0(int pos; long active0),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,private
+bali2jak.BaliParserTokenManager.jjMoveNfa_0(int startState; int curPos),4,Method,bali2jak,BaliParserTokenManager,jjMoveNfa_0(int startState; int curPos),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,private
+bali2jak.BaliParserTokenManager.jjStopAtPos(int pos; int kind),4,Method,bali2jak,BaliParserTokenManager,jjStopAtPos(int pos; int kind),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,private
+bali2jak.BaliParserTokenManager.jjMoveStringLiteralDfa0_0(),4,Method,bali2jak,BaliParserTokenManager,jjMoveStringLiteralDfa0_0(),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,private
+bali2jak.BaliParserTokenManager.curChar,3,Field,bali2jak,BaliParserTokenManager,curChar,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,protected
+bali2jak.BaliParserTokenManager.jjMoveStringLiteralDfa1_0(long active0),4,Method,bali2jak,BaliParserTokenManager,jjMoveStringLiteralDfa1_0(long active0),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,private
+bali2jak.JavaCharStream,2,Class,bali2jak,JavaCharStream,,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.BaliParserTokenManager.input_stream,3,Field,bali2jak,BaliParserTokenManager,input_stream,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,protected
+bali2jak.JavaCharStream.readChar(),4,Method,bali2jak,JavaCharStream,readChar(),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.BaliParserTokenManager.jjStartNfaWithStates_0(int pos; int kind; int state),4,Method,bali2jak,BaliParserTokenManager,jjStartNfaWithStates_0(int pos; int kind; int state),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,private
+bali2jak.BaliParserTokenManager.jjMoveStringLiteralDfa2_0(long old0; long active0),4,Method,bali2jak,BaliParserTokenManager,jjMoveStringLiteralDfa2_0(long old0; long active0),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,private
+bali2jak.BaliParserTokenManager.jjMoveStringLiteralDfa3_0(long old0; long active0),4,Method,bali2jak,BaliParserTokenManager,jjMoveStringLiteralDfa3_0(long old0; long active0),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,private
+bali2jak.BaliParserTokenManager.jjMoveStringLiteralDfa4_0(long old0; long active0),4,Method,bali2jak,BaliParserTokenManager,jjMoveStringLiteralDfa4_0(long old0; long active0),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,private
+bali2jak.BaliParserTokenManager.jjMoveStringLiteralDfa5_0(long old0; long active0),4,Method,bali2jak,BaliParserTokenManager,jjMoveStringLiteralDfa5_0(long old0; long active0),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,private
+bali2jak.BaliParserTokenManager.jjMoveStringLiteralDfa6_0(long old0; long active0),4,Method,bali2jak,BaliParserTokenManager,jjMoveStringLiteralDfa6_0(long old0; long active0),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,private
+bali2jak.BaliParserTokenManager.jjMoveStringLiteralDfa7_0(long old0; long active0),4,Method,bali2jak,BaliParserTokenManager,jjMoveStringLiteralDfa7_0(long old0; long active0),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,private
+bali2jak.BaliParserTokenManager.jjMoveStringLiteralDfa8_0(long old0; long active0),4,Method,bali2jak,BaliParserTokenManager,jjMoveStringLiteralDfa8_0(long old0; long active0),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,private
+bali2jak.BaliParserTokenManager.jjMoveStringLiteralDfa9_0(long old0; long active0),4,Method,bali2jak,BaliParserTokenManager,jjMoveStringLiteralDfa9_0(long old0; long active0),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,private
+bali2jak.BaliParserTokenManager.jjMoveStringLiteralDfa10_0(long old0; long active0),4,Method,bali2jak,BaliParserTokenManager,jjMoveStringLiteralDfa10_0(long old0; long active0),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,private
+bali2jak.BaliParserTokenManager.jjMoveStringLiteralDfa11_0(long old0; long active0),4,Method,bali2jak,BaliParserTokenManager,jjMoveStringLiteralDfa11_0(long old0; long active0),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,private
+bali2jak.BaliParserTokenManager.jjMoveStringLiteralDfa12_0(long old0; long active0),4,Method,bali2jak,BaliParserTokenManager,jjMoveStringLiteralDfa12_0(long old0; long active0),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,private
+bali2jak.BaliParserTokenManager.jjMoveStringLiteralDfa13_0(long old0; long active0),4,Method,bali2jak,BaliParserTokenManager,jjMoveStringLiteralDfa13_0(long old0; long active0),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,private
+bali2jak.BaliParserTokenManager.jjMoveStringLiteralDfa14_0(long old0; long active0),4,Method,bali2jak,BaliParserTokenManager,jjMoveStringLiteralDfa14_0(long old0; long active0),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,private
+bali2jak.BaliParserTokenManager.jjbitVec0,3,Field,bali2jak,BaliParserTokenManager,jjbitVec0,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,package-private
+bali2jak.BaliParserTokenManager.jjbitVec2,3,Field,bali2jak,BaliParserTokenManager,jjbitVec2,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,package-private
+bali2jak.BaliParserTokenManager.jjbitVec3,3,Field,bali2jak,BaliParserTokenManager,jjbitVec3,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,package-private
+bali2jak.BaliParserTokenManager.jjbitVec4,3,Field,bali2jak,BaliParserTokenManager,jjbitVec4,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,package-private
+bali2jak.BaliParserTokenManager.jjbitVec5,3,Field,bali2jak,BaliParserTokenManager,jjbitVec5,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,package-private
+bali2jak.BaliParserTokenManager.jjbitVec6,3,Field,bali2jak,BaliParserTokenManager,jjbitVec6,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,package-private
+bali2jak.BaliParserTokenManager.jjbitVec7,3,Field,bali2jak,BaliParserTokenManager,jjbitVec7,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,package-private
+bali2jak.BaliParserTokenManager.jjbitVec8,3,Field,bali2jak,BaliParserTokenManager,jjbitVec8,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,package-private
+bali2jak.BaliParserTokenManager.jjbitVec9,3,Field,bali2jak,BaliParserTokenManager,jjbitVec9,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,package-private
+bali2jak.BaliParserTokenManager.jjbitVec10,3,Field,bali2jak,BaliParserTokenManager,jjbitVec10,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,package-private
+bali2jak.BaliParserTokenManager.jjbitVec11,3,Field,bali2jak,BaliParserTokenManager,jjbitVec11,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,package-private
+bali2jak.BaliParserTokenManager.jjbitVec12,3,Field,bali2jak,BaliParserTokenManager,jjbitVec12,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,package-private
+bali2jak.BaliParserTokenManager.jjbitVec13,3,Field,bali2jak,BaliParserTokenManager,jjbitVec13,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,package-private
+bali2jak.BaliParserTokenManager.jjbitVec14,3,Field,bali2jak,BaliParserTokenManager,jjbitVec14,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,package-private
+bali2jak.BaliParserTokenManager.jjbitVec15,3,Field,bali2jak,BaliParserTokenManager,jjbitVec15,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,package-private
+bali2jak.BaliParserTokenManager.jjnewStateCnt,3,Field,bali2jak,BaliParserTokenManager,jjnewStateCnt,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,package-private
+bali2jak.BaliParserTokenManager.jjstateSet,3,Field,bali2jak,BaliParserTokenManager,jjstateSet,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,private
+bali2jak.BaliParserTokenManager.jjround,3,Field,bali2jak,BaliParserTokenManager,jjround,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,package-private
+bali2jak.BaliParserTokenManager.ReInitRounds(),4,Method,bali2jak,BaliParserTokenManager,ReInitRounds(),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,private
+bali2jak.BaliParserTokenManager.jjCheckNAdd(int state),4,Method,bali2jak,BaliParserTokenManager,jjCheckNAdd(int state),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,private
+bali2jak.BaliParserTokenManager.jjCheckNAddStates(int start; int end),4,Method,bali2jak,BaliParserTokenManager,jjCheckNAddStates(int start; int end),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,private
+bali2jak.BaliParserTokenManager.jjAddStates(int start; int end),4,Method,bali2jak,BaliParserTokenManager,jjAddStates(int start; int end),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,private
+bali2jak.BaliParserTokenManager.jjCanMove_1(int hiByte; int i1; int i2; long l1; long l2),4,Method,bali2jak,BaliParserTokenManager,jjCanMove_1(int hiByte; int i1; int i2; long l1; long l2),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,private
+bali2jak.BaliParserTokenManager.jjCanMove_2(int hiByte; int i1; int i2; long l1; long l2),4,Method,bali2jak,BaliParserTokenManager,jjCanMove_2(int hiByte; int i1; int i2; long l1; long l2),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,private
+bali2jak.BaliParserTokenManager.jjCanMove_0(int hiByte; int i1; int i2; long l1; long l2),4,Method,bali2jak,BaliParserTokenManager,jjCanMove_0(int hiByte; int i1; int i2; long l1; long l2),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,private
+bali2jak.BaliParserTokenManager.jjMoveStringLiteralDfa0_3(),4,Method,bali2jak,BaliParserTokenManager,jjMoveStringLiteralDfa0_3(),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,private
+bali2jak.BaliParserTokenManager.jjMoveStringLiteralDfa1_3(long active0),4,Method,bali2jak,BaliParserTokenManager,jjMoveStringLiteralDfa1_3(long active0),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,private
+bali2jak.BaliParserTokenManager.jjMoveStringLiteralDfa0_1(),4,Method,bali2jak,BaliParserTokenManager,jjMoveStringLiteralDfa0_1(),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,private
+bali2jak.BaliParserTokenManager.jjMoveNfa_1(int startState; int curPos),4,Method,bali2jak,BaliParserTokenManager,jjMoveNfa_1(int startState; int curPos),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,private
+bali2jak.BaliParserTokenManager.jjMoveStringLiteralDfa0_2(),4,Method,bali2jak,BaliParserTokenManager,jjMoveStringLiteralDfa0_2(),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,private
+bali2jak.BaliParserTokenManager.jjMoveStringLiteralDfa1_2(long active0),4,Method,bali2jak,BaliParserTokenManager,jjMoveStringLiteralDfa1_2(long active0),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,private
+bali2jak.BaliParserTokenManager.jjnextStates,3,Field,bali2jak,BaliParserTokenManager,jjnextStates,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,package-private
+bali2jak.BaliParserTokenManager.jjstrLiteralImages,3,Field,bali2jak,BaliParserTokenManager,jjstrLiteralImages,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.BaliParserTokenManager.jjFillToken(),4,Method,bali2jak,BaliParserTokenManager,jjFillToken(),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,protected
+bali2jak.Token,2,Class,bali2jak,Token,,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.Token.beginLine,3,Field,bali2jak,Token,beginLine,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.Token.endLine,3,Field,bali2jak,Token,endLine,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.Token.beginColumn,3,Field,bali2jak,Token,beginColumn,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.Token.endColumn,3,Field,bali2jak,Token,endColumn,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.JavaCharStream.GetImage(),4,Method,bali2jak,JavaCharStream,GetImage(),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.JavaCharStream.getBeginLine(),4,Method,bali2jak,JavaCharStream,getBeginLine(),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.JavaCharStream.getBeginColumn(),4,Method,bali2jak,JavaCharStream,getBeginColumn(),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.JavaCharStream.getEndLine(),4,Method,bali2jak,JavaCharStream,getEndLine(),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.JavaCharStream.getEndColumn(),4,Method,bali2jak,JavaCharStream,getEndColumn(),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.Token.newToken(int ofKind; String image),4,Method,bali2jak,Token,newToken(int ofKind; String image),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.BaliParserTokenManager.curLexState,3,Field,bali2jak,BaliParserTokenManager,curLexState,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,package-private
+bali2jak.BaliParserTokenManager.defaultLexState,3,Field,bali2jak,BaliParserTokenManager,defaultLexState,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,package-private
+bali2jak.BaliParserTokenManager.getNextToken(),4,Method,bali2jak,BaliParserTokenManager,getNextToken(),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.Token.specialToken,3,Field,bali2jak,Token,specialToken,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.BaliParserTokenManager.image,3,Field,bali2jak,BaliParserTokenManager,image,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,private
+bali2jak.BaliParserTokenManager.jjimage,3,Field,bali2jak,BaliParserTokenManager,jjimage,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,private
+bali2jak.BaliParserTokenManager.jjimageLen,3,Field,bali2jak,BaliParserTokenManager,jjimageLen,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,private
+bali2jak.BaliParserTokenManager.jjtoToken,3,Field,bali2jak,BaliParserTokenManager,jjtoToken,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,package-private
+bali2jak.BaliParserTokenManager.jjnewLexState,3,Field,bali2jak,BaliParserTokenManager,jjnewLexState,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.BaliParserTokenManager.jjtoSkip,3,Field,bali2jak,BaliParserTokenManager,jjtoSkip,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,package-private
+bali2jak.BaliParserTokenManager.jjtoSpecial,3,Field,bali2jak,BaliParserTokenManager,jjtoSpecial,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,package-private
+bali2jak.Token.next,3,Field,bali2jak,Token,next,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.TokenMgrError,2,Class,bali2jak,TokenMgrError,,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.TokenMgrError.LEXICAL_ERROR,3,Field,bali2jak,TokenMgrError,LEXICAL_ERROR,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,package-private
+bali2jak.JavaCharStream.BeginToken(),4,Method,bali2jak,JavaCharStream,BeginToken(),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.JavaCharStream.backup(int amount),4,Method,bali2jak,JavaCharStream,backup(int amount),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.BaliParserTokenManager.SkipLexicalActions(Token matchedToken),4,Method,bali2jak,BaliParserTokenManager,SkipLexicalActions(Token matchedToken),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,package-private
+bali2jak.BaliParserTokenManager.MoreLexicalActions(),4,Method,bali2jak,BaliParserTokenManager,MoreLexicalActions(),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,package-private
+bali2jak.BaliParserTokenManager.lengthOfMatch,3,Field,bali2jak,BaliParserTokenManager,lengthOfMatch,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,private
+bali2jak.JavaCharStream.GetSuffix(int len),4,Method,bali2jak,JavaCharStream,GetSuffix(int len),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.BaliParserTokenManager.jjrounds,3,Field,bali2jak,BaliParserTokenManager,jjrounds,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,private
+bali2jak.BaliParserTokenManager.jjCheckNAddTwoStates(int state1; int state2),4,Method,bali2jak,BaliParserTokenManager,jjCheckNAddTwoStates(int state1; int state2),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,private
+bali2jak.BaliParserTokenManager.BaliParserTokenManager(JavaCharStream stream),5,Constructor,bali2jak,BaliParserTokenManager,BaliParserTokenManager(JavaCharStream stream),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.JavaCharStream.staticFlag,3,Field,bali2jak,JavaCharStream,staticFlag,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.BaliParserTokenManager.BaliParserTokenManager(JavaCharStream stream; int lexState),5,Constructor,bali2jak,BaliParserTokenManager,BaliParserTokenManager(JavaCharStream stream; int lexState),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.BaliParserTokenManager.ReInit(JavaCharStream stream),4,Method,bali2jak,BaliParserTokenManager,ReInit(JavaCharStream stream),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.BaliParserTokenManager.SwitchTo(int lexState),4,Method,bali2jak,BaliParserTokenManager,SwitchTo(int lexState),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.BaliParserTokenManager.ReInit(JavaCharStream stream; int lexState),4,Method,bali2jak,BaliParserTokenManager,ReInit(JavaCharStream stream; int lexState),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.TokenMgrError.INVALID_LEXICAL_STATE,3,Field,bali2jak,TokenMgrError,INVALID_LEXICAL_STATE,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,package-private
+bali2jak.BaliParserTokenManager.lexStateNames,3,Field,bali2jak,BaliParserTokenManager,lexStateNames,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.BaliParserTokenManager.jjtoMore,3,Field,bali2jak,BaliParserTokenManager,jjtoMore,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,package-private
+bali2jak.Keyword,2,Class,bali2jak,Keyword,,codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.Keyword.Keyword(String token),5,Constructor,bali2jak,Keyword,Keyword(String token),codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,protected
+bali2jak.Keyword.CLASS,3,Field,bali2jak,Keyword,CLASS,codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.Keyword.EXTENDS,3,Field,bali2jak,Keyword,EXTENDS,codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.Keyword.IMPORT,3,Field,bali2jak,Keyword,IMPORT,codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.Keyword.IMPLEMENTS,3,Field,bali2jak,Keyword,IMPLEMENTS,codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.Keyword.INTERFACE,3,Field,bali2jak,Keyword,INTERFACE,codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.Keyword.LAYER,3,Field,bali2jak,Keyword,LAYER,codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.Keyword.RETURN,3,Field,bali2jak,Keyword,RETURN,codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.Production,2,Class,bali2jak,Production,,balibali,FALSE,FALSE,,FALSE,FALSE,,set by Bali2JakSol,public
+bali2jak.JavacodeProduction,2,Class,bali2jak,JavacodeProduction,,balibali,FALSE,FALSE,,FALSE,FALSE,,set by Bali2JakSol,public
+bali2jak.RegexBlockNode,2,Class,bali2jak,RegexBlockNode,,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.RegexBlock,2,Class,bali2jak,RegexBlock,,balibali,FALSE,FALSE,,FALSE,FALSE,,set by Bali2JakSol,public
+bali2jak.RegexBlockNode.ARG_LENGTH,3,Field,bali2jak,RegexBlockNode,ARG_LENGTH,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.RegexBlockNode.TOK_LENGTH,3,Field,bali2jak,RegexBlockNode,TOK_LENGTH,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.RegexBlockNode.getBlock(),4,Method,bali2jak,RegexBlockNode,getBlock(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.Block,2,Class,bali2jak,Block,,balibali,FALSE,FALSE,,FALSE,FALSE,,set by Bali2JakSol,public
+bali2jak.RegexBlockNode.getNextState(),4,Method,bali2jak,RegexBlockNode,getNextState(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.NextState,2,Class,bali2jak,NextState,,balibali,FALSE,FALSE,,FALSE,FALSE,,set by Bali2JakSol,public
+bali2jak.RegexBlockNode.getRegex(),4,Method,bali2jak,RegexBlockNode,getRegex(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.Regex,2,Class,bali2jak,Regex,,balibali,FALSE,FALSE,,FALSE,FALSE,,set by Bali2JakSol,public
+bali2jak.RegexBlockNode.printorder(),4,Method,bali2jak,RegexBlockNode,printorder(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.RegexBlockNode.setParms(Regex arg0; AstOptNode arg1; AstOptNode arg2),4,Method,bali2jak,RegexBlockNode,setParms(Regex arg0; AstOptNode arg1; AstOptNode arg2),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstTokenInterface,2,Class,bali2jak,AstTokenInterface,,kernel,FALSE,FALSE,,FALSE,FALSE,,set by Bali2JakSol,package-private
+bali2jak.AstNode.tok,3,Field,bali2jak,AstNode,tok,kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstNode.InitChildren(),4,Method,bali2jak,AstNode,InitChildren(),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.REKind,2,Class,bali2jak,REKind,,balibali,FALSE,FALSE,,FALSE,FALSE,,set by Bali2JakSol,public
+bali2jak.LookaheadNode,2,Class,bali2jak,LookaheadNode,,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.Lookahead,2,Class,bali2jak,Lookahead,,balibali,FALSE,FALSE,,FALSE,FALSE,,set by Bali2JakSol,public
+bali2jak.LookaheadNode.ARG_LENGTH,3,Field,bali2jak,LookaheadNode,ARG_LENGTH,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.LookaheadNode.TOK_LENGTH,3,Field,bali2jak,LookaheadNode,TOK_LENGTH,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.LookaheadNode.get_LOOKAHEAD(),4,Method,bali2jak,LookaheadNode,get_LOOKAHEAD(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstToken,2,Class,bali2jak,AstToken,,kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.LookaheadNode.getfindCloseParen(),4,Method,bali2jak,LookaheadNode,getfindCloseParen(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.CodeBlockNode,2,Class,bali2jak,CodeBlockNode,,bali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.LookaheadNode.printorder(),4,Method,bali2jak,LookaheadNode,printorder(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.LookaheadNode.setParms(AstToken tok0; AstToken tok1; CodeBlockNode arg0; AstToken tok2),4,Method,bali2jak,LookaheadNode,setParms(AstToken tok0; AstToken tok1; CodeBlockNode arg0; AstToken tok2),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.ClassBuilder,2,Class,bali2jak,ClassBuilder,,codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.ClassBuilder.clear(),4,Method,bali2jak,ClassBuilder,clear(),codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.ClassBuilder.toString(),4,Method,bali2jak,ClassBuilder,toString(),codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.ClassBuilder.layerName,3,Field,bali2jak,ClassBuilder,layerName,codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,private
+bali2jak.ClassBuilder.className,3,Field,bali2jak,ClassBuilder,className,codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,private
+bali2jak.ClassBuilder.superName,3,Field,bali2jak,ClassBuilder,superName,codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,private
+bali2jak.ClassBuilder.imports,3,Field,bali2jak,ClassBuilder,imports,codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,private
+bali2jak.ClassBuilder.interfaces,3,Field,bali2jak,ClassBuilder,interfaces,codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,private
+bali2jak.ClassBuilder.methods,3,Field,bali2jak,ClassBuilder,methods,codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,private
+bali2jak.ClassBuilder.modifiers,3,Field,bali2jak,ClassBuilder,modifiers,codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,private
+bali2jak.ClassBuilder.addImport(String name),4,Method,bali2jak,ClassBuilder,addImport(String name),codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.ClassBuilder.removeImport(String name),4,Method,bali2jak,ClassBuilder,removeImport(String name),codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.ClassBuilder.addInterface(String name),4,Method,bali2jak,ClassBuilder,addInterface(String name),codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.ClassBuilder.removeInterface(String name),4,Method,bali2jak,ClassBuilder,removeInterface(String name),codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.ClassBuilder.addMethod(MethodBuilder method),4,Method,bali2jak,ClassBuilder,addMethod(MethodBuilder method),codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.MethodBuilder,2,Class,bali2jak,MethodBuilder,,codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.ClassBuilder.addMethod(String signature; String method),4,Method,bali2jak,ClassBuilder,addMethod(String signature; String method),codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.MethodBuilder.getSignature(),4,Method,bali2jak,MethodBuilder,getSignature(),codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.MethodBuilder.toString(),4,Method,bali2jak,MethodBuilder,toString(),codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.ClassBuilder.removeMethod(String signature),4,Method,bali2jak,ClassBuilder,removeMethod(String signature),codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.ClassBuilder.addModifier(Modifier modifier),4,Method,bali2jak,ClassBuilder,addModifier(Modifier modifier),codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.Modifier,2,Class,bali2jak,Modifier,,codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.Modifier.REFINES,3,Field,bali2jak,Modifier,REFINES,codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.ClassBuilder.removeModifier(Modifier modifier),4,Method,bali2jak,ClassBuilder,removeModifier(Modifier modifier),codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.ClassBuilder.setLayerName(String name),4,Method,bali2jak,ClassBuilder,setLayerName(String name),codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.ClassBuilder.setClassName(String name),4,Method,bali2jak,ClassBuilder,setClassName(String name),codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.ClassBuilder.setSuperName(String name),4,Method,bali2jak,ClassBuilder,setSuperName(String name),codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.Rewrite,2,Class,bali2jak,Rewrite,,balibali,FALSE,FALSE,,FALSE,FALSE,,set by Bali2JakSol,public
+bali2jak.StatesListElem,2,Class,bali2jak,StatesListElem,,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstListNode,2,Class,bali2jak,AstListNode,,kernel,FALSE,FALSE,,FALSE,FALSE,,set by Bali2JakSol,public
+bali2jak.StatesListElem.getStateName(),4,Method,bali2jak,StatesListElem,getStateName(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.StateName,2,Class,bali2jak,StateName,,balibali,FALSE,FALSE,,FALSE,FALSE,,set by Bali2JakSol,public
+bali2jak.StatesListElem.setParms(AstToken tok0; StateName arg0),4,Method,bali2jak,StatesListElem,setParms(AstToken tok0; StateName arg0),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.StatesListElem.setParms(StateName arg0),4,Method,bali2jak,StatesListElem,setParms(StateName arg0),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.SpecialKindNode,2,Class,bali2jak,SpecialKindNode,,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.SpecialKindNode.ARG_LENGTH,3,Field,bali2jak,SpecialKindNode,ARG_LENGTH,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.SpecialKindNode.TOK_LENGTH,3,Field,bali2jak,SpecialKindNode,TOK_LENGTH,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.SpecialKindNode.get_SPECIAL_TOKEN(),4,Method,bali2jak,SpecialKindNode,get_SPECIAL_TOKEN(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.SpecialKindNode.printorder(),4,Method,bali2jak,SpecialKindNode,printorder(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.SpecialKindNode.setParms(AstToken tok0),4,Method,bali2jak,SpecialKindNode,setParms(AstToken tok0),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.kernelConstants,2,Class,bali2jak,kernelConstants,,kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.kernelConstants.ParseTreeStack,3,Field,bali2jak,kernelConstants,ParseTreeStack,kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.kernelConstants.PushParseTreeStack(String filename),4,Method,bali2jak,kernelConstants,PushParseTreeStack(String filename),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.kernelConstants.currentFileName,3,Field,bali2jak,kernelConstants,currentFileName,kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,package-private
+bali2jak.kernelConstants.PopParseTreeStack(),4,Method,bali2jak,kernelConstants,PopParseTreeStack(),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.kernelConstants.globals(),4,Method,bali2jak,kernelConstants,globals(),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.kernelConstants.classFound(String className),4,Method,bali2jak,kernelConstants,classFound(String className),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.kernelConstants.debugAST,3,Field,bali2jak,kernelConstants,debugAST,kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,package-private
+bali2jak.kernelConstants.copyLists,3,Field,bali2jak,kernelConstants,copyLists,kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,package-private
+bali2jak.kernelConstants.LangName,3,Field,bali2jak,kernelConstants,LangName,kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,package-private
+bali2jak.kernelConstants.PackageName,3,Field,bali2jak,kernelConstants,PackageName,kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,package-private
+bali2jak.kernelConstants.jakExtension,3,Field,bali2jak,kernelConstants,jakExtension,kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,package-private
+bali2jak.kernelConstants.currentAbsPath,3,Field,bali2jak,kernelConstants,currentAbsPath,kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,package-private
+bali2jak.kernelConstants.currentFileExt,3,Field,bali2jak,kernelConstants,currentFileExt,kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,package-private
+bali2jak.kernelConstants.mainProps,3,Field,bali2jak,kernelConstants,mainProps,kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,package-private
+bali2jak.AstProperties,2,Class,bali2jak,AstProperties,,kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstTokenInterface.print(AstProperties props),4,Method,bali2jak,AstTokenInterface,print(AstProperties props),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstTokenInterface.print(),4,Method,bali2jak,AstTokenInterface,print(),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstTokenInterface.reduce2java(AstProperties props),4,Method,bali2jak,AstTokenInterface,reduce2java(AstProperties props),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstTokenInterface.clone(),4,Method,bali2jak,AstTokenInterface,clone(),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstTokenInterface.tokenName(),4,Method,bali2jak,AstTokenInterface,tokenName(),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstTokenInterface.getTokenName(),4,Method,bali2jak,AstTokenInterface,getTokenName(),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstTokenInterface.setTokenName(String replacement),4,Method,bali2jak,AstTokenInterface,setTokenName(String replacement),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstTokenInterface.Equ(AstTokenInterface x),4,Method,bali2jak,AstTokenInterface,Equ(AstTokenInterface x),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstTokenInterface.printWhitespaceOnly(AstProperties props),4,Method,bali2jak,AstTokenInterface,printWhitespaceOnly(AstProperties props),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AngleRegex,2,Class,bali2jak,AngleRegex,,balibali,FALSE,FALSE,,FALSE,FALSE,,set by Bali2JakSol,public
+bali2jak.JavacodeNode,2,Class,bali2jak,JavacodeNode,,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.JavacodeNode.ARG_LENGTH,3,Field,bali2jak,JavacodeNode,ARG_LENGTH,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.JavacodeNode.TOK_LENGTH,3,Field,bali2jak,JavacodeNode,TOK_LENGTH,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.JavacodeNode.getScanBlock(),4,Method,bali2jak,JavacodeNode,getScanBlock(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.ScanBlock,2,Class,bali2jak,ScanBlock,,balibali,FALSE,FALSE,,FALSE,FALSE,,set by Bali2JakSol,public
+bali2jak.JavacodeNode.get_JAVACODE(),4,Method,bali2jak,JavacodeNode,get_JAVACODE(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.JavacodeNode.printorder(),4,Method,bali2jak,JavacodeNode,printorder(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.JavacodeNode.setParms(AstToken tok0; ScanBlock arg0),4,Method,bali2jak,JavacodeNode,setParms(AstToken tok0; ScanBlock arg0),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.ParserCode,2,Class,bali2jak,ParserCode,,balibali,FALSE,FALSE,,FALSE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstProperties.table,3,Field,bali2jak,AstProperties,table,kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,private
+bali2jak.AstProperties.pw,3,Field,bali2jak,AstProperties,pw,kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,private
+bali2jak.AstProperties.baos,3,Field,bali2jak,AstProperties,baos,kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,private
+bali2jak.AstProperties.pwStdOut,3,Field,bali2jak,AstProperties,pwStdOut,kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,private
+bali2jak.AstProperties.AstProperties(),5,Constructor,bali2jak,AstProperties,AstProperties(),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstProperties.setProperty(String key; Object value),4,Method,bali2jak,AstProperties,setProperty(String key; Object value),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstProperties.getProperty(String key),4,Method,bali2jak,AstProperties,getProperty(String key),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstProperties.removeProperty(String key),4,Method,bali2jak,AstProperties,removeProperty(String key),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstProperties.containsProperty(String key),4,Method,bali2jak,AstProperties,containsProperty(String key),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstProperties.setPw(PrintWriter p),4,Method,bali2jak,AstProperties,setPw(PrintWriter p),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstProperties.setBaos(ByteArrayOutputStream b),4,Method,bali2jak,AstProperties,setBaos(ByteArrayOutputStream b),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstProperties.open(Writer out),4,Method,bali2jak,AstProperties,open(Writer out),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstProperties.open(String filename),4,Method,bali2jak,AstProperties,open(String filename),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstProperties.open(String directory; String filename),4,Method,bali2jak,AstProperties,open(String directory; String filename),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstProperties.open(),4,Method,bali2jak,AstProperties,open(),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstProperties.close(),4,Method,bali2jak,AstProperties,close(),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstProperties.print(String arg),4,Method,bali2jak,AstProperties,print(String arg),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstProperties.println(String arg),4,Method,bali2jak,AstProperties,println(String arg),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstProperties.print(AstNode n),4,Method,bali2jak,AstProperties,print(AstNode n),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstProperties.println(AstNode n),4,Method,bali2jak,AstProperties,println(AstNode n),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.BaliTokensData,2,Class,bali2jak,BaliTokensData,,collect,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.BaliTokensData.addNode(BaliTokenDefineNode node),4,Method,bali2jak,BaliTokensData,addNode(BaliTokenDefineNode node),collect,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.BaliTokenDefineNode,2,Class,bali2jak,BaliTokenDefineNode,,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.ProductionNode,2,Class,bali2jak,ProductionNode,,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.ProductionNode.ARG_LENGTH,3,Field,bali2jak,ProductionNode,ARG_LENGTH,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.ProductionNode.TOK_LENGTH,3,Field,bali2jak,ProductionNode,TOK_LENGTH,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.ProductionNode.getLookahead(),4,Method,bali2jak,ProductionNode,getLookahead(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.ProductionNode.getRewrite(),4,Method,bali2jak,ProductionNode,getRewrite(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.ProductionNode.printorder(),4,Method,bali2jak,ProductionNode,printorder(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.ProductionNode.setParms(AstOptNode arg0; Rewrite arg1),4,Method,bali2jak,ProductionNode,setParms(AstOptNode arg0; Rewrite arg1),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.ClassName,2,Class,bali2jak,ClassName,,balibali,FALSE,FALSE,,FALSE,FALSE,,set by Bali2JakSol,public
+bali2jak.CommandLineArg.optional,3,Field,bali2jak,CommandLineArg,optional,kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,package-private
+bali2jak.Parser,2,Class,bali2jak,Parser,,kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.Parser.getInstance(),4,Method,bali2jak,Parser,getInstance(),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.Parser.parser,3,Field,bali2jak,Parser,parser,kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,private
+bali2jak.Parser.getInstance(File inputFile),4,Method,bali2jak,Parser,getInstance(File inputFile),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.Parser.getInstance(InputStream stream),4,Method,bali2jak,Parser,getInstance(InputStream stream),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.Parser.getInstance(Reader reader),4,Method,bali2jak,Parser,getInstance(Reader reader),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.Parser.reset(Reader reader),4,Method,bali2jak,Parser,reset(Reader reader),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,private
+bali2jak.Parser.getParse(),4,Method,bali2jak,Parser,getParse(),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.Parser.lastParse,3,Field,bali2jak,Parser,lastParse,kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,private
+bali2jak.Parser.parse(String rule),4,Method,bali2jak,Parser,parse(String rule),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.ParseException,2,Class,bali2jak,ParseException,,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.Parser.ruleMap,3,Field,bali2jak,Parser,ruleMap,kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,private
+bali2jak.BaliParser,2,Class,bali2jak,BaliParser,,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.Parser.baliParser,3,Field,bali2jak,Parser,baliParser,kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,private
+bali2jak.Parser.class0,3,Field,bali2jak,Parser,class0,kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,private
+bali2jak.Parser.object0,3,Field,bali2jak,Parser,object0,kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,private
+bali2jak.BaliParser.generateParseException(),4,Method,bali2jak,BaliParser,generateParseException(),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.Parser.parseAll(),4,Method,bali2jak,Parser,parseAll(),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.BaliParser.getStartRoot(BaliParser parser),4,Method,bali2jak,BaliParser,getStartRoot(BaliParser parser),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.Parser.parseEOF(),4,Method,bali2jak,Parser,parseEOF(),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.BaliParser.requireEOF(),4,Method,bali2jak,BaliParser,requireEOF(),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.BaliParser.ReInit(java.io.Reader stream),4,Method,bali2jak,BaliParser,ReInit(java.io.Reader stream),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.Parser.Parser(Reader reader),5,Constructor,bali2jak,Parser,Parser(Reader reader),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,private
+bali2jak.JavaCharStream.hexval(char c),4,Method,bali2jak,JavaCharStream,hexval(char c),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,package-private
+bali2jak.JavaCharStream.bufpos,3,Field,bali2jak,JavaCharStream,bufpos,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.JavaCharStream.bufsize,3,Field,bali2jak,JavaCharStream,bufsize,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,package-private
+bali2jak.JavaCharStream.available,3,Field,bali2jak,JavaCharStream,available,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,package-private
+bali2jak.JavaCharStream.tokenBegin,3,Field,bali2jak,JavaCharStream,tokenBegin,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,package-private
+bali2jak.JavaCharStream.bufline,3,Field,bali2jak,JavaCharStream,bufline,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,protected
+bali2jak.JavaCharStream.bufcolumn,3,Field,bali2jak,JavaCharStream,bufcolumn,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,protected
+bali2jak.JavaCharStream.column,3,Field,bali2jak,JavaCharStream,column,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,protected
+bali2jak.JavaCharStream.line,3,Field,bali2jak,JavaCharStream,line,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,protected
+bali2jak.JavaCharStream.prevCharIsCR,3,Field,bali2jak,JavaCharStream,prevCharIsCR,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,protected
+bali2jak.JavaCharStream.prevCharIsLF,3,Field,bali2jak,JavaCharStream,prevCharIsLF,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,protected
+bali2jak.JavaCharStream.inputStream,3,Field,bali2jak,JavaCharStream,inputStream,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,protected
+bali2jak.JavaCharStream.nextCharBuf,3,Field,bali2jak,JavaCharStream,nextCharBuf,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,protected
+bali2jak.JavaCharStream.buffer,3,Field,bali2jak,JavaCharStream,buffer,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,protected
+bali2jak.JavaCharStream.maxNextCharInd,3,Field,bali2jak,JavaCharStream,maxNextCharInd,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,protected
+bali2jak.JavaCharStream.nextCharInd,3,Field,bali2jak,JavaCharStream,nextCharInd,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,protected
+bali2jak.JavaCharStream.inBuf,3,Field,bali2jak,JavaCharStream,inBuf,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,protected
+bali2jak.JavaCharStream.tabSize,3,Field,bali2jak,JavaCharStream,tabSize,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,protected
+bali2jak.JavaCharStream.trackLineColumn,3,Field,bali2jak,JavaCharStream,trackLineColumn,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,protected
+bali2jak.JavaCharStream.setTabSize(int i),4,Method,bali2jak,JavaCharStream,setTabSize(int i),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.JavaCharStream.getTabSize(),4,Method,bali2jak,JavaCharStream,getTabSize(),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.JavaCharStream.ExpandBuff(boolean wrapAround),4,Method,bali2jak,JavaCharStream,ExpandBuff(boolean wrapAround),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,protected
+bali2jak.JavaCharStream.FillBuff(),4,Method,bali2jak,JavaCharStream,FillBuff(),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,protected
+bali2jak.JavaCharStream.ReadByte(),4,Method,bali2jak,JavaCharStream,ReadByte(),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,protected
+bali2jak.JavaCharStream.AdjustBuffSize(),4,Method,bali2jak,JavaCharStream,AdjustBuffSize(),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,protected
+bali2jak.JavaCharStream.UpdateLineColumn(char c),4,Method,bali2jak,JavaCharStream,UpdateLineColumn(char c),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,protected
+bali2jak.JavaCharStream.getColumn(),4,Method,bali2jak,JavaCharStream,getColumn(),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.JavaCharStream.getLine(),4,Method,bali2jak,JavaCharStream,getLine(),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.JavaCharStream.JavaCharStream(java.io.Reader dstream; int startline; int startcolumn; int buffersize),5,Constructor,bali2jak,JavaCharStream,JavaCharStream(java.io.Reader dstream; int startline; int startcolumn; int buffersize),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.JavaCharStream.JavaCharStream(java.io.Reader dstream; int startline; int startcolumn),5,Constructor,bali2jak,JavaCharStream,JavaCharStream(java.io.Reader dstream; int startline; int startcolumn),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.JavaCharStream.JavaCharStream(java.io.Reader dstream),5,Constructor,bali2jak,JavaCharStream,JavaCharStream(java.io.Reader dstream),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.JavaCharStream.ReInit(java.io.Reader dstream; int startline; int startcolumn; int buffersize),4,Method,bali2jak,JavaCharStream,ReInit(java.io.Reader dstream; int startline; int startcolumn; int buffersize),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.JavaCharStream.ReInit(java.io.Reader dstream; int startline; int startcolumn),4,Method,bali2jak,JavaCharStream,ReInit(java.io.Reader dstream; int startline; int startcolumn),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.JavaCharStream.ReInit(java.io.Reader dstream),4,Method,bali2jak,JavaCharStream,ReInit(java.io.Reader dstream),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.JavaCharStream.JavaCharStream(java.io.InputStream dstream; String encoding; int startline; int startcolumn; int buffersize),5,Constructor,bali2jak,JavaCharStream,JavaCharStream(java.io.InputStream dstream; String encoding; int startline; int startcolumn; int buffersize),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.JavaCharStream.JavaCharStream(java.io.InputStream dstream; int startline; int startcolumn; int buffersize),5,Constructor,bali2jak,JavaCharStream,JavaCharStream(java.io.InputStream dstream; int startline; int startcolumn; int buffersize),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.JavaCharStream.JavaCharStream(java.io.InputStream dstream; String encoding; int startline; int startcolumn),5,Constructor,bali2jak,JavaCharStream,JavaCharStream(java.io.InputStream dstream; String encoding; int startline; int startcolumn),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.JavaCharStream.JavaCharStream(java.io.InputStream dstream; int startline; int startcolumn),5,Constructor,bali2jak,JavaCharStream,JavaCharStream(java.io.InputStream dstream; int startline; int startcolumn),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.JavaCharStream.JavaCharStream(java.io.InputStream dstream; String encoding),5,Constructor,bali2jak,JavaCharStream,JavaCharStream(java.io.InputStream dstream; String encoding),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.JavaCharStream.JavaCharStream(java.io.InputStream dstream),5,Constructor,bali2jak,JavaCharStream,JavaCharStream(java.io.InputStream dstream),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.JavaCharStream.ReInit(java.io.InputStream dstream; String encoding; int startline; int startcolumn; int buffersize),4,Method,bali2jak,JavaCharStream,ReInit(java.io.InputStream dstream; String encoding; int startline; int startcolumn; int buffersize),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.JavaCharStream.ReInit(java.io.InputStream dstream; int startline; int startcolumn; int buffersize),4,Method,bali2jak,JavaCharStream,ReInit(java.io.InputStream dstream; int startline; int startcolumn; int buffersize),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.JavaCharStream.ReInit(java.io.InputStream dstream; String encoding; int startline; int startcolumn),4,Method,bali2jak,JavaCharStream,ReInit(java.io.InputStream dstream; String encoding; int startline; int startcolumn),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.JavaCharStream.ReInit(java.io.InputStream dstream; int startline; int startcolumn),4,Method,bali2jak,JavaCharStream,ReInit(java.io.InputStream dstream; int startline; int startcolumn),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.JavaCharStream.ReInit(java.io.InputStream dstream; String encoding),4,Method,bali2jak,JavaCharStream,ReInit(java.io.InputStream dstream; String encoding),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.JavaCharStream.ReInit(java.io.InputStream dstream),4,Method,bali2jak,JavaCharStream,ReInit(java.io.InputStream dstream),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.JavaCharStream.Done(),4,Method,bali2jak,JavaCharStream,Done(),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.JavaCharStream.adjustBeginLineColumn(int newLine; int newCol),4,Method,bali2jak,JavaCharStream,adjustBeginLineColumn(int newLine; int newCol),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.JavaCharStream.getTrackLineColumn(),4,Method,bali2jak,JavaCharStream,getTrackLineColumn(),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,package-private
+bali2jak.JavaCharStream.setTrackLineColumn(boolean tlc),4,Method,bali2jak,JavaCharStream,setTrackLineColumn(boolean tlc),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,package-private
+bali2jak.OptionBlocksData,2,Class,bali2jak,OptionBlocksData,,collect,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.OptionBlocksData.addNode(OptionsNode node),4,Method,bali2jak,OptionBlocksData,addNode(OptionsNode node),collect,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.OptionsNode,2,Class,bali2jak,OptionsNode,,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.OptionBlocksData.toString(),4,Method,bali2jak,OptionBlocksData,toString(),collect,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstList.Delete(),4,Method,bali2jak,AstList,Delete(),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstNode.Delete(),4,Method,bali2jak,AstNode,Delete(),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstList.PDump(String indent),4,Method,bali2jak,AstList,PDump(String indent),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstNode.PDump(String indent),4,Method,bali2jak,AstNode,PDump(String indent),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstList.addComment(String comment),4,Method,bali2jak,AstList,addComment(String comment),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstNode.addComment(String comment),4,Method,bali2jak,AstNode,addComment(String comment),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstList.addComment(String comment; boolean replace),4,Method,bali2jak,AstList,addComment(String comment; boolean replace),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstNode.addComment(String comment; boolean replace),4,Method,bali2jak,AstNode,addComment(String comment; boolean replace),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstList.clone(),4,Method,bali2jak,AstList,clone(),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstNode.clone(),4,Method,bali2jak,AstNode,clone(),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstList.dumpnode(),4,Method,bali2jak,AstList,dumpnode(),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstNode.dumpnode(),4,Method,bali2jak,AstNode,dumpnode(),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstList.execute(),4,Method,bali2jak,AstList,execute(),bali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstNode.execute(),4,Method,bali2jak,AstNode,execute(),bali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstList.print(),4,Method,bali2jak,AstList,print(),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstNode.print(),4,Method,bali2jak,AstNode,print(),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstList.print(AstProperties props),4,Method,bali2jak,AstList,print(AstProperties props),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstNode.print(AstProperties props),4,Method,bali2jak,AstNode,print(AstProperties props),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstList.printorder(),4,Method,bali2jak,AstList,printorder(),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstNode.printorder(),4,Method,bali2jak,AstNode,printorder(),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstList.reduce2java(AstProperties props),4,Method,bali2jak,AstList,reduce2java(AstProperties props),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstNode.reduce2java(AstProperties props),4,Method,bali2jak,AstNode,reduce2java(AstProperties props),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstList.last,3,Field,bali2jak,AstList,last,kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstList.AstList(),5,Constructor,bali2jak,AstList,AstList(),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstNode.fatalError(String msg),4,Method,bali2jak,AstNode,fatalError(String msg),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstList.initClone(AstList copy),4,Method,bali2jak,AstList,initClone(AstList copy),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,protected
+bali2jak.AstNode.up,3,Field,bali2jak,AstNode,up,kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstListNode.Delete(),4,Method,bali2jak,AstListNode,Delete(),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstList.add(AstListNode x),4,Method,bali2jak,AstList,add(AstListNode x),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstNode.left,3,Field,bali2jak,AstNode,left,kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstList.add(AstList newList; String separator),4,Method,bali2jak,AstList,add(AstList newList; String separator),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstToken.setParms(String _ws; String _sym; int lnum),4,Method,bali2jak,AstToken,setParms(String _ws; String _sym; int lnum),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstList.add(AstList newList),4,Method,bali2jak,AstList,add(AstList newList),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstList.addHead(AstListNode x),4,Method,bali2jak,AstList,addHead(AstListNode x),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstList.addHead(AstList newList),4,Method,bali2jak,AstList,addHead(AstList newList),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstNode.Print_Only_Tokens(),4,Method,bali2jak,AstNode,Print_Only_Tokens(),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstNode.Print_Only_Tokens(AstProperties props),4,Method,bali2jak,AstNode,Print_Only_Tokens(AstProperties props),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstNode.className(),4,Method,bali2jak,AstNode,className(),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstList.toList(),4,Method,bali2jak,AstList,toList(),bali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstList.nodesAsList,3,Field,bali2jak,AstList,nodesAsList,bali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,private
+bali2jak.StringComplexNode,2,Class,bali2jak,StringComplexNode,,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.ComplexRegex,2,Class,bali2jak,ComplexRegex,,balibali,FALSE,FALSE,,FALSE,FALSE,,set by Bali2JakSol,public
+bali2jak.StringComplexNode.ARG_LENGTH,3,Field,bali2jak,StringComplexNode,ARG_LENGTH,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.StringComplexNode.TOK_LENGTH,3,Field,bali2jak,StringComplexNode,TOK_LENGTH,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.StringComplexNode.getSTRING(),4,Method,bali2jak,StringComplexNode,getSTRING(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.StringComplexNode.printorder(),4,Method,bali2jak,StringComplexNode,printorder(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.StringComplexNode.setParms(AstToken tok0; AstToken tok1),4,Method,bali2jak,StringComplexNode,setParms(AstToken tok0; AstToken tok1),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstCursor,2,Class,bali2jak,AstCursor,,kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstCursor.node,3,Field,bali2jak,AstCursor,node,kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstCursor.NextIsSet,3,Field,bali2jak,AstCursor,NextIsSet,kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,package-private
+bali2jak.AstCursor.next,3,Field,bali2jak,AstCursor,next,kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstCursor.root,3,Field,bali2jak,AstCursor,root,kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,package-private
+bali2jak.AstCursor.CurrElem,3,Field,bali2jak,AstCursor,CurrElem,kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,package-private
+bali2jak.AstCursor.NextElem,3,Field,bali2jak,AstCursor,NextElem,kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,package-private
+bali2jak.AstCursor.AstCursor(),5,Constructor,bali2jak,AstCursor,AstCursor(),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstCursor.Root(),4,Method,bali2jak,AstCursor,Root(),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstCursor.First(),4,Method,bali2jak,AstCursor,First(),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstCursor.First(AstNode r),4,Method,bali2jak,AstCursor,First(AstNode r),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstCursor.GetNext(),4,Method,bali2jak,AstCursor,GetNext(),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,package-private
+bali2jak.AstCursor.More(),4,Method,bali2jak,AstCursor,More(),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstCursor.PlusPlus(),4,Method,bali2jak,AstCursor,PlusPlus(),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstCursor.skip(),4,Method,bali2jak,AstCursor,skip(),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,package-private
+bali2jak.AstCursor.ContinueFrom(AstNode k),4,Method,bali2jak,AstCursor,ContinueFrom(AstNode k),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,package-private
+bali2jak.AstCursor.Position(AstNode x),4,Method,bali2jak,AstCursor,Position(AstNode x),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstCursor.Position(AstNode r; AstNode x),4,Method,bali2jak,AstCursor,Position(AstNode r; AstNode x),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstCursor.Sibling(),4,Method,bali2jak,AstCursor,Sibling(),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstCursor.Replace(AstNode withnode),4,Method,bali2jak,AstCursor,Replace(AstNode withnode),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstNode.Replace(AstNode withnode),4,Method,bali2jak,AstNode,Replace(AstNode withnode),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstCursor.Delete(),4,Method,bali2jak,AstCursor,Delete(),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstCursor.AddAfter(AstList y),4,Method,bali2jak,AstCursor,AddAfter(AstList y),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstNode.AddAfter(AstList tree),4,Method,bali2jak,AstNode,AddAfter(AstList tree),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstCursor.AddBefore(AstList y),4,Method,bali2jak,AstCursor,AddBefore(AstList y),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstNode.AddBefore(AstList tree),4,Method,bali2jak,AstNode,AddBefore(AstList tree),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstCursor.print(),4,Method,bali2jak,AstCursor,print(),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstCursor.reduce2java(AstProperties props),4,Method,bali2jak,AstCursor,reduce2java(AstProperties props),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstCursor.find(String node_type),4,Method,bali2jak,AstCursor,find(String node_type),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstCursor.find(Class query_class),4,Method,bali2jak,AstCursor,find(Class query_class),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstCursor.findBaseType(String baseType),4,Method,bali2jak,AstCursor,findBaseType(String baseType),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstCursor.FirstElement(AstNode e),4,Method,bali2jak,AstCursor,FirstElement(AstNode e),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstCursor.MoreElement(),4,Method,bali2jak,AstCursor,MoreElement(),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstCursor.NextElement(),4,Method,bali2jak,AstCursor,NextElement(),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.RequireRules,2,Class,bali2jak,RequireRules,,balirequire,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.RequireRules.execute(),4,Method,bali2jak,RequireRules,execute(),require,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.PatternElem,2,Class,bali2jak,PatternElem,,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.PatternElem.getPrimitive(),4,Method,bali2jak,PatternElem,getPrimitive(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.Primitive,2,Class,bali2jak,Primitive,,balibali,FALSE,FALSE,,FALSE,FALSE,,set by Bali2JakSol,public
+bali2jak.PatternElem.setParms(Primitive arg0),4,Method,bali2jak,PatternElem,setParms(Primitive arg0),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.PositionalArg,2,Class,bali2jak,PositionalArg,,kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.PositionalArg.binding,3,Field,bali2jak,PositionalArg,binding,kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,package-private
+bali2jak.PositionalArg.PositionalArg(String _name; int _layer),5,Constructor,bali2jak,PositionalArg,PositionalArg(String _name; int _layer),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.Terminal,2,Class,bali2jak,Terminal,,balibali,FALSE,FALSE,,FALSE,FALSE,,set by Bali2JakSol,public
+bali2jak.ComplexListNode,2,Class,bali2jak,ComplexListNode,,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.PrimitiveRewrite,2,Class,bali2jak,PrimitiveRewrite,,balibali,FALSE,FALSE,,FALSE,FALSE,,set by Bali2JakSol,public
+bali2jak.ComplexListNode.ARG_LENGTH,3,Field,bali2jak,ComplexListNode,ARG_LENGTH,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.ComplexListNode.TOK_LENGTH,3,Field,bali2jak,ComplexListNode,TOK_LENGTH,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.ComplexListNode.getLookahead(),4,Method,bali2jak,ComplexListNode,getLookahead(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.ComplexListNode.getPrimitive(),4,Method,bali2jak,ComplexListNode,getPrimitive(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.ComplexListNode.printorder(),4,Method,bali2jak,ComplexListNode,printorder(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.ComplexListNode.setParms(AstToken tok0; AstOptNode arg0; Primitive arg1; Primitive arg2; AstToken tok1; AstToken tok2),4,Method,bali2jak,ComplexListNode,setParms(AstToken tok0; AstOptNode arg0; Primitive arg1; Primitive arg2; AstToken tok1; AstToken tok2),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.Label,2,Class,bali2jak,Label,,balibali,FALSE,FALSE,,FALSE,FALSE,,set by Bali2JakSol,public
+bali2jak.Files,2,Class,bali2jak,Files,,codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.Files.setProgram(String newProgram),4,Method,bali2jak,Files,setProgram(String newProgram),codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.Files.program,3,Field,bali2jak,Files,program,codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,private
+bali2jak.Files.setVersion(String newVersion),4,Method,bali2jak,Files,setVersion(String newVersion),codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.Files.version,3,Field,bali2jak,Files,version,codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,private
+bali2jak.Files.toFile(String contents; File outputFile),4,Method,bali2jak,Files,toFile(String contents; File outputFile),codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.Files.headerBlock(),4,Method,bali2jak,Files,headerBlock(),codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,private
+bali2jak.SimpleListNode,2,Class,bali2jak,SimpleListNode,,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.SimpleListNode.ARG_LENGTH,3,Field,bali2jak,SimpleListNode,ARG_LENGTH,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.SimpleListNode.TOK_LENGTH,3,Field,bali2jak,SimpleListNode,TOK_LENGTH,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.SimpleListNode.getLookahead(),4,Method,bali2jak,SimpleListNode,getLookahead(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.SimpleListNode.getPrimitive(),4,Method,bali2jak,SimpleListNode,getPrimitive(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.SimpleListNode.printorder(),4,Method,bali2jak,SimpleListNode,printorder(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.SimpleListNode.setParms(AstToken tok0; AstOptNode arg0; Primitive arg1; AstToken tok1; AstToken tok2),4,Method,bali2jak,SimpleListNode,setParms(AstToken tok0; AstOptNode arg0; Primitive arg1; AstToken tok1; AstToken tok2),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.CodeBlockNode.printorder(),4,Method,bali2jak,CodeBlockNode,printorder(),bali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.CodeBlockNode.order,3,Field,bali2jak,CodeBlockNode,order,bali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,package-private
+bali2jak.CodeBlockNode.first_subclass,3,Field,bali2jak,CodeBlockNode,first_subclass,bali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,private
+bali2jak.CodeBlockNode.class_code,3,Field,bali2jak,CodeBlockNode,class_code,bali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,private
+bali2jak.CodeBlockNode.setParms(AstTokenInterface _arg0),4,Method,bali2jak,CodeBlockNode,setParms(AstTokenInterface _arg0),bali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.CodeBlockNode.SyntaxCheck(),4,Method,bali2jak,CodeBlockNode,SyntaxCheck(),bali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.CodeBlockNode.firstSubclass(),4,Method,bali2jak,CodeBlockNode,firstSubclass(),bali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.CodeBlockNode.classCode(),4,Method,bali2jak,CodeBlockNode,classCode(),bali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.BaliRulesData,2,Class,bali2jak,BaliRulesData,,collect,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.BaliRulesData.addNode(BaliGrammarNode node),4,Method,bali2jak,BaliRulesData,addNode(BaliGrammarNode node),collect,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.BaliGrammarNode,2,Class,bali2jak,BaliGrammarNode,,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.BaliRulesData.setStartName(String name),4,Method,bali2jak,BaliRulesData,setStartName(String name),collect,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,protected
+bali2jak.BaliRulesData.getStartName(),4,Method,bali2jak,BaliRulesData,getStartName(),collect,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.BaliRulesData.startName,3,Field,bali2jak,BaliRulesData,startName,collect,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,private
+bali2jak.BaliRulesData.getType(String name),4,Method,bali2jak,BaliRulesData,getType(String name),collect,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.BaliRulesData.typeMap,3,Field,bali2jak,BaliRulesData,typeMap,collect,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,private
+bali2jak.BaliRulesData.setType(String name; String type),4,Method,bali2jak,BaliRulesData,setType(String name; String type),collect,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.BaliRulesData.toString(),4,Method,bali2jak,BaliRulesData,toString(),collect,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.BaliRulesData.DEFINED,3,Field,bali2jak,BaliRulesData,DEFINED,require,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.BaliRulesData.REFERENCED,3,Field,bali2jak,BaliRulesData,REFERENCED,require,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.BaliRulesData.REQUIRED,3,Field,bali2jak,BaliRulesData,REQUIRED,require,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.BaliRulesData.MASK,3,Field,bali2jak,BaliRulesData,MASK,require,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.BaliRulesData.addDefinition(String name),4,Method,bali2jak,BaliRulesData,addDefinition(String name),require,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.BaliRulesData.setBits(String name; int bits),4,Method,bali2jak,BaliRulesData,setBits(String name; int bits),require,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,protected
+bali2jak.BaliRulesData.addReference(String name),4,Method,bali2jak,BaliRulesData,addReference(String name),require,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.BaliRulesData.addRequire(String name),4,Method,bali2jak,BaliRulesData,addRequire(String name),require,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.BaliRulesData.getList(int mask; int status),4,Method,bali2jak,BaliRulesData,getList(int mask; int status),require,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.BaliRulesData.usageMap,3,Field,bali2jak,BaliRulesData,usageMap,require,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,private
+bali2jak.BaliRulesData.getStatus(String name),4,Method,bali2jak,BaliRulesData,getStatus(String name),require,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.BaliRulesData.misDefined(),4,Method,bali2jak,BaliRulesData,misDefined(),require,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.BaliRulesData.STATUS,3,Field,bali2jak,BaliRulesData,STATUS,require,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,private
+bali2jak.BaliRulesData.COMMENT_COLUMN,3,Field,bali2jak,BaliRulesData,COMMENT_COLUMN,bali2jak,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.BaliRulesData.generateClasses(File directory; String layerName),4,Method,bali2jak,BaliRulesData,generateClasses(File directory; String layerName),bali2jak,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.BaliRulesData.layerName,3,Field,bali2jak,BaliRulesData,layerName,bali2jak,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,protected
+bali2jak.BaliRulesData.generatedSet,3,Field,bali2jak,BaliRulesData,generatedSet,bali2jak,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,protected
+bali2jak.BaliRulesData.initializeGeneratedSet(),4,Method,bali2jak,BaliRulesData,initializeGeneratedSet(),bali2jak,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,protected
+bali2jak.BaliRulesData.productionClass(File dir; String base; Production prod),4,Method,bali2jak,BaliRulesData,productionClass(File dir; String base; Production prod),bali2jak,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,private
+bali2jak.BaliRulesData.ruleClass(File dir; String base),4,Method,bali2jak,BaliRulesData,ruleClass(File dir; String base),bali2jak,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,private
+bali2jak.BaliRulesData.abstractSubClass(File dir; String base; String sub),4,Method,bali2jak,BaliRulesData,abstractSubClass(File dir; String base; String sub),bali2jak,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,private
+bali2jak.Modifier.ABSTRACT,3,Field,bali2jak,Modifier,ABSTRACT,codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.Modifier.PUBLIC,3,Field,bali2jak,Modifier,PUBLIC,codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.BaliRulesData.concreteSubClass(File dir; String base; String sub; Production prod),4,Method,bali2jak,BaliRulesData,concreteSubClass(File dir; String base; String sub; Production prod),bali2jak,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,private
+bali2jak.PrimitiveRewriteNode,2,Class,bali2jak,PrimitiveRewriteNode,,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.Pattern,2,Class,bali2jak,Pattern,,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.BaliTokenNode,2,Class,bali2jak,BaliTokenNode,,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.IdentifierNode,2,Class,bali2jak,IdentifierNode,,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.OptionalNode,2,Class,bali2jak,OptionalNode,,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.StringNode,2,Class,bali2jak,StringNode,,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.MethodBuilder.addModifier(Modifier modifier),4,Method,bali2jak,MethodBuilder,addModifier(Modifier modifier),codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.MethodBuilder.setReturn(String name; String type),4,Method,bali2jak,MethodBuilder,setReturn(String name; String type),codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.MethodBuilder.addParameter(String name; String type),4,Method,bali2jak,MethodBuilder,addParameter(String name; String type),codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstNode.toString(),4,Method,bali2jak,AstNode,toString(),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.MethodBuilder.clear(),4,Method,bali2jak,MethodBuilder,clear(),codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.BaliRulesData.listToString(List objects),4,Method,bali2jak,BaliRulesData,listToString(List objects),bali2jak,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,private
+bali2jak.BaliRulesData.listClass(File dir; String base),4,Method,bali2jak,BaliRulesData,listClass(File dir; String base),bali2jak,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,private
+bali2jak.BaliRulesData.listClass(File dir; String base; Primitive prim),4,Method,bali2jak,BaliRulesData,listClass(File dir; String base; Primitive prim),bali2jak,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,private
+bali2jak.BaliRulesData.listClasses(File dir; String base; Primitive prim),4,Method,bali2jak,BaliRulesData,listClasses(File dir; String base; Primitive prim),bali2jak,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,private
+bali2jak.BaliRulesData.listClasses(File dir; String base; Primitive one; Primitive two),4,Method,bali2jak,BaliRulesData,listClasses(File dir; String base; Primitive one; Primitive two),bali2jak,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,private
+bali2jak.PatternNode,2,Class,bali2jak,PatternNode,,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.ClassNameNode,2,Class,bali2jak,ClassNameNode,,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.Token.serialVersionUID,3,Field,bali2jak,Token,serialVersionUID,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,private
+bali2jak.Token.kind,3,Field,bali2jak,Token,kind,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.Token.image,3,Field,bali2jak,Token,image,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.Token.getValue(),4,Method,bali2jak,Token,getValue(),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.Token.Token(),5,Constructor,bali2jak,Token,Token(),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.Token.Token(int kind),5,Constructor,bali2jak,Token,Token(int kind),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.Token.Token(int kind; String image),5,Constructor,bali2jak,Token,Token(int kind; String image),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.Token.toString(),4,Method,bali2jak,Token,toString(),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.Token.newToken(int ofKind),4,Method,bali2jak,Token,newToken(int ofKind),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.MethodBuilder.modifiers,3,Field,bali2jak,MethodBuilder,modifiers,codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,private
+bali2jak.MethodBuilder.parameters,3,Field,bali2jak,MethodBuilder,parameters,codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,private
+bali2jak.MethodBuilder.TypedName,2,Class,bali2jak.MethodBuilder,TypedName,,codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,private
+bali2jak.MethodBuilder.addThrowable(String name),4,Method,bali2jak,MethodBuilder,addThrowable(String name),codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.MethodBuilder.throwables,3,Field,bali2jak,MethodBuilder,throwables,codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,private
+bali2jak.MethodBuilder.methodReturn,3,Field,bali2jak,MethodBuilder,methodReturn,codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,private
+bali2jak.MethodBuilder.TypedName.getName(),4,Method,bali2jak.MethodBuilder,TypedName,getName(),codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.MethodBuilder.TypedName.getType(),4,Method,bali2jak.MethodBuilder,TypedName,getType(),codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.MethodBuilder.removeModifier(Modifier modifier),4,Method,bali2jak,MethodBuilder,removeModifier(Modifier modifier),codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.MethodBuilder.removeParameter(String name),4,Method,bali2jak,MethodBuilder,removeParameter(String name),codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.MethodBuilder.removeThrowable(String name),4,Method,bali2jak,MethodBuilder,removeThrowable(String name),codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.MethodBuilder.setConstructor(String name),4,Method,bali2jak,MethodBuilder,setConstructor(String name),codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.MethodBuilder.TypedName.toString(),4,Method,bali2jak.MethodBuilder,TypedName,toString(),codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.MethodBuilder.TypedName.TypedName(String name; String type),5,Constructor,bali2jak.MethodBuilder,TypedName,TypedName(String name; String type),codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,package-private
+bali2jak.MethodBuilder.TypedName.name,3,Field,bali2jak.MethodBuilder,TypedName,name,codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,private
+bali2jak.MethodBuilder.TypedName.type,3,Field,bali2jak.MethodBuilder,TypedName,type,codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,private
+bali2jak.MethodBuilder.TypedName.key,3,Field,bali2jak.MethodBuilder,TypedName,key,codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,private
+bali2jak.MethodBuilder.TypedName.compareTo(Object that),4,Method,bali2jak.MethodBuilder,TypedName,compareTo(Object that),codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.MethodBuilder.TypedName.equals(Object that),4,Method,bali2jak.MethodBuilder,TypedName,equals(Object that),codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.MethodBuilder.TypedName.hashCode(),4,Method,bali2jak.MethodBuilder,TypedName,hashCode(),codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.OptionalNode.ARG_LENGTH,3,Field,bali2jak,OptionalNode,ARG_LENGTH,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.OptionalNode.TOK_LENGTH,3,Field,bali2jak,OptionalNode,TOK_LENGTH,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.OptionalNode.getLookahead(),4,Method,bali2jak,OptionalNode,getLookahead(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.OptionalNode.getTerminal(),4,Method,bali2jak,OptionalNode,getTerminal(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.OptionalNode.printorder(),4,Method,bali2jak,OptionalNode,printorder(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.OptionalNode.setParms(AstToken tok0; AstOptNode arg0; Terminal arg1; AstToken tok1),4,Method,bali2jak,OptionalNode,setParms(AstToken tok0; AstOptNode arg0; Terminal arg1; AstToken tok1),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.StarStatesNode,2,Class,bali2jak,StarStatesNode,,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.StatesSpecifier,2,Class,bali2jak,StatesSpecifier,,balibali,FALSE,FALSE,,FALSE,FALSE,,set by Bali2JakSol,public
+bali2jak.StarStatesNode.ARG_LENGTH,3,Field,bali2jak,StarStatesNode,ARG_LENGTH,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.StarStatesNode.TOK_LENGTH,3,Field,bali2jak,StarStatesNode,TOK_LENGTH,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.StarStatesNode.printorder(),4,Method,bali2jak,StarStatesNode,printorder(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.StarStatesNode.setParms(AstToken tok0),4,Method,bali2jak,StarStatesNode,setParms(AstToken tok0),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.LabelNode,2,Class,bali2jak,LabelNode,,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.LabelNode.ARG_LENGTH,3,Field,bali2jak,LabelNode,ARG_LENGTH,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.LabelNode.TOK_LENGTH,3,Field,bali2jak,LabelNode,TOK_LENGTH,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.LabelNode.getBALI_TOKEN(),4,Method,bali2jak,LabelNode,getBALI_TOKEN(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.LabelNode.printorder(),4,Method,bali2jak,LabelNode,printorder(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.LabelNode.setParms(AstOptToken tok0; AstToken tok1; AstToken tok2),4,Method,bali2jak,LabelNode,setParms(AstOptToken tok0; AstToken tok1; AstToken tok2),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstOptToken,2,Class,bali2jak,AstOptToken,,kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.BaliRegexNode,2,Class,bali2jak,BaliRegexNode,,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.BaliRegexNode.ARG_LENGTH,3,Field,bali2jak,BaliRegexNode,ARG_LENGTH,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.BaliRegexNode.TOK_LENGTH,3,Field,bali2jak,BaliRegexNode,TOK_LENGTH,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.BaliRegexNode.getBALI_TOKEN(),4,Method,bali2jak,BaliRegexNode,getBALI_TOKEN(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.BaliRegexNode.printorder(),4,Method,bali2jak,BaliRegexNode,printorder(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.BaliRegexNode.setParms(AstToken tok0; AstToken tok1),4,Method,bali2jak,BaliRegexNode,setParms(AstToken tok0; AstToken tok1),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.Options,2,Class,bali2jak,Options,,balibali,FALSE,FALSE,,FALSE,FALSE,,set by Bali2JakSol,public
+bali2jak.OptionsNode.ARG_LENGTH,3,Field,bali2jak,OptionsNode,ARG_LENGTH,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.OptionsNode.TOK_LENGTH,3,Field,bali2jak,OptionsNode,TOK_LENGTH,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.OptionsNode.getBlock(),4,Method,bali2jak,OptionsNode,getBlock(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.OptionsNode.get_OPTIONS(),4,Method,bali2jak,OptionsNode,get_OPTIONS(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.OptionsNode.printorder(),4,Method,bali2jak,OptionsNode,printorder(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.OptionsNode.setParms(AstToken tok0; Block arg0; AstToken tok1),4,Method,bali2jak,OptionsNode,setParms(AstToken tok0; Block arg0; AstToken tok1),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.RequireType,2,Class,bali2jak,RequireType,,balirequire,FALSE,FALSE,,FALSE,FALSE,,set by Bali2JakSol,public
+bali2jak.NextStateNode,2,Class,bali2jak,NextStateNode,,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.NextStateNode.ARG_LENGTH,3,Field,bali2jak,NextStateNode,ARG_LENGTH,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.NextStateNode.TOK_LENGTH,3,Field,bali2jak,NextStateNode,TOK_LENGTH,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.NextStateNode.getBALI_TOKEN(),4,Method,bali2jak,NextStateNode,getBALI_TOKEN(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.NextStateNode.printorder(),4,Method,bali2jak,NextStateNode,printorder(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.NextStateNode.setParms(AstToken tok0; AstToken tok1),4,Method,bali2jak,NextStateNode,setParms(AstToken tok0; AstToken tok1),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.BaliParse,2,Class,bali2jak,BaliParse,,balibali,FALSE,FALSE,,FALSE,FALSE,,set by Bali2JakSol,public
+bali2jak.ComplexRegexNode,2,Class,bali2jak,ComplexRegexNode,,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.ComplexRegexNode.ARG_LENGTH,3,Field,bali2jak,ComplexRegexNode,ARG_LENGTH,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.ComplexRegexNode.TOK_LENGTH,3,Field,bali2jak,ComplexRegexNode,TOK_LENGTH,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.ComplexRegexNode.getComplexRegex(),4,Method,bali2jak,ComplexRegexNode,getComplexRegex(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.ComplexRegexNode.getLabel(),4,Method,bali2jak,ComplexRegexNode,getLabel(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.ComplexRegexNode.printorder(),4,Method,bali2jak,ComplexRegexNode,printorder(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.ComplexRegexNode.setParms(AstOptNode arg0; ComplexRegex arg1),4,Method,bali2jak,ComplexRegexNode,setParms(AstOptNode arg0; ComplexRegex arg1),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.RegexTokensData,2,Class,bali2jak,RegexTokensData,,collect,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.RegexTokensData.addNode(RegexDefinitionNode node),4,Method,bali2jak,RegexTokensData,addNode(RegexDefinitionNode node),collect,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.RegexDefinitionNode,2,Class,bali2jak,RegexDefinitionNode,,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.StatesNode,2,Class,bali2jak,StatesNode,,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.RegexTokensData.Datum,2,Class,bali2jak.RegexTokensData,Datum,,collect,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,protected
+bali2jak.RegexTokensData.Datum.regexList,3,Field,bali2jak.RegexTokensData,Datum,regexList,collect,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,protected
+bali2jak.RegexTokensData.statesList(StatesNode node),4,Method,bali2jak,RegexTokensData,statesList(StatesNode node),collect,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,private
+bali2jak.RegexTokensData.Datum.getKey(),4,Method,bali2jak.RegexTokensData,Datum,getKey(),collect,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.RegexTokensData.toString(),4,Method,bali2jak,RegexTokensData,toString(),collect,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.RegexTokensData.Datum.Datum(List states; String kind; boolean noCase; List re),5,Constructor,bali2jak.RegexTokensData,Datum,Datum(List states; String kind; boolean noCase; List re),collect,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.RegexTokensData.Datum.states,3,Field,bali2jak.RegexTokensData,Datum,states,collect,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,protected
+bali2jak.RegexTokensData.Datum.kind,3,Field,bali2jak.RegexTokensData,Datum,kind,collect,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,protected
+bali2jak.RegexTokensData.Datum.noCase,3,Field,bali2jak.RegexTokensData,Datum,noCase,collect,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,protected
+bali2jak.RegexTokensData.Datum.key,3,Field,bali2jak.RegexTokensData,Datum,key,collect,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,protected
+bali2jak.RegexTokensData.Datum.keyToString(),4,Method,bali2jak.RegexTokensData,Datum,keyToString(),collect,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.RegexTokensData.Datum.toString(),4,Method,bali2jak.RegexTokensData,Datum,toString(),collect,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.Main.DEBUG,3,Field,bali2jak,Main,DEBUG,bali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.StateNameNode,2,Class,bali2jak,StateNameNode,,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.FatalError,2,Class,bali2jak,FatalError,,kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.FatalError.FatalError(),5,Constructor,bali2jak,FatalError,FatalError(),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.FatalError.FatalError(String s),5,Constructor,bali2jak,FatalError,FatalError(String s),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.Utility,2,Class,bali2jak,Utility,,kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.ClassNameNode.ARG_LENGTH,3,Field,bali2jak,ClassNameNode,ARG_LENGTH,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.ClassNameNode.TOK_LENGTH,3,Field,bali2jak,ClassNameNode,TOK_LENGTH,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.ClassNameNode.getIDENTIFIER(),4,Method,bali2jak,ClassNameNode,getIDENTIFIER(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.ClassNameNode.printorder(),4,Method,bali2jak,ClassNameNode,printorder(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.ClassNameNode.setParms(AstToken tok0; AstToken tok1),4,Method,bali2jak,ClassNameNode,setParms(AstToken tok0; AstToken tok1),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.TokenKindNode,2,Class,bali2jak,TokenKindNode,,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.TokenKindNode.ARG_LENGTH,3,Field,bali2jak,TokenKindNode,ARG_LENGTH,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.TokenKindNode.TOK_LENGTH,3,Field,bali2jak,TokenKindNode,TOK_LENGTH,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.TokenKindNode.get_TOKEN(),4,Method,bali2jak,TokenKindNode,get_TOKEN(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.TokenKindNode.printorder(),4,Method,bali2jak,TokenKindNode,printorder(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.TokenKindNode.setParms(AstToken tok0),4,Method,bali2jak,TokenKindNode,setParms(AstToken tok0),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.BaliParser.parseRoot,3,Field,bali2jak,BaliParser,parseRoot,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,private
+bali2jak.BaliParser.getStartRoot(),4,Method,bali2jak,BaliParser,getStartRoot(),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.BaliParser.BaliParse(),4,Method,bali2jak,BaliParser,BaliParse(),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.BaliParser.opt(AstNode node),4,Method,bali2jak,BaliParser,opt(AstNode node),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,package-private
+bali2jak.AstOptNode.setParms(AstNode child),4,Method,bali2jak,AstOptNode,setParms(AstNode child),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.BaliParser.opt(AstToken token),4,Method,bali2jak,BaliParser,opt(AstToken token),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,package-private
+bali2jak.AstOptToken.setParms(AstTokenInterface child),4,Method,bali2jak,AstOptToken,setParms(AstTokenInterface child),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.BaliParserConstants.EOF,3,Field,bali2jak,BaliParserConstants,EOF,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.BaliParser.jj_consume_token(int kind),4,Method,bali2jak,BaliParser,jj_consume_token(int kind),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,private
+bali2jak.BaliParser.t2at(Token tok),4,Method,bali2jak,BaliParser,t2at(Token tok),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,package-private
+bali2jak.BaliParser.accumulate(Token token; StringBuffer buffer),4,Method,bali2jak,BaliParser,accumulate(Token token; StringBuffer buffer),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,private
+bali2jak.BaliParser.firstSpecial(Token token),4,Method,bali2jak,BaliParser,firstSpecial(Token token),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,private
+bali2jak.BaliParser.accumulateNestedRegion(int open; int close),4,Method,bali2jak,BaliParser,accumulateNestedRegion(int open; int close),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,private
+bali2jak.BaliParserConstants.OTHER,3,Field,bali2jak,BaliParserConstants,OTHER,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.BaliParser.token,3,Field,bali2jak,BaliParser,token,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.BaliParserConstants.tokenImage,3,Field,bali2jak,BaliParserConstants,tokenImage,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.BaliParser.getToken(int index),4,Method,bali2jak,BaliParser,getToken(int index),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.BaliParser.getNextToken(),4,Method,bali2jak,BaliParser,getNextToken(),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.BaliParser.accumulateUntilToken(int tokenKind),4,Method,bali2jak,BaliParser,accumulateUntilToken(int tokenKind),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,private
+bali2jak.BaliParser.codeBlockNode(Token token),4,Method,bali2jak,BaliParser,codeBlockNode(Token token),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,package-private
+bali2jak.BaliParser.findBlockBegin(),4,Method,bali2jak,BaliParser,findBlockBegin(),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,package-private
+bali2jak.BaliParserConstants.LBRACE,3,Field,bali2jak,BaliParserConstants,LBRACE,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.BaliParser.findBlockEnd(),4,Method,bali2jak,BaliParser,findBlockEnd(),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,package-private
+bali2jak.BaliParserConstants.RBRACE,3,Field,bali2jak,BaliParserConstants,RBRACE,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.BaliParser.findCloseAngle(),4,Method,bali2jak,BaliParser,findCloseAngle(),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,package-private
+bali2jak.BaliParserConstants.OPENANGLE,3,Field,bali2jak,BaliParserConstants,OPENANGLE,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.BaliParserConstants.CLOSEANGLE,3,Field,bali2jak,BaliParserConstants,CLOSEANGLE,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.BaliParser.findCloseParen(),4,Method,bali2jak,BaliParser,findCloseParen(),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,package-private
+bali2jak.BaliParserConstants.OPENPAREN,3,Field,bali2jak,BaliParserConstants,OPENPAREN,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.BaliParserConstants.CLOSEPAREN,3,Field,bali2jak,BaliParserConstants,CLOSEPAREN,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.BaliParser.jj_nt,3,Field,bali2jak,BaliParser,jj_nt,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.BaliParserConstants._OPTIONS,3,Field,bali2jak,BaliParserConstants,_OPTIONS,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.BaliParser.jj_la1,3,Field,bali2jak,BaliParser,jj_la1,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,private
+bali2jak.BaliParser.jj_gen,3,Field,bali2jak,BaliParser,jj_gen,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,private
+bali2jak.BaliParserConstants._CODE,3,Field,bali2jak,BaliParserConstants,_CODE,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.BaliParserConstants._JAVACODE,3,Field,bali2jak,BaliParserConstants,_JAVACODE,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.BaliParserConstants._MORE,3,Field,bali2jak,BaliParserConstants,_MORE,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.BaliParserConstants._REQUIRE,3,Field,bali2jak,BaliParserConstants,_REQUIRE,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.BaliParserConstants._SKIP,3,Field,bali2jak,BaliParserConstants,_SKIP,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.BaliParserConstants._SPECIAL_TOKEN,3,Field,bali2jak,BaliParserConstants,_SPECIAL_TOKEN,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.BaliParserConstants._TOKEN,3,Field,bali2jak,BaliParserConstants,_TOKEN,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.BaliParserConstants._TOKEN_MGR_DECLS,3,Field,bali2jak,BaliParserConstants,_TOKEN_MGR_DECLS,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.BaliParserConstants.STRING,3,Field,bali2jak,BaliParserConstants,STRING,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.BaliParserConstants.IDENTIFIER,3,Field,bali2jak,BaliParserConstants,IDENTIFIER,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.BaliParseNode,2,Class,bali2jak,BaliParseNode,,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.BaliParser.Options(),4,Method,bali2jak,BaliParser,Options(),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.BaliParser.ParserCode(),4,Method,bali2jak,BaliParser,ParserCode(),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.BaliParser.Statements(),4,Method,bali2jak,BaliParser,Statements(),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.BaliParseNode.setParms(AstOptNode arg0; AstOptNode arg1; AstOptNode arg2),4,Method,bali2jak,BaliParseNode,setParms(AstOptNode arg0; AstOptNode arg1; AstOptNode arg2),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.BaliParser.AngleRegex(),4,Method,bali2jak,BaliParser,AngleRegex(),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.BaliParserConstants.BALI_TOKEN,3,Field,bali2jak,BaliParserConstants,BALI_TOKEN,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.BaliParser.jj_2_1(int xla),4,Method,bali2jak,BaliParser,jj_2_1(int xla),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,private
+bali2jak.BaliParser.jj_2_2(int xla),4,Method,bali2jak,BaliParser,jj_2_2(int xla),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,private
+bali2jak.BaliParser.Label(),4,Method,bali2jak,BaliParser,Label(),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.BaliParser.ComplexRegex(),4,Method,bali2jak,BaliParser,ComplexRegex(),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.BaliParser.BaliGrammarRule(),4,Method,bali2jak,BaliParser,BaliGrammarRule(),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.BaliGrammarRule,2,Class,bali2jak,BaliGrammarRule,,balibali,FALSE,FALSE,,FALSE,FALSE,,set by Bali2JakSol,public
+bali2jak.Productions,2,Class,bali2jak,Productions,,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.BaliParser.Productions(),4,Method,bali2jak,BaliParser,Productions(),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.BaliGrammarNode.setParms(AstToken tok0; AstToken tok1; Productions arg0; AstToken tok2),4,Method,bali2jak,BaliGrammarNode,setParms(AstToken tok0; AstToken tok1; Productions arg0; AstToken tok2),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.BaliParser.BaliTokenDefinition(),4,Method,bali2jak,BaliParser,BaliTokenDefinition(),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.BaliTokenDefineNode.setParms(AstToken tok0; AstToken tok1),4,Method,bali2jak,BaliTokenDefineNode,setParms(AstToken tok0; AstToken tok1),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.BaliParser.Block(),4,Method,bali2jak,BaliParser,Block(),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.BlockNode,2,Class,bali2jak,BlockNode,,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.BlockNode.setParms(AstToken tok0; CodeBlockNode arg0; AstToken tok1),4,Method,bali2jak,BlockNode,setParms(AstToken tok0; CodeBlockNode arg0; AstToken tok1),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.BaliParser.CaseFlag(),4,Method,bali2jak,BaliParser,CaseFlag(),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.CaseFlag,2,Class,bali2jak,CaseFlag,,balibali,FALSE,FALSE,,FALSE,FALSE,,set by Bali2JakSol,public
+bali2jak.BaliParserConstants._IGNORE_CASE,3,Field,bali2jak,BaliParserConstants,_IGNORE_CASE,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.CaseFlagNode,2,Class,bali2jak,CaseFlagNode,,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.CaseFlagNode.setParms(AstToken tok0; AstToken tok1; AstToken tok2),4,Method,bali2jak,CaseFlagNode,setParms(AstToken tok0; AstToken tok1; AstToken tok2),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.BaliParser.ClassName(),4,Method,bali2jak,BaliParser,ClassName(),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.AngleComplexNode,2,Class,bali2jak,AngleComplexNode,,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.BaliParser.jj_2_3(int xla),4,Method,bali2jak,BaliParser,jj_2_3(int xla),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,private
+bali2jak.AngleComplexNode.setParms(CodeBlockNode arg0; AstToken tok0),4,Method,bali2jak,AngleComplexNode,setParms(CodeBlockNode arg0; AstToken tok0),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.BaliParser.JavacodeProduction(),4,Method,bali2jak,BaliParser,JavacodeProduction(),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.BaliParser.ScanBlock(),4,Method,bali2jak,BaliParser,ScanBlock(),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.BaliParser.Lookahead(),4,Method,bali2jak,BaliParser,Lookahead(),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.BaliParserConstants._LOOKAHEAD,3,Field,bali2jak,BaliParserConstants,_LOOKAHEAD,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.BaliParser.NextState(),4,Method,bali2jak,BaliParser,NextState(),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.ParserCodeNode,2,Class,bali2jak,ParserCodeNode,,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.ParserCodeNode.setParms(AstToken tok0; Block arg0; AstToken tok1),4,Method,bali2jak,ParserCodeNode,setParms(AstToken tok0; Block arg0; AstToken tok1),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.BaliParser.Pattern(),4,Method,bali2jak,BaliParser,Pattern(),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.BaliParser.Primitive(),4,Method,bali2jak,BaliParser,Primitive(),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.BaliParser.Terminal(),4,Method,bali2jak,BaliParser,Terminal(),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.BaliParser.PrimitiveRewrite(),4,Method,bali2jak,BaliParser,PrimitiveRewrite(),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.PatternNode.setParms(AstOptNode arg0; AstOptNode arg1),4,Method,bali2jak,PatternNode,setParms(AstOptNode arg0; AstOptNode arg1),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.BaliParser.Production(),4,Method,bali2jak,BaliParser,Production(),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.BaliParser.Rewrite(),4,Method,bali2jak,BaliParser,Rewrite(),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.ProductionsElem,2,Class,bali2jak,ProductionsElem,,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.ProductionsElem.setParms(Production arg0),4,Method,bali2jak,ProductionsElem,setParms(Production arg0),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.ProductionsElem.setParms(AstToken tok0; Production arg0),4,Method,bali2jak,ProductionsElem,setParms(AstToken tok0; Production arg0),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.BaliParser.REKind(),4,Method,bali2jak,BaliParser,REKind(),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.SkipKindNode,2,Class,bali2jak,SkipKindNode,,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.MoreKindNode,2,Class,bali2jak,MoreKindNode,,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.SkipKindNode.setParms(AstToken tok0),4,Method,bali2jak,SkipKindNode,setParms(AstToken tok0),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.MoreKindNode.setParms(AstToken tok0),4,Method,bali2jak,MoreKindNode,setParms(AstToken tok0),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.BaliParser.REList(),4,Method,bali2jak,BaliParser,REList(),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.REList,2,Class,bali2jak,REList,,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.REListElem,2,Class,bali2jak,REListElem,,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.BaliParser.RegexBlock(),4,Method,bali2jak,BaliParser,RegexBlock(),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.REListElem.setParms(RegexBlock arg0),4,Method,bali2jak,REListElem,setParms(RegexBlock arg0),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.REListElem.setParms(AstToken tok0; RegexBlock arg0),4,Method,bali2jak,REListElem,setParms(AstToken tok0; RegexBlock arg0),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.BaliParser.Regex(),4,Method,bali2jak,BaliParser,Regex(),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.StringRegexNode,2,Class,bali2jak,StringRegexNode,,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AngleRegexNode,2,Class,bali2jak,AngleRegexNode,,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.StringRegexNode.setParms(AstToken tok0),4,Method,bali2jak,StringRegexNode,setParms(AstToken tok0),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AngleRegexNode.setParms(AstToken tok0; AngleRegex arg0),4,Method,bali2jak,AngleRegexNode,setParms(AstToken tok0; AngleRegex arg0),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.BaliParser.RegexTokenDefinition(),4,Method,bali2jak,BaliParser,RegexTokenDefinition(),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.RegexTokenDefinition,2,Class,bali2jak,RegexTokenDefinition,,balibali,FALSE,FALSE,,FALSE,FALSE,,set by Bali2JakSol,public
+bali2jak.StateSet,2,Class,bali2jak,StateSet,,balibali,FALSE,FALSE,,FALSE,FALSE,,set by Bali2JakSol,public
+bali2jak.BaliParser.StateSet(),4,Method,bali2jak,BaliParser,StateSet(),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.RegexDefinitionNode.setParms(AstOptNode arg0; REKind arg1; AstOptNode arg2; AstToken tok0; AstToken tok1; REList arg3; AstToken tok2),4,Method,bali2jak,RegexDefinitionNode,setParms(AstOptNode arg0; REKind arg1; AstOptNode arg2; AstToken tok0; AstToken tok1; REList arg3; AstToken tok2),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.BaliParser.RequireRule(),4,Method,bali2jak,BaliParser,RequireRule(),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.RequireRule,2,Class,bali2jak,RequireRule,,balirequire,FALSE,FALSE,,FALSE,FALSE,,set by Bali2JakSol,public
+bali2jak.RequireRuleNode,2,Class,bali2jak,RequireRuleNode,,balirequire,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.BaliParser.RequireType(),4,Method,bali2jak,BaliParser,RequireType(),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.RequireRuleNode.setParms(AstToken tok0; AstOptNode arg0),4,Method,bali2jak,RequireRuleNode,setParms(AstToken tok0; AstOptNode arg0),balirequire,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.BaliParser.RequireRules(),4,Method,bali2jak,BaliParser,RequireRules(),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.RequireRulesElem,2,Class,bali2jak,RequireRulesElem,,balirequire,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.RequireRulesElem.setParms(RequireRule arg0),4,Method,bali2jak,RequireRulesElem,setParms(RequireRule arg0),balirequire,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.RequireRulesElem.setParms(AstToken tok0; RequireRule arg0),4,Method,bali2jak,RequireRulesElem,setParms(AstToken tok0; RequireRule arg0),balirequire,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.BaliParser.RequireStatement(),4,Method,bali2jak,BaliParser,RequireStatement(),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.RequireStatement,2,Class,bali2jak,RequireStatement,,balirequire,FALSE,FALSE,,FALSE,FALSE,,set by Bali2JakSol,public
+bali2jak.RequireStatementNode,2,Class,bali2jak,RequireStatementNode,,balirequire,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.RequireStatementNode.setParms(AstToken tok0; RequireRules arg0; AstToken tok1),4,Method,bali2jak,RequireStatementNode,setParms(AstToken tok0; RequireRules arg0; AstToken tok1),balirequire,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.RequireTypeNode,2,Class,bali2jak,RequireTypeNode,,balirequire,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.RequireTypeNode.setParms(AstToken tok0; AstToken tok1),4,Method,bali2jak,RequireTypeNode,setParms(AstToken tok0; AstToken tok1),balirequire,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.PrimitiveRewriteNode.setParms(Primitive arg0; PrimitiveRewrite arg1),4,Method,bali2jak,PrimitiveRewriteNode,setParms(Primitive arg0; PrimitiveRewrite arg1),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.ScanBlockNode,2,Class,bali2jak,ScanBlockNode,,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.ScanBlockNode.setParms(CodeBlockNode arg0; CodeBlockNode arg1; AstToken tok0),4,Method,bali2jak,ScanBlockNode,setParms(CodeBlockNode arg0; CodeBlockNode arg1; AstToken tok0),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.BaliParser.StateName(),4,Method,bali2jak,BaliParser,StateName(),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.StateNameNode.setParms(AstToken tok0),4,Method,bali2jak,StateNameNode,setParms(AstToken tok0),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.BaliParser.StatesSpecifier(),4,Method,bali2jak,BaliParser,StatesSpecifier(),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.StatesNode.setParms(AstToken tok0; StatesSpecifier arg0; AstToken tok1),4,Method,bali2jak,StatesNode,setParms(AstToken tok0; StatesSpecifier arg0; AstToken tok1),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.BaliParser.Statement(),4,Method,bali2jak,BaliParser,Statement(),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.TokenManagerDeclarations,2,Class,bali2jak,TokenManagerDeclarations,,balibali,FALSE,FALSE,,FALSE,FALSE,,set by Bali2JakSol,public
+bali2jak.BaliParser.TokenManagerDeclarations(),4,Method,bali2jak,BaliParser,TokenManagerDeclarations(),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.StatementsElem,2,Class,bali2jak,StatementsElem,,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.StatementsElem.setParms(Statement arg0),4,Method,bali2jak,StatementsElem,setParms(Statement arg0),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.BaliParser.StatesList(),4,Method,bali2jak,BaliParser,StatesList(),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.StatesList,2,Class,bali2jak,StatesList,,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.ListStatesNode,2,Class,bali2jak,ListStatesNode,,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.ListStatesNode.setParms(StatesList arg0),4,Method,bali2jak,ListStatesNode,setParms(StatesList arg0),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.BaliTokenNode.setParms(AstToken tok0),4,Method,bali2jak,BaliTokenNode,setParms(AstToken tok0),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.IdentifierNode.setParms(AstToken tok0),4,Method,bali2jak,IdentifierNode,setParms(AstToken tok0),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.StringNode.setParms(AstToken tok0),4,Method,bali2jak,StringNode,setParms(AstToken tok0),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.TokenManagerNode,2,Class,bali2jak,TokenManagerNode,,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.TokenManagerNode.setParms(AstToken tok0; AstToken tok1; ScanBlock arg0),4,Method,bali2jak,TokenManagerNode,setParms(AstToken tok0; AstToken tok1; ScanBlock arg0),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.BaliParser.jj_la,3,Field,bali2jak,BaliParser,jj_la,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,private
+bali2jak.BaliParser.jj_lastpos,3,Field,bali2jak,BaliParser,jj_lastpos,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,private
+bali2jak.BaliParser.jj_scanpos,3,Field,bali2jak,BaliParser,jj_scanpos,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,private
+bali2jak.BaliParser.LookaheadSuccess,2,Class,bali2jak.BaliParser,LookaheadSuccess,,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,private
+bali2jak.BaliParser.jj_3_1(),4,Method,bali2jak,BaliParser,jj_3_1(),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,private
+bali2jak.BaliParser.jj_save(int index; int xla),4,Method,bali2jak,BaliParser,jj_save(int index; int xla),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,private
+bali2jak.BaliParser.jj_3_2(),4,Method,bali2jak,BaliParser,jj_3_2(),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,private
+bali2jak.BaliParser.jj_3_3(),4,Method,bali2jak,BaliParser,jj_3_3(),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,private
+bali2jak.BaliParser.jj_scan_token(int kind),4,Method,bali2jak,BaliParser,jj_scan_token(int kind),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,private
+bali2jak.BaliParser.jj_3R_7(),4,Method,bali2jak,BaliParser,jj_3R_7(),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,private
+bali2jak.BaliParser.jj_3R_9(),4,Method,bali2jak,BaliParser,jj_3R_9(),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,private
+bali2jak.BaliParser.jj_3R_8(),4,Method,bali2jak,BaliParser,jj_3R_8(),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,private
+bali2jak.BaliParser.jj_3R_10(),4,Method,bali2jak,BaliParser,jj_3R_10(),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,private
+bali2jak.BaliParser.token_source,3,Field,bali2jak,BaliParser,token_source,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.BaliParser.jj_input_stream,3,Field,bali2jak,BaliParser,jj_input_stream,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,package-private
+bali2jak.BaliParser.jj_la1_0,3,Field,bali2jak,BaliParser,jj_la1_0,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,private
+bali2jak.BaliParser.jj_la1_1,3,Field,bali2jak,BaliParser,jj_la1_1,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,private
+bali2jak.BaliParser.jj_la1_init_0(),4,Method,bali2jak,BaliParser,jj_la1_init_0(),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,private
+bali2jak.BaliParser.jj_la1_init_1(),4,Method,bali2jak,BaliParser,jj_la1_init_1(),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,private
+bali2jak.BaliParser.jj_2_rtns,3,Field,bali2jak,BaliParser,jj_2_rtns,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,private
+bali2jak.BaliParser.JJCalls,2,Class,bali2jak.BaliParser,JJCalls,,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,package-private
+bali2jak.BaliParser.jj_rescan,3,Field,bali2jak,BaliParser,jj_rescan,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,private
+bali2jak.BaliParser.jj_gc,3,Field,bali2jak,BaliParser,jj_gc,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,private
+bali2jak.BaliParser.BaliParser(java.io.InputStream stream),5,Constructor,bali2jak,BaliParser,BaliParser(java.io.InputStream stream),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.BaliParser.BaliParser(java.io.InputStream stream; String encoding),5,Constructor,bali2jak,BaliParser,BaliParser(java.io.InputStream stream; String encoding),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.BaliParser.ReInit(java.io.InputStream stream),4,Method,bali2jak,BaliParser,ReInit(java.io.InputStream stream),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.BaliParser.ReInit(java.io.InputStream stream; String encoding),4,Method,bali2jak,BaliParser,ReInit(java.io.InputStream stream; String encoding),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.BaliParser.BaliParser(java.io.Reader stream),5,Constructor,bali2jak,BaliParser,BaliParser(java.io.Reader stream),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.BaliParser.BaliParser(BaliParserTokenManager tm),5,Constructor,bali2jak,BaliParser,BaliParser(BaliParserTokenManager tm),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.BaliParser.ReInit(BaliParserTokenManager tm),4,Method,bali2jak,BaliParser,ReInit(BaliParserTokenManager tm),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.BaliParser.JJCalls.gen,3,Field,bali2jak.BaliParser,JJCalls,gen,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,package-private
+bali2jak.BaliParser.JJCalls.first,3,Field,bali2jak.BaliParser,JJCalls,first,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,package-private
+bali2jak.BaliParser.JJCalls.next,3,Field,bali2jak.BaliParser,JJCalls,next,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,package-private
+bali2jak.BaliParser.jj_kind,3,Field,bali2jak,BaliParser,jj_kind,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,private
+bali2jak.BaliParser.jj_ls,3,Field,bali2jak,BaliParser,jj_ls,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,private
+bali2jak.BaliParser.jj_add_error_token(int kind; int pos),4,Method,bali2jak,BaliParser,jj_add_error_token(int kind; int pos),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,private
+bali2jak.BaliParser.jj_expentries,3,Field,bali2jak,BaliParser,jj_expentries,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,private
+bali2jak.BaliParser.jj_expentry,3,Field,bali2jak,BaliParser,jj_expentry,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,private
+bali2jak.BaliParser.jj_lasttokens,3,Field,bali2jak,BaliParser,jj_lasttokens,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,private
+bali2jak.BaliParser.jj_endpos,3,Field,bali2jak,BaliParser,jj_endpos,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,private
+bali2jak.BaliParser.jj_rescan_token(),4,Method,bali2jak,BaliParser,jj_rescan_token(),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,private
+bali2jak.BaliParser.enable_tracing(),4,Method,bali2jak,BaliParser,enable_tracing(),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.BaliParser.disable_tracing(),4,Method,bali2jak,BaliParser,disable_tracing(),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.BaliParser.JJCalls.arg,3,Field,bali2jak.BaliParser,JJCalls,arg,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,package-private
+bali2jak.Dispatcher.getVisitMethod(Class baseClass),4,Method,bali2jak,Dispatcher,getVisitMethod(Class baseClass),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,private
+bali2jak.Dispatcher.error(Object object; Throwable thrown),4,Method,bali2jak,Dispatcher,error(Object object; Throwable thrown),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.Dispatcher.methodMap,3,Field,bali2jak,Dispatcher,methodMap,kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,private
+bali2jak.Dispatcher.classArray,3,Field,bali2jak,Dispatcher,classArray,kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,private
+bali2jak.AngleRegexNode.ARG_LENGTH,3,Field,bali2jak,AngleRegexNode,ARG_LENGTH,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AngleRegexNode.TOK_LENGTH,3,Field,bali2jak,AngleRegexNode,TOK_LENGTH,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AngleRegexNode.getAngleRegex(),4,Method,bali2jak,AngleRegexNode,getAngleRegex(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AngleRegexNode.printorder(),4,Method,bali2jak,AngleRegexNode,printorder(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstToken.white_space,3,Field,bali2jak,AstToken,white_space,kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstToken.name,3,Field,bali2jak,AstToken,name,kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstToken.def_line_num,3,Field,bali2jak,AstToken,def_line_num,kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,private
+bali2jak.AstToken.print_white_space,3,Field,bali2jak,AstToken,print_white_space,kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,private
+bali2jak.AstToken.printWhitespace(boolean v),4,Method,bali2jak,AstToken,printWhitespace(boolean v),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstToken.printWhitespace(),4,Method,bali2jak,AstToken,printWhitespace(),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstToken.lineNum(),4,Method,bali2jak,AstToken,lineNum(),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstToken.Equ(AstTokenInterface x),4,Method,bali2jak,AstToken,Equ(AstTokenInterface x),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstToken.clone(),4,Method,bali2jak,AstToken,clone(),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstToken.print(AstProperties props),4,Method,bali2jak,AstToken,print(AstProperties props),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstToken.print(),4,Method,bali2jak,AstToken,print(),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstToken.reduce2java(AstProperties props),4,Method,bali2jak,AstToken,reduce2java(AstProperties props),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstToken.replaceChar(int index; String str; String insert),4,Method,bali2jak,AstToken,replaceChar(int index; String str; String insert),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,private
+bali2jak.AstToken.makeString(String str),4,Method,bali2jak,AstToken,makeString(String str),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstToken.printWhitespaceOnly(AstProperties props),4,Method,bali2jak,AstToken,printWhitespaceOnly(AstProperties props),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstToken.tokenName(),4,Method,bali2jak,AstToken,tokenName(),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstToken.getTokenName(),4,Method,bali2jak,AstToken,getTokenName(),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstToken.setTokenName(String replacement),4,Method,bali2jak,AstToken,setTokenName(String replacement),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.ListStatesNode.ARG_LENGTH,3,Field,bali2jak,ListStatesNode,ARG_LENGTH,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.ListStatesNode.TOK_LENGTH,3,Field,bali2jak,ListStatesNode,TOK_LENGTH,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.ListStatesNode.getStatesList(),4,Method,bali2jak,ListStatesNode,getStatesList(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.ListStatesNode.printorder(),4,Method,bali2jak,ListStatesNode,printorder(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.SkipKindNode.ARG_LENGTH,3,Field,bali2jak,SkipKindNode,ARG_LENGTH,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.SkipKindNode.TOK_LENGTH,3,Field,bali2jak,SkipKindNode,TOK_LENGTH,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.SkipKindNode.get_SKIP(),4,Method,bali2jak,SkipKindNode,get_SKIP(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.SkipKindNode.printorder(),4,Method,bali2jak,SkipKindNode,printorder(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstNode.stackMarker,3,Field,bali2jak,AstNode,stackMarker,kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstNode.obj_class,3,Field,bali2jak,AstNode,obj_class,kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,private
+bali2jak.AstNode.aliasStack,3,Field,bali2jak,AstNode,aliasStack,kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstNode.markStack(int size; AstNode n),4,Method,bali2jak,AstNode,markStack(int size; AstNode n),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstNode.markStack(),4,Method,bali2jak,AstNode,markStack(),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstNode.patch(),4,Method,bali2jak,AstNode,patch(),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstNode.safeCopy(AstNode it),4,Method,bali2jak,AstNode,safeCopy(AstNode it),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstNode.copy(AstNode it),4,Method,bali2jak,AstNode,copy(AstNode it),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstNode.initClone(AstNode copy),4,Method,bali2jak,AstNode,initClone(AstNode copy),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,protected
+bali2jak.AstNode.hasAncestor(String classname),4,Method,bali2jak,AstNode,hasAncestor(String classname),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstNode.PrettyDump(),4,Method,bali2jak,AstNode,PrettyDump(),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstNode.ReplaceRef(AstNode oldnode; AstNode newnode),4,Method,bali2jak,AstNode,ReplaceRef(AstNode oldnode; AstNode newnode),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstNode.instanceOf(Class myclass),4,Method,bali2jak,AstNode,instanceOf(Class myclass),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,package-private
+bali2jak.AstNode.instanceOf(Object obj),4,Method,bali2jak,AstNode,instanceOf(Object obj),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstNode.instanceOf(String class_name),4,Method,bali2jak,AstNode,instanceOf(String class_name),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstNode.Equ(AstNode x),4,Method,bali2jak,AstNode,Equ(AstNode x),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstOptNode.Delete(),4,Method,bali2jak,AstOptNode,Delete(),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstListNode.AddAfter(AstList tree),4,Method,bali2jak,AstListNode,AddAfter(AstList tree),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstListNode.AddBefore(AstList tree),4,Method,bali2jak,AstListNode,AddBefore(AstList tree),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstOptToken.addComment(String comment; boolean replace),4,Method,bali2jak,AstOptToken,addComment(String comment; boolean replace),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstNode.addComment(AstNode ast; String comment),4,Method,bali2jak,AstNode,addComment(AstNode ast; String comment),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstNode.addComment(AstNode ast; String comment; boolean replace),4,Method,bali2jak,AstNode,addComment(AstNode ast; String comment; boolean replace),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstNode.normalizeTree(AstNode parnt),4,Method,bali2jak,AstNode,normalizeTree(AstNode parnt),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstNode.normalize(),4,Method,bali2jak,AstNode,normalize(),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstNode.Detach(),4,Method,bali2jak,AstNode,Detach(),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstNode.writeTree(String fileName),4,Method,bali2jak,AstNode,writeTree(String fileName),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstNode.eformat(String msg),4,Method,bali2jak,AstNode,eformat(String msg),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,private
+bali2jak.AstNode.report(String msg),4,Method,bali2jak,AstNode,report(String msg),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstNode.toolReport(String msg),4,Method,bali2jak,AstNode,toolReport(String msg),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstNode.errorCount(),4,Method,bali2jak,AstNode,errorCount(),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstNode.fatalError(AstTokenInterface t; String msg),4,Method,bali2jak,AstNode,fatalError(AstTokenInterface t; String msg),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstNode.fatalError(Exception e; String msg),4,Method,bali2jak,AstNode,fatalError(Exception e; String msg),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstNode.parseError(String msg),4,Method,bali2jak,AstNode,parseError(String msg),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstNode.parseError2(String msg),4,Method,bali2jak,AstNode,parseError2(String msg),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstNode.override(String msg; Object o),4,Method,bali2jak,AstNode,override(String msg; Object o),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstNode.override(AstTokenInterface t; String msg; Object o),4,Method,bali2jak,AstNode,override(AstTokenInterface t; String msg; Object o),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstNode.error(AstTokenInterface t; String msg),4,Method,bali2jak,AstNode,error(AstTokenInterface t; String msg),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstNode.error(String msg),4,Method,bali2jak,AstNode,error(String msg),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstNode.warning(AstTokenInterface t; String msg),4,Method,bali2jak,AstNode,warning(AstTokenInterface t; String msg),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstNode.warning(String msg),4,Method,bali2jak,AstNode,warning(String msg),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.BaliParseNode.ARG_LENGTH,3,Field,bali2jak,BaliParseNode,ARG_LENGTH,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.BaliParseNode.TOK_LENGTH,3,Field,bali2jak,BaliParseNode,TOK_LENGTH,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.BaliParseNode.getOptions(),4,Method,bali2jak,BaliParseNode,getOptions(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.BaliParseNode.getParserCode(),4,Method,bali2jak,BaliParseNode,getParserCode(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.BaliParseNode.getStatements(),4,Method,bali2jak,BaliParseNode,getStatements(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.BaliParseNode.printorder(),4,Method,bali2jak,BaliParseNode,printorder(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.RequireRule.execute(),4,Method,bali2jak,RequireRule,execute(),require,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.RequireStatement.execute(),4,Method,bali2jak,RequireStatement,execute(),require,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.StatementsElem.getStatement(),4,Method,bali2jak,StatementsElem,getStatement(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstOptToken.Delete(),4,Method,bali2jak,AstOptToken,Delete(),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstOptToken.Replace(AstNode withnode),4,Method,bali2jak,AstOptToken,Replace(AstNode withnode),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstOptToken.addComment(String comment),4,Method,bali2jak,AstOptToken,addComment(String comment),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstOptToken.print(AstProperties props),4,Method,bali2jak,AstOptToken,print(AstProperties props),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstOptToken.print(),4,Method,bali2jak,AstOptToken,print(),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstOptToken.printorder(),4,Method,bali2jak,AstOptToken,printorder(),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstOptToken.reduce2java(AstProperties props),4,Method,bali2jak,AstOptToken,reduce2java(AstProperties props),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstOptToken.AstOptToken(),5,Constructor,bali2jak,AstOptToken,AstOptToken(),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstOptToken.Equ(AstTokenInterface x),4,Method,bali2jak,AstOptToken,Equ(AstTokenInterface x),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstOptToken.tokenName(),4,Method,bali2jak,AstOptToken,tokenName(),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstOptToken.getTokenName(),4,Method,bali2jak,AstOptToken,getTokenName(),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstOptToken.setTokenName(String replacement),4,Method,bali2jak,AstOptToken,setTokenName(String replacement),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstOptToken.printWhitespaceOnly(AstProperties props),4,Method,bali2jak,AstOptToken,printWhitespaceOnly(AstProperties props),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.IdentifierNode.ARG_LENGTH,3,Field,bali2jak,IdentifierNode,ARG_LENGTH,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.IdentifierNode.TOK_LENGTH,3,Field,bali2jak,IdentifierNode,TOK_LENGTH,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.IdentifierNode.getIDENTIFIER(),4,Method,bali2jak,IdentifierNode,getIDENTIFIER(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.IdentifierNode.printorder(),4,Method,bali2jak,IdentifierNode,printorder(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.JavaBlocksData,2,Class,bali2jak,JavaBlocksData,,collect,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.JavaBlocksData.addNode(JavacodeNode node),4,Method,bali2jak,JavaBlocksData,addNode(JavacodeNode node),collect,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.JavaBlocksData.toString(),4,Method,bali2jak,JavaBlocksData,toString(),collect,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.TokenMgrError.serialVersionUID,3,Field,bali2jak,TokenMgrError,serialVersionUID,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,private
+bali2jak.TokenMgrError.STATIC_LEXER_ERROR,3,Field,bali2jak,TokenMgrError,STATIC_LEXER_ERROR,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,package-private
+bali2jak.TokenMgrError.LOOP_DETECTED,3,Field,bali2jak,TokenMgrError,LOOP_DETECTED,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,package-private
+bali2jak.TokenMgrError.errorCode,3,Field,bali2jak,TokenMgrError,errorCode,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,package-private
+bali2jak.TokenMgrError.addEscapes(String str),4,Method,bali2jak,TokenMgrError,addEscapes(String str),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,protected
+bali2jak.TokenMgrError.LexicalError(boolean EOFSeen; int lexState; int errorLine; int errorColumn; String errorAfter; char curChar),4,Method,bali2jak,TokenMgrError,LexicalError(boolean EOFSeen; int lexState; int errorLine; int errorColumn; String errorAfter; char curChar),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,protected
+bali2jak.TokenMgrError.getMessage(),4,Method,bali2jak,TokenMgrError,getMessage(),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.TokenMgrError.TokenMgrError(),5,Constructor,bali2jak,TokenMgrError,TokenMgrError(),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.TokenMgrError.TokenMgrError(String message; int reason),5,Constructor,bali2jak,TokenMgrError,TokenMgrError(String message; int reason),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.TokenMgrError.TokenMgrError(boolean EOFSeen; int lexState; int errorLine; int errorColumn; String errorAfter; char curChar; int reason),5,Constructor,bali2jak,TokenMgrError,TokenMgrError(boolean EOFSeen; int lexState; int errorLine; int errorColumn; String errorAfter; char curChar; int reason),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.REListElem.getRegexBlock(),4,Method,bali2jak,REListElem,getRegexBlock(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.StringNode.ARG_LENGTH,3,Field,bali2jak,StringNode,ARG_LENGTH,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.StringNode.TOK_LENGTH,3,Field,bali2jak,StringNode,TOK_LENGTH,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.StringNode.getSTRING(),4,Method,bali2jak,StringNode,getSTRING(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.StringNode.printorder(),4,Method,bali2jak,StringNode,printorder(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.RequireStatementNode.execute(),4,Method,bali2jak,RequireStatementNode,execute(),require,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.RequireStatementNode.ARG_LENGTH,3,Field,bali2jak,RequireStatementNode,ARG_LENGTH,balirequire,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.RequireStatementNode.TOK_LENGTH,3,Field,bali2jak,RequireStatementNode,TOK_LENGTH,balirequire,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.RequireStatementNode.getRequireRules(),4,Method,bali2jak,RequireStatementNode,getRequireRules(),balirequire,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.RequireStatementNode.get_REQUIRE(),4,Method,bali2jak,RequireStatementNode,get_REQUIRE(),balirequire,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.RequireStatementNode.printorder(),4,Method,bali2jak,RequireStatementNode,printorder(),balirequire,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.CaseFlagNode.ARG_LENGTH,3,Field,bali2jak,CaseFlagNode,ARG_LENGTH,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.CaseFlagNode.TOK_LENGTH,3,Field,bali2jak,CaseFlagNode,TOK_LENGTH,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.CaseFlagNode.get_IGNORE_CASE(),4,Method,bali2jak,CaseFlagNode,get_IGNORE_CASE(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.CaseFlagNode.printorder(),4,Method,bali2jak,CaseFlagNode,printorder(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.Switch,2,Class,bali2jak,Switch,,kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.Switch.description,3,Field,bali2jak,Switch,description,kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,package-private
+bali2jak.Switch.args,3,Field,bali2jak,Switch,args,kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,package-private
+bali2jak.Switch.Switch(String _id; String _description; String[] argNames; boolean _optional; int _layer),5,Constructor,bali2jak,Switch,Switch(String _id; String _description; String[] argNames; boolean _optional; int _layer),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.Switch.clone(),4,Method,bali2jak,Switch,clone(),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.BaliGrammarNode.ARG_LENGTH,3,Field,bali2jak,BaliGrammarNode,ARG_LENGTH,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.BaliGrammarNode.TOK_LENGTH,3,Field,bali2jak,BaliGrammarNode,TOK_LENGTH,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.BaliGrammarNode.getIDENTIFIER(),4,Method,bali2jak,BaliGrammarNode,getIDENTIFIER(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.BaliGrammarNode.getProductions(),4,Method,bali2jak,BaliGrammarNode,getProductions(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.BaliGrammarNode.printorder(),4,Method,bali2jak,BaliGrammarNode,printorder(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.StringRegexNode.ARG_LENGTH,3,Field,bali2jak,StringRegexNode,ARG_LENGTH,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.StringRegexNode.TOK_LENGTH,3,Field,bali2jak,StringRegexNode,TOK_LENGTH,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.StringRegexNode.getSTRING(),4,Method,bali2jak,StringRegexNode,getSTRING(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.StringRegexNode.printorder(),4,Method,bali2jak,StringRegexNode,printorder(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.RegexDefinitionNode.ARG_LENGTH,3,Field,bali2jak,RegexDefinitionNode,ARG_LENGTH,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.RegexDefinitionNode.TOK_LENGTH,3,Field,bali2jak,RegexDefinitionNode,TOK_LENGTH,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.RegexDefinitionNode.getCaseFlag(),4,Method,bali2jak,RegexDefinitionNode,getCaseFlag(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.RegexDefinitionNode.getREKind(),4,Method,bali2jak,RegexDefinitionNode,getREKind(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.RegexDefinitionNode.getREList(),4,Method,bali2jak,RegexDefinitionNode,getREList(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.RegexDefinitionNode.getStateSet(),4,Method,bali2jak,RegexDefinitionNode,getStateSet(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.RegexDefinitionNode.printorder(),4,Method,bali2jak,RegexDefinitionNode,printorder(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AngleComplexNode.ARG_LENGTH,3,Field,bali2jak,AngleComplexNode,ARG_LENGTH,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AngleComplexNode.TOK_LENGTH,3,Field,bali2jak,AngleComplexNode,TOK_LENGTH,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AngleComplexNode.getfindCloseAngle(),4,Method,bali2jak,AngleComplexNode,getfindCloseAngle(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AngleComplexNode.printorder(),4,Method,bali2jak,AngleComplexNode,printorder(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.TokenManagerData,2,Class,bali2jak,TokenManagerData,,collect,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.TokenManagerData.addNode(TokenManagerNode node),4,Method,bali2jak,TokenManagerData,addNode(TokenManagerNode node),collect,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.TokenManagerData.toString(),4,Method,bali2jak,TokenManagerData,toString(),collect,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.LogHandler,2,Class,bali2jak,LogHandler,,bali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,package-private
+bali2jak.LogHandler.CONSOLE,3,Field,bali2jak,LogHandler,CONSOLE,bali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.LogHandler.publish(LogRecord record),4,Method,bali2jak,LogHandler,publish(LogRecord record),bali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.LogHandler.prefix,3,Field,bali2jak,LogHandler,prefix,bali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,private
+bali2jak.LogHandler.LogHandler(String label),5,Constructor,bali2jak,LogHandler,LogHandler(String label),bali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,private
+bali2jak.MainVisitor,2,Class,bali2jak,MainVisitor,,visitor,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.MainVisitor.visit(BaliGrammarNode node),4,Method,bali2jak,MainVisitor,visit(BaliGrammarNode node),visitor,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.MainVisitor.rules,3,Field,bali2jak,MainVisitor,rules,visitor,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.ParserCodeNode.ARG_LENGTH,3,Field,bali2jak,ParserCodeNode,ARG_LENGTH,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.ParserCodeNode.TOK_LENGTH,3,Field,bali2jak,ParserCodeNode,TOK_LENGTH,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.ParserCodeNode.getBlock(),4,Method,bali2jak,ParserCodeNode,getBlock(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.ParserCodeNode.get_CODE(),4,Method,bali2jak,ParserCodeNode,get_CODE(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.ParserCodeNode.printorder(),4,Method,bali2jak,ParserCodeNode,printorder(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.BaliTokenNode.ARG_LENGTH,3,Field,bali2jak,BaliTokenNode,ARG_LENGTH,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.BaliTokenNode.TOK_LENGTH,3,Field,bali2jak,BaliTokenNode,TOK_LENGTH,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.BaliTokenNode.getBALI_TOKEN(),4,Method,bali2jak,BaliTokenNode,getBALI_TOKEN(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.BaliTokenNode.printorder(),4,Method,bali2jak,BaliTokenNode,printorder(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstListNode.clone(),4,Method,bali2jak,AstListNode,clone(),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstListNode.execute(),4,Method,bali2jak,AstListNode,execute(),bali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstListNode.print(),4,Method,bali2jak,AstListNode,print(),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstListNode.print(AstProperties props),4,Method,bali2jak,AstListNode,print(AstProperties props),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstListNode.printorder(),4,Method,bali2jak,AstListNode,printorder(),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstListNode.reduce2java(AstProperties props),4,Method,bali2jak,AstListNode,reduce2java(AstProperties props),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstListNode.setParms(AstNode _arg1),4,Method,bali2jak,AstListNode,setParms(AstNode _arg1),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstListNode.initClone(AstListNode copy),4,Method,bali2jak,AstListNode,initClone(AstListNode copy),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,protected
+bali2jak.ProductionsElem.getProduction(),4,Method,bali2jak,ProductionsElem,getProduction(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.StatesNode.ARG_LENGTH,3,Field,bali2jak,StatesNode,ARG_LENGTH,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.StatesNode.TOK_LENGTH,3,Field,bali2jak,StatesNode,TOK_LENGTH,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.StatesNode.getStatesSpecifier(),4,Method,bali2jak,StatesNode,getStatesSpecifier(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.StatesNode.printorder(),4,Method,bali2jak,StatesNode,printorder(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.ParserBlocksData,2,Class,bali2jak,ParserBlocksData,,collect,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.ParserBlocksData.addNode(ParserCodeNode node),4,Method,bali2jak,ParserBlocksData,addNode(ParserCodeNode node),collect,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.TokenManagerNode.ARG_LENGTH,3,Field,bali2jak,TokenManagerNode,ARG_LENGTH,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.TokenManagerNode.TOK_LENGTH,3,Field,bali2jak,TokenManagerNode,TOK_LENGTH,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.TokenManagerNode.getScanBlock(),4,Method,bali2jak,TokenManagerNode,getScanBlock(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.TokenManagerNode.get_TOKEN_MGR_DECLS(),4,Method,bali2jak,TokenManagerNode,get_TOKEN_MGR_DECLS(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.TokenManagerNode.printorder(),4,Method,bali2jak,TokenManagerNode,printorder(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.BlockNode.ARG_LENGTH,3,Field,bali2jak,BlockNode,ARG_LENGTH,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.BlockNode.TOK_LENGTH,3,Field,bali2jak,BlockNode,TOK_LENGTH,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.BlockNode.getfindBlockEnd(),4,Method,bali2jak,BlockNode,getfindBlockEnd(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.BlockNode.printorder(),4,Method,bali2jak,BlockNode,printorder(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.Modifier.Modifier(String token),5,Constructor,bali2jak,Modifier,Modifier(String token),codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,protected
+bali2jak.Modifier.PRIVATE,3,Field,bali2jak,Modifier,PRIVATE,codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.Modifier.STATIC,3,Field,bali2jak,Modifier,STATIC,codegen,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.RequireRulesElem.getRequireRule(),4,Method,bali2jak,RequireRulesElem,getRequireRule(),balirequire,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.StateNameNode.ARG_LENGTH,3,Field,bali2jak,StateNameNode,ARG_LENGTH,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.StateNameNode.TOK_LENGTH,3,Field,bali2jak,StateNameNode,TOK_LENGTH,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.StateNameNode.getBALI_TOKEN(),4,Method,bali2jak,StateNameNode,getBALI_TOKEN(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.StateNameNode.printorder(),4,Method,bali2jak,StateNameNode,printorder(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.PrimitiveRewriteNode.ARG_LENGTH,3,Field,bali2jak,PrimitiveRewriteNode,ARG_LENGTH,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.PrimitiveRewriteNode.TOK_LENGTH,3,Field,bali2jak,PrimitiveRewriteNode,TOK_LENGTH,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.PrimitiveRewriteNode.getPrimitive(),4,Method,bali2jak,PrimitiveRewriteNode,getPrimitive(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.PrimitiveRewriteNode.getPrimitiveRewrite(),4,Method,bali2jak,PrimitiveRewriteNode,getPrimitiveRewrite(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.PrimitiveRewriteNode.printorder(),4,Method,bali2jak,PrimitiveRewriteNode,printorder(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.Main.instance,3,Field,bali2jak,Main,instance,kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,package-private
+bali2jak.Main.layerID_Counter,3,Field,bali2jak,Main,layerID_Counter,kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,private
+bali2jak.Main.switches,3,Field,bali2jak,Main,switches,kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,package-private
+bali2jak.Main.posArgs,3,Field,bali2jak,Main,posArgs,kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,package-private
+bali2jak.Main.packageName,3,Field,bali2jak,Main,packageName,kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.Main.extraArgs,3,Field,bali2jak,Main,extraArgs,kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,protected
+bali2jak.Main.file2uri(String fileName),4,Method,bali2jak,Main,file2uri(String fileName),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.Main.baseURI,3,Field,bali2jak,Main,baseURI,kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,private
+bali2jak.Main.setBaseURI(String fileName),4,Method,bali2jak,Main,setBaseURI(String fileName),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.Main.uri2file(String uriName),4,Method,bali2jak,Main,uri2file(String uriName),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.Main.modelDirectory,3,Field,bali2jak,Main,modelDirectory,kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,private
+bali2jak.Main.getModelDirectory(),4,Method,bali2jak,Main,getModelDirectory(),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.Main.setModelDirectory(String baseName),4,Method,bali2jak,Main,setModelDirectory(String baseName),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.Main.deriveLayerName(),4,Method,bali2jak,Main,deriveLayerName(),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.Main.getPackageName(),4,Method,bali2jak,Main,getPackageName(),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.Main.packName,3,Field,bali2jak,Main,packName,kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,package-private
+bali2jak.Main.parseArgs(String[] args),4,Method,bali2jak,Main,parseArgs(String[] args),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,protected
+bali2jak.Main.usage(),4,Method,bali2jak,Main,usage(),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,protected
+bali2jak.Main.initialize(),4,Method,bali2jak,Main,initialize(),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.Main.argInquire(int _layer),4,Method,bali2jak,Main,argInquire(int _layer),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,protected
+bali2jak.Main.switchRegister(Switch sw),4,Method,bali2jak,Main,switchRegister(Switch sw),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,protected
+bali2jak.Main.nextLayer(),4,Method,bali2jak,Main,nextLayer(),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,protected
+bali2jak.Main.posArgRegister(PositionalArg parg),4,Method,bali2jak,Main,posArgRegister(PositionalArg parg),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,protected
+bali2jak.Main.driver(ArgList arguments),4,Method,bali2jak,Main,driver(ArgList arguments),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,protected
+bali2jak.Main.createAST(ArgList argObjects),4,Method,bali2jak,Main,createAST(ArgList argObjects),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,protected
+bali2jak.Main.reduceAST(ArgList argObjects; AstNode ast),4,Method,bali2jak,Main,reduceAST(ArgList argObjects; AstNode ast),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,protected
+bali2jak.Main.outputAST(ArgList argObjects; AstNode ast),4,Method,bali2jak,Main,outputAST(ArgList argObjects; AstNode ast),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,protected
+bali2jak.Main.cleanUp(),4,Method,bali2jak,Main,cleanUp(),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,protected
+bali2jak.Main.main(String args[]),4,Method,bali2jak,Main,main(String args[]),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.Main.driver(String[] args),4,Method,bali2jak,Main,driver(String[] args),bali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.Main.getVersion(),4,Method,bali2jak,Main,getVersion(),bali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.Main.versionString,3,Field,bali2jak,Main,versionString,bali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,private
+bali2jak.Main.setVersion(String version),4,Method,bali2jak,Main,setVersion(String version),bali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.Main.file2string(String fileName),4,Method,bali2jak,Main,file2string(String fileName),bali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,private
+bali2jak.Main.inputStreamReader(InputStream inp),4,Method,bali2jak,Main,inputStreamReader(InputStream inp),bali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,private
+bali2jak.Main.normalize(String string),4,Method,bali2jak,Main,normalize(String string),bali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,private
+bali2jak.Main.parse2string(BaliParse parse),4,Method,bali2jak,Main,parse2string(BaliParse parse),bali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,private
+bali2jak.Main.targetRules,3,Field,bali2jak,Main,targetRules,visitor,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.Main.PROPERTIES,3,Field,bali2jak,Main,PROPERTIES,bali2jak,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,private
+bali2jak.Main.className(Object object),4,Method,bali2jak,Main,className(Object object),bali2jak,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,private
+bali2jak.Main.collectSource(File inpFile),4,Method,bali2jak,Main,collectSource(File inpFile),bali2jak,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,private
+bali2jak.Collector,2,Class,bali2jak,Collector,,collect,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.Main.generateObject(Collector collector),4,Method,bali2jak,Main,generateObject(Collector collector),bali2jak,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.Main.argLayer,3,Field,bali2jak,Main,argLayer,bali2jak,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,private
+bali2jak.Main.argDirectory,3,Field,bali2jak,Main,argDirectory,bali2jak,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,private
+bali2jak.Collector.setLayer(String layerName),4,Method,bali2jak,Collector,setLayer(String layerName),bali2jak,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.Collector.generateNonterminals(File directory),4,Method,bali2jak,Collector,generateNonterminals(File directory),bali2jak,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.Main.loadProperties(String source),4,Method,bali2jak,Main,loadProperties(String source),bali2jak,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.Main.parseArguments(List args),4,Method,bali2jak,Main,parseArguments(List args),bali2jak,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,private
+bali2jak.Main.argDebug,3,Field,bali2jak,Main,argDebug,bali2jak,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,private
+bali2jak.Main.argSourceFile,3,Field,bali2jak,Main,argSourceFile,bali2jak,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,private
+bali2jak.Main.parseLayer(String layerName),4,Method,bali2jak,Main,parseLayer(String layerName),bali2jak,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,private
+bali2jak.Main.parseDirectory(String directoryName),4,Method,bali2jak,Main,parseDirectory(String directoryName),bali2jak,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,private
+bali2jak.Main.parseSourceFile(String fileName),4,Method,bali2jak,Main,parseSourceFile(String fileName),bali2jak,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,private
+bali2jak.Main.usage(String message),4,Method,bali2jak,Main,usage(String message),bali2jak,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,private
+bali2jak.Collector.baliRules,3,Field,bali2jak,Collector,baliRules,collect,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.ParseException.serialVersionUID,3,Field,bali2jak,ParseException,serialVersionUID,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,private
+bali2jak.ParseException.ParseException(Token currentTokenVal; int[][] expectedTokenSequencesVal; String[] tokenImageVal),5,Constructor,bali2jak,ParseException,ParseException(Token currentTokenVal; int[][] expectedTokenSequencesVal; String[] tokenImageVal),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.ParseException.currentToken,3,Field,bali2jak,ParseException,currentToken,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.ParseException.expectedTokenSequences,3,Field,bali2jak,ParseException,expectedTokenSequences,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.ParseException.tokenImage,3,Field,bali2jak,ParseException,tokenImage,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.ParseException.initialise(Token currentToken; int[][] expectedTokenSequences; String[] tokenImage),4,Method,bali2jak,ParseException,initialise(Token currentToken; int[][] expectedTokenSequences; String[] tokenImage),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,private
+bali2jak.ParseException.ParseException(),5,Constructor,bali2jak,ParseException,ParseException(),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.ParseException.ParseException(String message),5,Constructor,bali2jak,ParseException,ParseException(String message),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.ParseException.add_escapes(String str),4,Method,bali2jak,ParseException,add_escapes(String str),kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,package-private
+bali2jak.ParseException.eol,3,Field,bali2jak,ParseException,eol,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,protected
+bali2jak.MoreKindNode.ARG_LENGTH,3,Field,bali2jak,MoreKindNode,ARG_LENGTH,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.MoreKindNode.TOK_LENGTH,3,Field,bali2jak,MoreKindNode,TOK_LENGTH,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.MoreKindNode.get_MORE(),4,Method,bali2jak,MoreKindNode,get_MORE(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.MoreKindNode.printorder(),4,Method,bali2jak,MoreKindNode,printorder(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.RequireTypeNode.ARG_LENGTH,3,Field,bali2jak,RequireTypeNode,ARG_LENGTH,balirequire,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.RequireTypeNode.TOK_LENGTH,3,Field,bali2jak,RequireTypeNode,TOK_LENGTH,balirequire,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.RequireTypeNode.getIDENTIFIER(),4,Method,bali2jak,RequireTypeNode,getIDENTIFIER(),balirequire,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.RequireTypeNode.printorder(),4,Method,bali2jak,RequireTypeNode,printorder(),balirequire,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.RequireTypeNode.execute(),4,Method,bali2jak,RequireTypeNode,execute(),require,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.ScanBlockNode.ARG_LENGTH,3,Field,bali2jak,ScanBlockNode,ARG_LENGTH,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.ScanBlockNode.TOK_LENGTH,3,Field,bali2jak,ScanBlockNode,TOK_LENGTH,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.ScanBlockNode.getfindBlockBegin(),4,Method,bali2jak,ScanBlockNode,getfindBlockBegin(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.ScanBlockNode.getfindBlockEnd(),4,Method,bali2jak,ScanBlockNode,getfindBlockEnd(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.ScanBlockNode.printorder(),4,Method,bali2jak,ScanBlockNode,printorder(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.BaliTokenDefineNode.ARG_LENGTH,3,Field,bali2jak,BaliTokenDefineNode,ARG_LENGTH,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.BaliTokenDefineNode.TOK_LENGTH,3,Field,bali2jak,BaliTokenDefineNode,TOK_LENGTH,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.BaliTokenDefineNode.getBALI_TOKEN(),4,Method,bali2jak,BaliTokenDefineNode,getBALI_TOKEN(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.BaliTokenDefineNode.getSTRING(),4,Method,bali2jak,BaliTokenDefineNode,getSTRING(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.BaliTokenDefineNode.printorder(),4,Method,bali2jak,BaliTokenDefineNode,printorder(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.BaliParserConstants.SINGLE_LINE_COMMENT,3,Field,bali2jak,BaliParserConstants,SINGLE_LINE_COMMENT,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.BaliParserConstants.FORMAL_COMMENT,3,Field,bali2jak,BaliParserConstants,FORMAL_COMMENT,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.BaliParserConstants.MULTI_LINE_COMMENT,3,Field,bali2jak,BaliParserConstants,MULTI_LINE_COMMENT,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.BaliParserConstants.LETTER,3,Field,bali2jak,BaliParserConstants,LETTER,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.BaliParserConstants.DIGIT,3,Field,bali2jak,BaliParserConstants,DIGIT,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.BaliParserConstants._EOF,3,Field,bali2jak,BaliParserConstants,_EOF,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.BaliParserConstants._PARSER_BEGIN,3,Field,bali2jak,BaliParserConstants,_PARSER_BEGIN,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.BaliParserConstants._PARSER_END,3,Field,bali2jak,BaliParserConstants,_PARSER_END,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.BaliParserConstants.UPPERCASE,3,Field,bali2jak,BaliParserConstants,UPPERCASE,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.BaliParserConstants.INTEGER,3,Field,bali2jak,BaliParserConstants,INTEGER,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.BaliParserConstants.DEFAULT,3,Field,bali2jak,BaliParserConstants,DEFAULT,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.BaliParserConstants.IN_SINGLE_LINE_COMMENT,3,Field,bali2jak,BaliParserConstants,IN_SINGLE_LINE_COMMENT,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.BaliParserConstants.IN_FORMAL_COMMENT,3,Field,bali2jak,BaliParserConstants,IN_FORMAL_COMMENT,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.BaliParserConstants.IN_MULTI_LINE_COMMENT,3,Field,bali2jak,BaliParserConstants,IN_MULTI_LINE_COMMENT,kernel,true,FALSE,,TRUE,FALSE,,JavaCC files are kernel & fprivate,public
+bali2jak.AstOptNode.Replace(AstNode withnode),4,Method,bali2jak,AstOptNode,Replace(AstNode withnode),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstOptNode.addComment(String comment),4,Method,bali2jak,AstOptNode,addComment(String comment),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstOptNode.addComment(String comment; boolean replace),4,Method,bali2jak,AstOptNode,addComment(String comment; boolean replace),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstOptNode.execute(),4,Method,bali2jak,AstOptNode,execute(),bali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstOptNode.print(),4,Method,bali2jak,AstOptNode,print(),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstOptNode.print(AstProperties props),4,Method,bali2jak,AstOptNode,print(AstProperties props),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstOptNode.printorder(),4,Method,bali2jak,AstOptNode,printorder(),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstOptNode.reduce2java(AstProperties props),4,Method,bali2jak,AstOptNode,reduce2java(AstProperties props),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.AstOptNode.AstOptNode(),5,Constructor,bali2jak,AstOptNode,AstOptNode(),kernel,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.PatternNode.ARG_LENGTH,3,Field,bali2jak,PatternNode,ARG_LENGTH,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.PatternNode.TOK_LENGTH,3,Field,bali2jak,PatternNode,TOK_LENGTH,balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.PatternNode.getClassName(),4,Method,bali2jak,PatternNode,getClassName(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.PatternNode.getPattern(),4,Method,bali2jak,PatternNode,getPattern(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.PatternNode.printorder(),4,Method,bali2jak,PatternNode,printorder(),balibali,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.Collector.baliTokens,3,Field,bali2jak,Collector,baliTokens,collect,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.Collector.javaBlocks,3,Field,bali2jak,Collector,javaBlocks,collect,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.Collector.optionBlocks,3,Field,bali2jak,Collector,optionBlocks,collect,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.Collector.parserBlocks,3,Field,bali2jak,Collector,parserBlocks,collect,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.Collector.regexTokens,3,Field,bali2jak,Collector,regexTokens,collect,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.Collector.tknMgrBlocks,3,Field,bali2jak,Collector,tknMgrBlocks,collect,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.Collector.visit(BaliTokenDefineNode node),4,Method,bali2jak,Collector,visit(BaliTokenDefineNode node),collect,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.Collector.visit(JavacodeNode node),4,Method,bali2jak,Collector,visit(JavacodeNode node),collect,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.Collector.visit(OptionsNode node),4,Method,bali2jak,Collector,visit(OptionsNode node),collect,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.Collector.visit(ParserCodeNode node),4,Method,bali2jak,Collector,visit(ParserCodeNode node),collect,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.Collector.visit(RegexDefinitionNode node),4,Method,bali2jak,Collector,visit(RegexDefinitionNode node),collect,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.Collector.visit(TokenManagerNode node),4,Method,bali2jak,Collector,visit(TokenManagerNode node),collect,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.Collector.visit(BaliGrammarNode node),4,Method,bali2jak,Collector,visit(BaliGrammarNode node),collect,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.Collector.visit(IdentifierNode node),4,Method,bali2jak,Collector,visit(IdentifierNode node),require,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.Collector.visit(RequireRuleNode node),4,Method,bali2jak,Collector,visit(RequireRuleNode node),require,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.Collector.layerName,3,Field,bali2jak,Collector,layerName,bali2jak,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,private
+bali2jak.RequireRuleNode.execute(),4,Method,bali2jak,RequireRuleNode,execute(),require,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.RequireRuleNode.ARG_LENGTH,3,Field,bali2jak,RequireRuleNode,ARG_LENGTH,balirequire,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.RequireRuleNode.TOK_LENGTH,3,Field,bali2jak,RequireRuleNode,TOK_LENGTH,balirequire,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.RequireRuleNode.getIDENTIFIER(),4,Method,bali2jak,RequireRuleNode,getIDENTIFIER(),balirequire,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.RequireRuleNode.getRequireType(),4,Method,bali2jak,RequireRuleNode,getRequireType(),balirequire,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public
+bali2jak.RequireRuleNode.printorder(),4,Method,bali2jak,RequireRuleNode,printorder(),balirequire,FALSE,FALSE,,TRUE,FALSE,,set by Bali2JakSol,public

@@ -1,0 +1,2 @@
+table(abc[id]).
+comma expected at >>[id]).

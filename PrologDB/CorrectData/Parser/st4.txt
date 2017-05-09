@@ -1,0 +1,2 @@
+sub ((abc,[id]).
+string "subtable" expected at >>sub ((abc,[id]).

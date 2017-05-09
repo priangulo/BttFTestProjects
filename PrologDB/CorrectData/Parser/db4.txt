@@ -1,0 +1,2 @@
+dbas ((abc,[id]).
+string "dbase" expected at >>dbas ((abc,[id]).

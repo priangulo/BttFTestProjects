@@ -1,0 +1,3 @@
+dbase(abc,[id]).
+parse is successful!
+abc id 

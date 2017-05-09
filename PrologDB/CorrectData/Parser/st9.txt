@@ -1,0 +1,2 @@
+subtable(abc,[id,])
+name expected at >>])

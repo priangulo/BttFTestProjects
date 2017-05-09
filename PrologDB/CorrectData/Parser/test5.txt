@@ -1,0 +1,2 @@
+table((abc,[id]).
+name expected at >>(abc,[id]).

@@ -1,0 +1,2 @@
+subtable(abc[id]).
+comma expected at >>[id]).

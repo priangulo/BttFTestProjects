@@ -1,0 +1,2 @@
+dbase(abc,[id,])
+name expected at >>])

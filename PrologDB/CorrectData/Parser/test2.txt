@@ -1,0 +1,3 @@
+table(abc,[id,"abc",def]).
+parse is successful!
+abc id "abc" def 

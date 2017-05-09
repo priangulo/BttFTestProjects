@@ -1,0 +1,3 @@
+table (   a,  [id] ).
+parse is successful!
+a id 
