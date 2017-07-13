@@ -1,0 +1,634 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.0" icons="true" automaticImage="PNG" always-add-relationships="false" generalizations="true" 
+  realizations="true" associations="true" dependencies="true" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="example.imagetaskgang.OutputFilterDecorator" project="ImageTaskGangApplication" 
+    file="/ImageTaskGangApplication/src/example/imagetaskgang/OutputFilterDecorator.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="83" width="147" x="206" y="748"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="example.imagetaskgang.FilterDecorator" project="ImageTaskGangApplication" 
+    file="/ImageTaskGangApplication/src/example/imagetaskgang/FilterDecorator.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="119" width="111" x="68" y="409"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="3" language="java" name="example.imagetaskgang.PlatformStrategy.InputSource" 
+    project="ImageTaskGangApplication" file="/ImageTaskGangApplication/src/example/imagetaskgang/PlatformStrategy.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="137" width="133" x="1162" y="1913"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="4" language="java" name="example.imagetaskgang.BitmapImage" project="ImageTaskGangApplication" 
+    file="/ImageTaskGangApplication/src/example/imagetaskgang/BitmapImage.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="173" width="217" x="568" y="1913"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="example.imagetaskgang.ImageEntity" project="ImageTaskGangApplication" 
+    file="/ImageTaskGangApplication/src/example/imagetaskgang/ImageEntity.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="335" width="133" x="395" y="1913"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="6" language="java" name="example.imagetaskgang.PlatformStrategyFactory.PlatformType" 
+    project="ImageTaskGangApplication" 
+    file="/ImageTaskGangApplication/src/example/imagetaskgang/PlatformStrategyFactory.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="101" width="156" x="1190" y="1210"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="7" language="java" name="example.imagetaskgang.MainActivity" project="ImageTaskGangApplication" 
+    file="/ImageTaskGangApplication/src/example/imagetaskgang/MainActivity.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="389" width="206" x="857" y="-20"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="8" language="java" name="example.imagetaskgang.Image" project="ImageTaskGangApplication" 
+    file="/ImageTaskGangApplication/src/example/imagetaskgang/Image.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="47" width="111" x="806" y="2288"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="9" language="java" name="example.imagetaskgang.ResultsActivity.ImageAdapter" 
+    project="ImageTaskGangApplication" file="/ImageTaskGangApplication/src/example/imagetaskgang/ResultsActivity.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="209" width="166" x="649" y="748"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="example.imagetaskgang.MainConsole" project="ImageTaskGangApplication" 
+    file="/ImageTaskGangApplication/src/example/imagetaskgang/MainConsole.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="83" width="111" x="1346" y="-20"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="example.imagetaskgang.PlatformStrategy" project="ImageTaskGangApplication" 
+    file="/ImageTaskGangApplication/src/example/imagetaskgang/PlatformStrategy.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="263" width="192" x="884" y="1351"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="12" language="java" 
+    name="example.imagetaskgang.PlatformStrategyFactory.IPlatformStrategyFactoryCommand" 
+    project="ImageTaskGangApplication" 
+    file="/ImageTaskGangApplication/src/example/imagetaskgang/PlatformStrategyFactory.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="65" width="224" x="884" y="1210"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="13" language="java" name="example.imagetaskgang.GrayScaleFilter" project="ImageTaskGangApplication" 
+    file="/ImageTaskGangApplication/src/example/imagetaskgang/GrayScaleFilter.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="101" width="111" x="670" y="1210"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="example.imagetaskgang.PlatformStrategyConsole" project="ImageTaskGangApplication" 
+    file="/ImageTaskGangApplication/src/example/imagetaskgang/PlatformStrategyConsole.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="191" width="167" x="1031" y="1664"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="example.imagetaskgang.TaskGang" project="ImageTaskGangApplication" 
+    file="/ImageTaskGangApplication/src/example/imagetaskgang/TaskGang.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="389" width="159" x="219" y="-20"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="example.imagetaskgang.Options" project="ImageTaskGangApplication" 
+    file="/ImageTaskGangApplication/src/example/imagetaskgang/Options.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="281" width="172" x="1430" y="1913"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="example.imagetaskgang.ImageTaskGang" project="ImageTaskGangApplication" 
+    file="/ImageTaskGangApplication/src/example/imagetaskgang/ImageTaskGang.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="299" width="327" x="219" y="409"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="example.imagetaskgang.Filter" project="ImageTaskGangApplication" 
+    file="/ImageTaskGangApplication/src/example/imagetaskgang/Filter.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="173" width="111" x="435" y="997"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="example.imagetaskgang.NullFilter" project="ImageTaskGangApplication" 
+    file="/ImageTaskGangApplication/src/example/imagetaskgang/NullFilter.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="101" width="111" x="477" y="1210"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="example.imagetaskgang.BufferedImage" project="ImageTaskGangApplication" 
+    file="/ImageTaskGangApplication/src/example/imagetaskgang/BufferedImage.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="83" width="111" x="68" y="1913"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="example.imagetaskgang.PlatformStrategyAndroid" project="ImageTaskGangApplication" 
+    file="/ImageTaskGangApplication/src/example/imagetaskgang/PlatformStrategyAndroid.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="209" width="242" x="691" y="1664"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="22" language="java" name="example.imagetaskgang.ResultsActivity" project="ImageTaskGangApplication" 
+    file="/ImageTaskGangApplication/src/example/imagetaskgang/ResultsActivity.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="227" width="166" x="670" y="409"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="23" language="java" name="example.imagetaskgang.PlatformStrategyFactory" project="ImageTaskGangApplication" 
+    file="/ImageTaskGangApplication/src/example/imagetaskgang/PlatformStrategyFactory.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="119" width="428" x="918" y="997"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <dependency id="24">    
+    <bendpoint x="984" y="1913"/>    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <dependency id="25">    
+    <bendpoint x="1355" y="409"/>    
+    <bendpoint x="1355" y="748"/>    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="23"/>  
+  </dependency>  
+  <dependency id="26">    
+    <bendpoint x="175" y="748"/>    
+    <bendpoint x="180" y="997"/>    
+    <bendpoint x="184" y="1210"/>    
+    <bendpoint x="188" y="1351"/>    
+    <bendpoint x="230" y="1664"/>    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <association id="27">    
+    <end type="SOURCE" refId="23" navigable="false">      
+      <attribute id="28" name="mPlatformType"/>      
+      <multiplicity id="29" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <dependency id="30">    
+    <bendpoint x="1460" y="409"/>    
+    <bendpoint x="1460" y="748"/>    
+    <bendpoint x="1460" y="997"/>    
+    <bendpoint x="1460" y="1210"/>    
+    <bendpoint x="1460" y="1351"/>    
+    <bendpoint x="1460" y="1664"/>    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="16"/>  
+  </dependency>  
+  <dependency id="31">    
+    <bendpoint x="597" y="409"/>    
+    <bendpoint x="576" y="748"/>    
+    <bendpoint x="576" y="997"/>    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="19"/>  
+  </dependency>  
+  <dependency id="32">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="33">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="11"/>  
+  </dependency>  
+  <dependency id="34">    
+    <bendpoint x="404" y="1664"/>    
+    <bendpoint x="404" y="1351"/>    
+    <bendpoint x="404" y="1210"/>    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="18"/>  
+  </dependency>  
+  <dependency id="35">    
+    <bendpoint x="660" y="1664"/>    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="11"/>  
+  </dependency>  
+  <dependency id="36">    
+    <bendpoint x="908" y="409"/>    
+    <bendpoint x="908" y="748"/>    
+    <bendpoint x="887" y="997"/>    
+    <bendpoint x="832" y="1210"/>    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="11"/>  
+  </dependency>  
+  <generalization id="37">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="2"/>  
+  </generalization>  
+  <nesting id="38">    
+    <bendpoint x="1000" y="1664"/>    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="3"/>  
+  </nesting>  
+  <dependency id="39">    
+    <bendpoint x="853" y="1210"/>    
+    <bendpoint x="853" y="1351"/>    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="21"/>  
+  </dependency>  
+  <generalization id="40">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="15"/>  
+  </generalization>  
+  <dependency id="41">    
+    <bendpoint x="445" y="1351"/>    
+    <bendpoint x="445" y="1664"/>    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="42">    
+    <bendpoint x="639" y="1351"/>    
+    <bendpoint x="639" y="1664"/>    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <generalization id="43">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="11"/>  
+  </generalization>  
+  <dependency id="44">    
+    <bendpoint x="310" y="997"/>    
+    <bendpoint x="310" y="1210"/>    
+    <bendpoint x="310" y="1351"/>    
+    <bendpoint x="310" y="1664"/>    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <nesting id="45">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="12"/>  
+  </nesting>  
+  <generalization id="46">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="18"/>  
+  </generalization>  
+  <realization id="47">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="8"/>  
+  </realization>  
+  <generalization id="48">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="11"/>  
+  </generalization>  
+  <dependency id="49">    
+    <bendpoint x="209" y="997"/>    
+    <bendpoint x="209" y="1210"/>    
+    <bendpoint x="209" y="1351"/>    
+    <bendpoint x="209" y="1664"/>    
+    <bendpoint x="209" y="1913"/>    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <dependency id="50">    
+    <bendpoint x="1093" y="409"/>    
+    <bendpoint x="929" y="748"/>    
+    <bendpoint x="866" y="997"/>    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="13"/>  
+  </dependency>  
+  <dependency id="51">    
+    <bendpoint x="383" y="748"/>    
+    <bendpoint x="383" y="997"/>    
+    <bendpoint x="383" y="1210"/>    
+    <bendpoint x="383" y="1351"/>    
+    <bendpoint x="383" y="1664"/>    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="52">    
+    <bendpoint x="1439" y="409"/>    
+    <bendpoint x="1439" y="748"/>    
+    <bendpoint x="1439" y="997"/>    
+    <bendpoint x="1439" y="1210"/>    
+    <bendpoint x="1439" y="1351"/>    
+    <bendpoint x="1418" y="1664"/>    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="53">    
+    <bendpoint x="963" y="1664"/>    
+    <bendpoint x="963" y="1913"/>    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <generalization id="54">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="18"/>  
+  </generalization>  
+  <dependency id="55">    
+    <bendpoint x="929" y="409"/>    
+    <bendpoint x="887" y="748"/>    
+    <bendpoint x="803" y="997"/>    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="19"/>  
+  </dependency>  
+  <dependency id="56">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="18"/>  
+  </dependency>  
+  <dependency id="57">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <dependency id="58">    
+    <bendpoint x="1138" y="1210"/>    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="11"/>  
+  </dependency>  
+  <dependency id="59">    
+    <bendpoint x="618" y="1351"/>    
+    <bendpoint x="618" y="1210"/>    
+    <bendpoint x="618" y="997"/>    
+    <bendpoint x="618" y="748"/>    
+    <bendpoint x="618" y="409"/>    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <association id="60">    
+    <bendpoint x="404" y="748"/>    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="61" name="mFilter"/>      
+      <multiplicity id="62" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <dependency id="63">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="17"/>  
+  </dependency>  
+  <dependency id="64">    
+    <bendpoint x="950" y="409"/>    
+    <bendpoint x="950" y="748"/>    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="23"/>  
+  </dependency>  
+  <dependency id="65">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="11"/>  
+  </dependency>  
+  <dependency id="66">    
+    <bendpoint x="1334" y="409"/>    
+    <bendpoint x="1376" y="748"/>    
+    <bendpoint x="1418" y="997"/>    
+    <bendpoint x="1418" y="1210"/>    
+    <bendpoint x="1418" y="1351"/>    
+    <bendpoint x="1439" y="1664"/>    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="16"/>  
+  </dependency>  
+  <dependency id="67">    
+    <bendpoint x="639" y="409"/>    
+    <bendpoint x="597" y="748"/>    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="18"/>  
+  </dependency>  
+  <association id="68">    
+    <end type="SOURCE" refId="16" navigable="false">      
+      <attribute id="69" name="mUniqueInstance"/>      
+      <multiplicity id="70" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="16" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <association id="71">    
+    <bendpoint x="576" y="409"/>    
+    <bendpoint x="534" y="748"/>    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="72" name="mFilters"/>      
+      <multiplicity id="73" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <association id="74">    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="75" name="sUniqueInstance"/>      
+      <multiplicity id="76" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <dependency id="77">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <realization id="78">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="8"/>  
+  </realization>  
+  <dependency id="79">    
+    <bendpoint x="1159" y="1210"/>    
+    <bendpoint x="1159" y="1351"/>    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="14"/>  
+  </dependency>  
+  <dependency id="80">    
+    <bendpoint x="404" y="997"/>    
+    <bendpoint x="425" y="1210"/>    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="11"/>  
+  </dependency>  
+  <association id="81">    
+    <end type="SOURCE" refId="23" navigable="false">      
+      <attribute id="82" name="mPlatformStrategyMap"/>      
+      <multiplicity id="83" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="12" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <association id="84">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="85" name="mImage"/>      
+      <multiplicity id="86" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <dependency id="87">    
+    <bendpoint x="815" y="1913"/>    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <nesting id="88">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="9"/>  
+  </nesting>  
+  <dependency id="89">    
+    <bendpoint x="1397" y="409"/>    
+    <bendpoint x="1397" y="748"/>    
+    <bendpoint x="1397" y="997"/>    
+    <bendpoint x="1376" y="1210"/>    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="11"/>  
+  </dependency>  
+  <dependency id="90">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="91">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="22"/>  
+  </dependency>  
+  <association id="92">    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="93" name="imageAdapter"/>      
+      <multiplicity id="94" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <dependency id="95">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="96">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="16"/>  
+  </dependency>  
+  <dependency id="97">    
+    <bendpoint x="1072" y="409"/>    
+    <bendpoint x="1224" y="748"/>    
+    <bendpoint x="1376" y="997"/>    
+    <bendpoint x="1397" y="1210"/>    
+    <bendpoint x="1397" y="1351"/>    
+    <bendpoint x="1397" y="1664"/>    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="98">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <nesting id="99">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="6"/>  
+  </nesting>  
+  <dependency id="100">    
+    <bendpoint x="845" y="748"/>    
+    <bendpoint x="845" y="997"/>    
+    <bendpoint x="811" y="1210"/>    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="11"/>  
+  </dependency>  
+  <association id="101">    
+    <bendpoint x="446" y="748"/>    
+    <end type="SOURCE" refId="17" navigable="false">      
+      <attribute id="102" name="mFilters"/>      
+      <multiplicity id="103" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <dependency id="104">    
+    <bendpoint x="866" y="409"/>    
+    <bendpoint x="866" y="748"/>    
+    <bendpoint x="824" y="997"/>    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="13"/>  
+  </dependency>  
+  <dependency id="105">    
+    <bendpoint x="555" y="748"/>    
+    <bendpoint x="597" y="997"/>    
+    <bendpoint x="639" y="1210"/>    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="11"/>  
+  </dependency>  
+  <generalization id="106">    
+    <bendpoint x="425" y="748"/>    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="18"/>  
+  </generalization>  
+  <dependency id="107">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="17"/>  
+  </dependency>  
+  <classifier-display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="false" multiplicity="false"/>
+</class-diagram>
