@@ -14,7 +14,7 @@ import java.io.File;
  */
 public class Options {
     /** Are we running in verbose mode or not? */
-    private boolean verbose = false;
+    private boolean verbose = true;
 
     /** The singleton @a Options instance. */
     private static Options uniqueInstance = null;

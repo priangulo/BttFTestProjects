@@ -12,14 +12,6 @@ import java.util.HashMap;
  *        in the Factory Method pattern.
  */
 public class VisitorFactory {
-    /** 
-     * This interface uses the Command pattern to create @a Visitor
-     * implementations at runtime.
-     */
-    private static interface IVisitorFactoryCommand {
-        public Visitor execute();
-    }
-
     /**
      * Map used to validate input requests for @a Visitor
      * implementations and dispatch the execute() method of the

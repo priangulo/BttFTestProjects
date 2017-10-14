@@ -1,672 +1,683 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <class-diagram version="1.2.0" icons="true" automaticImage="PNG" always-add-relationships="false" generalizations="true" 
   realizations="true" associations="true" dependencies="true" nesting-relationships="false" router="FAN">  
-  <class id="1" language="java" name="livelessons.ImageStreamGangTest" project="ImageStreamGangApp" 
-    file="/ImageStreamGangApp/src/main/java/livelessons/ImageStreamGangTest.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="195" width="212" x="553" y="37"/>    
-    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
+  <class id="1" language="java" name="filters.FilterDecoratorWithImage" project="ImageStreamGangApp" 
+    file="/ImageStreamGangApp/src/main/java/filters/FilterDecoratorWithImage.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="119" width="182" x="774" y="1087"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <enumeration id="2" language="java" name="livelessons.ImageStreamGangTest.TestsToRun" project="ImageStreamGangApp" 
-    file="/ImageStreamGangApp/src/main/java/livelessons/ImageStreamGangTest.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="123" width="225" x="41" y="380"/>    
-    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
+  <class id="2" language="java" name="filters.GrayScaleFilter" project="ImageStreamGangApp" 
+    file="/ImageStreamGangApp/src/main/java/filters/GrayScaleFilter.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="101" width="110" x="1177" y="2021"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="filters.Filter" project="ImageStreamGangApp" 
+    file="/ImageStreamGangApp/src/main/java/filters/Filter.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="191" width="95" x="1011" y="1582"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="filters.FilterDecorator" project="ImageStreamGangApp" 
+    file="/ImageStreamGangApp/src/main/java/filters/FilterDecorator.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="119" width="111" x="839" y="1246"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="filters.NullFilter" project="ImageStreamGangApp" 
+    file="/ImageStreamGangApp/src/main/java/filters/NullFilter.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="101" width="83" x="1327" y="2021"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="filters.OutputFilterDecorator" project="ImageStreamGangApp" 
+    file="/ImageStreamGangApp/src/main/java/filters/OutputFilterDecorator.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="83" width="147" x="610" y="1459"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="streams.ImageStreamCompletableFutureBase" project="ImageStreamGangApp" 
+    file="/ImageStreamGangApp/src/main/java/streams/ImageStreamCompletableFutureBase.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="101" width="239" x="552" y="787"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="streams.StreamGang" project="ImageStreamGangApp" 
+    file="/ImageStreamGangApp/src/main/java/streams/StreamGang.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="317" width="159" x="613" y="37"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="streams.ImageStreamParallel" project="ImageStreamGangApp" 
+    file="/ImageStreamGangApp/src/main/java/streams/ImageStreamParallel.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="101" width="144" x="1169" y="928"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="streams.ImageStreamCompletableFuture1" project="ImageStreamGangApp" 
+    file="/ImageStreamGangApp/src/main/java/streams/ImageStreamCompletableFuture1.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="101" width="215" x="594" y="928"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="streams.ImageStreamCompletableFuture2" project="ImageStreamGangApp" 
+    file="/ImageStreamGangApp/src/main/java/streams/ImageStreamCompletableFuture2.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="119" width="215" x="891" y="928"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="12" language="java" name="streams.ImageStreamGangTest.TestsToRun" project="ImageStreamGangApp" 
+    file="/ImageStreamGangApp/src/main/java/streams/ImageStreamGangTest.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="137" width="225" x="42" y="394"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </enumeration>  
-  <class id="3" language="java" name="livelessons.filters.FilterDecorator" project="ImageStreamGangApp" 
-    file="/ImageStreamGangApp/src/main/java/livelessons/filters/FilterDecorator.java" binary="false" 
-    corner="BOTTOM_RIGHT">    
-    <position height="105" width="111" x="1084" y="1176"/>    
-    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
+  <class id="13" language="java" name="streams.ImageStreamSequential" project="ImageStreamGangApp" 
+    file="/ImageStreamGangApp/src/main/java/streams/ImageStreamSequential.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="119" width="161" x="1353" y="928"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="4" language="java" name="livelessons.filters.NullFilter" project="ImageStreamGangApp" 
-    file="/ImageStreamGangApp/src/main/java/livelessons/filters/NullFilter.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="87" width="83" x="597" y="1855"/>    
-    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
+  <class id="14" language="java" name="streams.ImageStreamGang" project="ImageStreamGangApp" 
+    file="/ImageStreamGangApp/src/main/java/streams/ImageStreamGang.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="353" width="199" x="613" y="394"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="5" language="java" name="livelessons.filters.OutputFilterDecorator" project="ImageStreamGangApp" 
-    file="/ImageStreamGangApp/src/main/java/livelessons/filters/OutputFilterDecorator.java" binary="false" 
-    corner="BOTTOM_RIGHT">    
-    <position height="69" width="147" x="1119" y="1321"/>    
-    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
+  <class id="15" language="java" name="streams.ImageStreamGangTest" project="ImageStreamGangApp" 
+    file="/ImageStreamGangApp/src/main/java/streams/ImageStreamGangTest.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="209" width="212" x="1211" y="37"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="6" language="java" name="livelessons.filters.GrayScaleFilter" project="ImageStreamGangApp" 
-    file="/ImageStreamGangApp/src/main/java/livelessons/filters/GrayScaleFilter.java" binary="false" 
-    corner="BOTTOM_RIGHT">    
-    <position height="87" width="110" x="720" y="1855"/>    
-    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
+  <interface id="16" language="java" name="utils.ExceptionUtils.Runnable_WithExceptions" project="ImageStreamGangApp" 
+    file="/ImageStreamGangApp/src/main/java/utils/ExceptionUtils.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="65" width="173" x="51" y="2252"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="17" language="java" name="utils.NetUtils" project="ImageStreamGangApp" 
+    file="/ImageStreamGangApp/src/main/java/utils/NetUtils.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="173" width="149" x="11" y="2663"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="7" language="java" name="livelessons.filters.FilterDecoratorWithImage" project="ImageStreamGangApp" 
-    file="/ImageStreamGangApp/src/main/java/livelessons/filters/FilterDecoratorWithImage.java" binary="false" 
-    corner="BOTTOM_RIGHT">    
-    <position height="105" width="182" x="1105" y="1031"/>    
-    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
+  <class id="18" language="java" name="utils.BlockingTask.RunnableManagedBlock" project="ImageStreamGangApp" 
+    file="/ImageStreamGangApp/src/main/java/utils/BlockingTask.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="137" width="161" x="1269" y="1246"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="8" language="java" name="livelessons.filters.Filter" project="ImageStreamGangApp" 
-    file="/ImageStreamGangApp/src/main/java/livelessons/filters/Filter.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="177" width="95" x="879" y="1430"/>    
-    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
+  <class id="19" language="java" name="utils.ExceptionUtils" project="ImageStreamGangApp" 
+    file="/ImageStreamGangApp/src/main/java/utils/ExceptionUtils.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="191" width="131" x="318" y="2021"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="9" language="java" name="livelessons.streams.StreamGang" project="ImageStreamGangApp" 
-    file="/ImageStreamGangApp/src/main/java/livelessons/streams/StreamGang.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="303" width="159" x="1350" y="37"/>    
-    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
+  <class id="20" language="java" name="utils.BlockingTask.SupplierManagedBlock" project="ImageStreamGangApp" 
+    file="/ImageStreamGangApp/src/main/java/utils/BlockingTask.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="173" width="176" x="1053" y="1246"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="10" language="java" name="livelessons.streams.ImageStreamCompletableFuture2" project="ImageStreamGangApp" 
-    file="/ImageStreamGangApp/src/main/java/livelessons/streams/ImageStreamCompletableFuture2.java" binary="false" 
-    corner="BOTTOM_RIGHT">    
-    <position height="105" width="215" x="1030" y="886"/>    
-    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
+  <interface id="21" language="java" name="utils.ExceptionUtils.Consumer_WithExceptions" project="ImageStreamGangApp" 
+    file="/ImageStreamGangApp/src/main/java/utils/ExceptionUtils.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="65" width="200" x="264" y="2252"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="22" language="java" name="utils.BlockingTask" project="ImageStreamGangApp" 
+    file="/ImageStreamGangApp/src/main/java/utils/BlockingTask.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="119" width="128" x="1169" y="1087"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="11" language="java" name="livelessons.streams.ImageStreamCompletableFutureBase" 
-    project="ImageStreamGangApp" 
-    file="/ImageStreamGangApp/src/main/java/livelessons/streams/ImageStreamCompletableFutureBase.java" binary="false" 
-    corner="BOTTOM_RIGHT">    
-    <position height="87" width="239" x="1048" y="759"/>    
-    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
+  <interface id="23" language="java" name="utils.ExceptionUtils.Function_WithExceptions" project="ImageStreamGangApp" 
+    file="/ImageStreamGangApp/src/main/java/utils/ExceptionUtils.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="65" width="199" x="732" y="2252"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="24" language="java" name="utils.ExceptionUtils.Supplier_WithExceptions" project="ImageStreamGangApp" 
+    file="/ImageStreamGangApp/src/main/java/utils/ExceptionUtils.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="65" width="188" x="504" y="2252"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="25" language="java" name="utils.Image" project="ImageStreamGangApp" 
+    file="/ImageStreamGangApp/src/main/java/utils/Image.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="371" width="139" x="971" y="2252"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="12" language="java" name="livelessons.streams.ImageStreamParallel" project="ImageStreamGangApp" 
-    file="/ImageStreamGangApp/src/main/java/livelessons/streams/ImageStreamParallel.java" binary="false" 
-    corner="BOTTOM_RIGHT">    
-    <position height="87" width="144" x="369" y="886"/>    
-    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <class id="13" language="java" name="livelessons.streams.ImageStreamSequential" project="ImageStreamGangApp" 
-    file="/ImageStreamGangApp/src/main/java/livelessons/streams/ImageStreamSequential.java" binary="false" 
-    corner="BOTTOM_RIGHT">    
-    <position height="105" width="161" x="553" y="886"/>    
-    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <class id="14" language="java" name="livelessons.streams.ImageStreamGang" project="ImageStreamGangApp" 
-    file="/ImageStreamGangApp/src/main/java/livelessons/streams/ImageStreamGang.java" binary="false" 
-    corner="BOTTOM_RIGHT">    
-    <position height="339" width="199" x="1350" y="380"/>    
-    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <class id="15" language="java" name="livelessons.streams.ImageStreamCompletableFuture1" project="ImageStreamGangApp" 
-    file="/ImageStreamGangApp/src/main/java/livelessons/streams/ImageStreamCompletableFuture1.java" binary="false" 
-    corner="BOTTOM_RIGHT">    
-    <position height="87" width="215" x="754" y="886"/>    
-    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <enumeration id="16" language="java" name="livelessons.utils.Options.InputSource" project="ImageStreamGangApp" 
-    file="/ImageStreamGangApp/src/main/java/livelessons/utils/Options.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="159" width="175" x="1926" y="1855"/>    
-    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
+  <enumeration id="26" language="java" name="utils.Options.InputSource" project="ImageStreamGangApp" 
+    file="/ImageStreamGangApp/src/main/java/utils/Options.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="173" width="175" x="103" y="2021"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </enumeration>  
-  <class id="17" language="java" name="livelessons.utils.BlockingTask.SupplierManagedBlock" project="ImageStreamGangApp" 
-    file="/ImageStreamGangApp/src/main/java/livelessons/utils/BlockingTask.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="159" width="176" x="1134" y="380"/>    
-    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
+  <class id="27" language="java" name="utils.Options" project="ImageStreamGangApp" 
+    file="/ImageStreamGangApp/src/main/java/utils/Options.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="389" width="172" x="288" y="1582"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <interface id="18" language="java" name="livelessons.utils.ExceptionUtils.Consumer_WithExceptions" 
-    project="ImageStreamGangApp" file="/ImageStreamGangApp/src/main/java/livelessons/utils/ExceptionUtils.java" 
-    binary="false" corner="BOTTOM_RIGHT">    
-    <position height="51" width="200" x="1633" y="2072"/>    
-    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </interface>  
-  <class id="19" language="java" name="livelessons.utils.NetUtils" project="ImageStreamGangApp" 
-    file="/ImageStreamGangApp/src/main/java/livelessons/utils/NetUtils.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="159" width="149" x="1593" y="2469"/>    
-    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <class id="20" language="java" name="livelessons.utils.BlockingTask" project="ImageStreamGangApp" 
-    file="/ImageStreamGangApp/src/main/java/livelessons/utils/BlockingTask.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="105" width="128" x="1034" y="37"/>    
-    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <class id="21" language="java" name="livelessons.utils.StreamsUtils" project="ImageStreamGangApp" 
-    file="/ImageStreamGangApp/src/main/java/livelessons/utils/StreamsUtils.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="105" width="98" x="710" y="1031"/>    
-    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <interface id="22" language="java" name="livelessons.utils.ExceptionUtils.Supplier_WithExceptions" 
-    project="ImageStreamGangApp" file="/ImageStreamGangApp/src/main/java/livelessons/utils/ExceptionUtils.java" 
-    binary="false" corner="BOTTOM_RIGHT">    
-    <position height="51" width="188" x="2325" y="2072"/>    
-    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </interface>  
-  <interface id="23" language="java" name="livelessons.utils.ExceptionUtils.Runnable_WithExceptions" 
-    project="ImageStreamGangApp" file="/ImageStreamGangApp/src/main/java/livelessons/utils/ExceptionUtils.java" 
-    binary="false" corner="BOTTOM_RIGHT">    
-    <position height="51" width="173" x="1873" y="2072"/>    
-    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </interface>  
-  <class id="24" language="java" name="livelessons.utils.ExceptionUtils" project="ImageStreamGangApp" 
-    file="/ImageStreamGangApp/src/main/java/livelessons/utils/ExceptionUtils.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="177" width="131" x="1755" y="1855"/>    
-    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <class id="25" language="java" name="livelessons.utils.Options" project="ImageStreamGangApp" 
-    file="/ImageStreamGangApp/src/main/java/livelessons/utils/Options.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="375" width="172" x="1390" y="1430"/>    
-    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <interface id="26" language="java" name="livelessons.utils.ExceptionUtils.Function_WithExceptions" 
-    project="ImageStreamGangApp" file="/ImageStreamGangApp/src/main/java/livelessons/utils/ExceptionUtils.java" 
-    binary="false" corner="BOTTOM_RIGHT">    
-    <position height="51" width="199" x="2086" y="2072"/>    
-    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </interface>  
-  <class id="27" language="java" name="livelessons.utils.Image" project="ImageStreamGangApp" 
-    file="/ImageStreamGangApp/src/main/java/livelessons/utils/Image.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="357" width="139" x="1058" y="2072"/>    
-    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <class id="28" language="java" name="livelessons.utils.BlockingTask.RunnableManagedBlock" project="ImageStreamGangApp" 
-    file="/ImageStreamGangApp/src/main/java/livelessons/utils/BlockingTask.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="123" width="161" x="933" y="380"/>    
-    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
+  <class id="28" language="java" name="utils.StreamsUtils" project="ImageStreamGangApp" 
+    file="/ImageStreamGangApp/src/main/java/utils/StreamsUtils.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="119" width="98" x="636" y="1087"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
   <dependency id="29">    
-    <bendpoint x="1317" y="759"/>    
-    <bendpoint x="1317" y="886"/>    
-    <end type="SOURCE" refId="14"/>    
-    <end type="TARGET" refId="7"/>  
-  </dependency>  
-  <dependency id="30">    
-    <bendpoint x="978" y="1855"/>    
-    <end type="SOURCE" refId="27"/>    
-    <end type="TARGET" refId="8"/>  
-  </dependency>  
-  <dependency id="31">    
-    <end type="SOURCE" refId="1"/>    
-    <end type="TARGET" refId="2"/>  
-  </dependency>  
-  <dependency id="32">    
-    <end type="SOURCE" refId="1"/>    
-    <end type="TARGET" refId="14"/>  
-  </dependency>  
-  <dependency id="33">    
-    <bendpoint x="1275" y="886"/>    
-    <bendpoint x="1074" y="1031"/>    
-    <bendpoint x="1029" y="1176"/>    
-    <bendpoint x="983" y="1321"/>    
-    <end type="SOURCE" refId="11"/>    
-    <end type="TARGET" refId="8"/>  
-  </dependency>  
-  <dependency id="34">    
-    <bendpoint x="317" y="380"/>    
-    <bendpoint x="317" y="759"/>    
-    <bendpoint x="317" y="886"/>    
-    <bendpoint x="317" y="1031"/>    
-    <bendpoint x="317" y="1176"/>    
-    <bendpoint x="338" y="1321"/>    
-    <bendpoint x="380" y="1430"/>    
-    <end type="SOURCE" refId="1"/>    
-    <end type="TARGET" refId="6"/>  
-  </dependency>  
-  <dependency id="35">    
-    <bendpoint x="1296" y="886"/>    
-    <end type="SOURCE" refId="11"/>    
-    <end type="TARGET" refId="7"/>  
-  </dependency>  
-  <generalization id="36">    
-    <end type="SOURCE" refId="10"/>    
-    <end type="TARGET" refId="11"/>  
-  </generalization>  
-  <dependency id="37">    
-    <end type="SOURCE" refId="10"/>    
-    <end type="TARGET" refId="21"/>  
-  </dependency>  
-  <dependency id="38">    
-    <bendpoint x="974" y="1031"/>    
-    <bendpoint x="995" y="1176"/>    
-    <bendpoint x="1004" y="1321"/>    
-    <bendpoint x="1004" y="1430"/>    
-    <bendpoint x="1004" y="1855"/>    
-    <end type="SOURCE" refId="15"/>    
-    <end type="TARGET" refId="27"/>  
-  </dependency>  
-  <association id="39">    
-    <bendpoint x="1025" y="1321"/>    
-    <end type="SOURCE" refId="3" navigable="false">      
-      <attribute id="40" name="mFilter"/>      
-      <multiplicity id="41" minimum="0" maximum="1"/>    
-    </end>    
-    <end type="TARGET" refId="8" navigable="true"/>    
-    <display labels="false" multiplicity="false"/>  
-  </association>  
-  <dependency id="42">    
-    <bendpoint x="1053" y="1031"/>    
-    <bendpoint x="1053" y="1176"/>    
-    <bendpoint x="1067" y="1321"/>    
-    <bendpoint x="1067" y="1430"/>    
-    <bendpoint x="1067" y="1855"/>    
-    <end type="SOURCE" refId="10"/>    
-    <end type="TARGET" refId="27"/>  
-  </dependency>  
-  <dependency id="43">    
-    <end type="SOURCE" refId="25"/>    
-    <end type="TARGET" refId="24"/>  
-  </dependency>  
-  <dependency id="44">    
-    <bendpoint x="359" y="1031"/>    
-    <bendpoint x="338" y="1176"/>    
-    <bendpoint x="317" y="1321"/>    
-    <bendpoint x="317" y="1430"/>    
-    <bendpoint x="317" y="1855"/>    
-    <end type="SOURCE" refId="12"/>    
-    <end type="TARGET" refId="27"/>  
-  </dependency>  
-  <generalization id="45">    
-    <end type="SOURCE" refId="11"/>    
-    <end type="TARGET" refId="14"/>  
-  </generalization>  
-  <dependency id="46">    
-    <end type="SOURCE" refId="24"/>    
-    <end type="TARGET" refId="18"/>  
-  </dependency>  
-  <generalization id="47">    
-    <end type="SOURCE" refId="6"/>    
-    <end type="TARGET" refId="8"/>  
-  </generalization>  
-  <dependency id="48">    
-    <bendpoint x="562" y="380"/>    
-    <bendpoint x="562" y="759"/>    
-    <end type="SOURCE" refId="1"/>    
-    <end type="TARGET" refId="13"/>  
-  </dependency>  
-  <generalization id="49">    
-    <end type="SOURCE" refId="4"/>    
-    <end type="TARGET" refId="8"/>  
-  </generalization>  
-  <dependency id="50">    
-    <bendpoint x="1422" y="759"/>    
-    <bendpoint x="1422" y="886"/>    
-    <bendpoint x="1422" y="1031"/>    
-    <bendpoint x="1422" y="1176"/>    
-    <bendpoint x="1422" y="1321"/>    
+    <bendpoint x="500" y="787"/>    
+    <bendpoint x="500" y="928"/>    
+    <bendpoint x="500" y="1087"/>    
+    <bendpoint x="500" y="1246"/>    
+    <bendpoint x="500" y="1459"/>    
+    <bendpoint x="500" y="1582"/>    
+    <bendpoint x="500" y="2021"/>    
     <end type="SOURCE" refId="14"/>    
     <end type="TARGET" refId="25"/>  
   </dependency>  
-  <association id="51">    
-    <end type="SOURCE" refId="7" navigable="false">      
-      <attribute id="52" name="mFilterDecorator"/>      
-      <multiplicity id="53" minimum="0" maximum="1"/>    
+  <dependency id="30">    
+    <bendpoint x="584" y="1087"/>    
+    <bendpoint x="584" y="1246"/>    
+    <bendpoint x="579" y="1459"/>    
+    <bendpoint x="579" y="1582"/>    
+    <bendpoint x="579" y="2021"/>    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="25"/>  
+  </dependency>  
+  <dependency id="31">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <generalization id="32">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="4"/>  
+  </generalization>  
+  <dependency id="33">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="21"/>  
+  </dependency>  
+  <generalization id="34">    
+    <bendpoint x="1178" y="787"/>    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="14"/>  
+  </generalization>  
+  <dependency id="35">    
+    <end type="SOURCE" refId="27"/>    
+    <end type="TARGET" refId="19"/>  
+  </dependency>  
+  <dependency id="36">    
+    <bendpoint x="1291" y="394"/>    
+    <bendpoint x="1291" y="787"/>    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="13"/>  
+  </dependency>  
+  <dependency id="37">    
+    <bendpoint x="459" y="787"/>    
+    <bendpoint x="459" y="928"/>    
+    <bendpoint x="459" y="1087"/>    
+    <bendpoint x="459" y="1246"/>    
+    <bendpoint x="459" y="1459"/>    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="27"/>  
+  </dependency>  
+  <dependency id="38">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="27"/>  
+  </dependency>  
+  <dependency id="39">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="22"/>  
+  </dependency>  
+  <dependency id="40">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="14"/>  
+  </dependency>  
+  <dependency id="41">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="24"/>  
+  </dependency>  
+  <generalization id="42">    
+    <bendpoint x="944" y="1459"/>    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <dependency id="43">    
+    <bendpoint x="1481" y="1087"/>    
+    <bendpoint x="1502" y="1246"/>    
+    <bendpoint x="1523" y="1459"/>    
+    <bendpoint x="1523" y="1582"/>    
+    <bendpoint x="1523" y="2021"/>    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="25"/>  
+  </dependency>  
+  <dependency id="44">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="45">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="20"/>  
+  </dependency>  
+  <dependency id="46">    
+    <bendpoint x="479" y="2021"/>    
+    <end type="SOURCE" refId="27"/>    
+    <end type="TARGET" refId="23"/>  
+  </dependency>  
+  <dependency id="47">    
+    <bendpoint x="542" y="928"/>    
+    <bendpoint x="542" y="1087"/>    
+    <bendpoint x="542" y="1246"/>    
+    <bendpoint x="542" y="1459"/>    
+    <bendpoint x="542" y="1582"/>    
+    <bendpoint x="542" y="2021"/>    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="25"/>  
+  </dependency>  
+  <dependency id="48">    
+    <bendpoint x="1565" y="394"/>    
+    <bendpoint x="1565" y="787"/>    
+    <bendpoint x="1564" y="928"/>    
+    <bendpoint x="1564" y="1087"/>    
+    <bendpoint x="1565" y="1246"/>    
+    <bendpoint x="1544" y="1459"/>    
+    <bendpoint x="1502" y="1582"/>    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <dependency id="49">    
+    <bendpoint x="1157" y="394"/>    
+    <bendpoint x="1157" y="787"/>    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="11"/>  
+  </dependency>  
+  <dependency id="50">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="23"/>  
+  </dependency>  
+  <dependency id="51">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="18"/>  
+  </dependency>  
+  <dependency id="52">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="28"/>  
+  </dependency>  
+  <dependency id="53">    
+    <bendpoint x="318" y="787"/>    
+    <bendpoint x="278" y="928"/>    
+    <bendpoint x="237" y="1087"/>    
+    <bendpoint x="195" y="1246"/>    
+    <bendpoint x="152" y="1459"/>    
+    <bendpoint x="109" y="1582"/>    
+    <bendpoint x="65" y="2021"/>    
+    <bendpoint x="20" y="2252"/>    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="17"/>  
+  </dependency>  
+  <generalization id="54">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="14"/>  
+  </generalization>  
+  <generalization id="55">    
+    <bendpoint x="1199" y="787"/>    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="14"/>  
+  </generalization>  
+  <generalization id="56">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="7"/>  
+  </generalization>  
+  <dependency id="57">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="12"/>  
+  </dependency>  
+  <association id="58">    
+    <end type="SOURCE" refId="27" navigable="false">      
+      <attribute id="59" name="mInputSource"/>      
+      <multiplicity id="60" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="26" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <dependency id="61">    
+    <bendpoint x="821" y="787"/>    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="14"/>  
+  </dependency>  
+  <association id="62">    
+    <bendpoint x="923" y="1459"/>    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="63" name="mFilter"/>      
+      <multiplicity id="64" minimum="0" maximum="1"/>    
     </end>    
     <end type="TARGET" refId="3" navigable="true"/>    
     <display labels="false" multiplicity="false"/>  
   </association>  
-  <dependency id="54">    
+  <dependency id="65">    
+    <bendpoint x="766" y="1582"/>    
+    <bendpoint x="766" y="2021"/>    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="25"/>  
+  </dependency>  
+  <dependency id="66">    
+    <bendpoint x="829" y="1459"/>    
+    <bendpoint x="829" y="1582"/>    
+    <bendpoint x="829" y="2021"/>    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="25"/>  
+  </dependency>  
+  <dependency id="67">    
+    <bendpoint x="1502" y="1087"/>    
+    <bendpoint x="1481" y="1246"/>    
+    <bendpoint x="1481" y="1459"/>    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="68">    
+    <bendpoint x="863" y="787"/>    
+    <bendpoint x="860" y="928"/>    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="69">    
+    <bendpoint x="842" y="394"/>    
+    <bendpoint x="842" y="787"/>    
     <end type="SOURCE" refId="15"/>    
-    <end type="TARGET" refId="21"/>  
+    <end type="TARGET" refId="10"/>  
   </dependency>  
-  <dependency id="55">    
-    <bendpoint x="763" y="380"/>    
-    <bendpoint x="763" y="759"/>    
-    <end type="SOURCE" refId="1"/>    
-    <end type="TARGET" refId="15"/>  
+  <dependency id="70">    
+    <bendpoint x="563" y="928"/>    
+    <bendpoint x="563" y="1087"/>    
+    <bendpoint x="685" y="1246"/>    
+    <bendpoint x="808" y="1459"/>    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="3"/>  
   </dependency>  
-  <dependency id="56">    
-    <bendpoint x="838" y="1031"/>    
-    <bendpoint x="838" y="1176"/>    
-    <bendpoint x="838" y="1321"/>    
-    <end type="SOURCE" refId="15"/>    
-    <end type="TARGET" refId="8"/>  
+  <dependency id="71">    
+    <bendpoint x="884" y="787"/>    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="14"/>  
   </dependency>  
-  <generalization id="57">    
+  <dependency id="72">    
+    <bendpoint x="1007" y="1087"/>    
+    <bendpoint x="1001" y="1246"/>    
+    <bendpoint x="1001" y="1459"/>    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="73">    
+    <bendpoint x="605" y="1087"/>    
+    <bendpoint x="808" y="1246"/>    
+    <bendpoint x="850" y="1459"/>    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <generalization id="74">    
     <end type="SOURCE" refId="5"/>    
     <end type="TARGET" refId="3"/>  
   </generalization>  
-  <dependency id="58">    
-    <end type="SOURCE" refId="5"/>    
-    <end type="TARGET" refId="8"/>  
-  </dependency>  
-  <generalization id="59">    
-    <bendpoint x="742" y="759"/>    
-    <end type="SOURCE" refId="12"/>    
-    <end type="TARGET" refId="14"/>  
-  </generalization>  
-  <dependency id="60">    
-    <end type="SOURCE" refId="27"/>    
-    <end type="TARGET" refId="19"/>  
-  </dependency>  
-  <dependency id="61">    
-    <bendpoint x="396" y="1031"/>    
-    <bendpoint x="401" y="1176"/>    
-    <bendpoint x="401" y="1321"/>    
-    <end type="SOURCE" refId="12"/>    
-    <end type="TARGET" refId="8"/>  
-  </dependency>  
-  <association id="62">    
-    <bendpoint x="999" y="759"/>    
-    <bendpoint x="999" y="886"/>    
-    <bendpoint x="953" y="1031"/>    
-    <bendpoint x="947" y="1176"/>    
-    <bendpoint x="941" y="1321"/>    
-    <end type="SOURCE" refId="14" navigable="false">      
-      <attribute id="63" name="mFilters"/>      
-      <multiplicity id="64" minimum="0" maximum="2147483647"/>    
-    </end>    
-    <end type="TARGET" refId="8" navigable="true"/>    
-    <display labels="false" multiplicity="false"/>  
-  </association>  
-  <dependency id="65">    
-    <end type="SOURCE" refId="24"/>    
-    <end type="TARGET" refId="23"/>  
-  </dependency>  
-  <dependency id="66">    
-    <bendpoint x="1338" y="886"/>    
-    <bendpoint x="1338" y="1031"/>    
-    <bendpoint x="1338" y="1176"/>    
-    <bendpoint x="1338" y="1321"/>    
-    <bendpoint x="1338" y="1430"/>    
-    <bendpoint x="1338" y="1855"/>    
-    <end type="SOURCE" refId="11"/>    
-    <end type="TARGET" refId="27"/>  
-  </dependency>  
-  <dependency id="67">    
-    <end type="SOURCE" refId="10"/>    
-    <end type="TARGET" refId="7"/>  
-  </dependency>  
-  <generalization id="68">    
-    <bendpoint x="1046" y="1321"/>    
-    <end type="SOURCE" refId="3"/>    
-    <end type="TARGET" refId="8"/>  
-  </generalization>  
-  <generalization id="69">    
-    <end type="SOURCE" refId="14"/>    
-    <end type="TARGET" refId="9"/>  
-  </generalization>  
-  <dependency id="70">    
-    <bendpoint x="995" y="1031"/>    
-    <bendpoint x="974" y="1176"/>    
-    <bendpoint x="962" y="1321"/>    
-    <end type="SOURCE" refId="10"/>    
-    <end type="TARGET" refId="8"/>  
-  </dependency>  
-  <dependency id="71">    
-    <end type="SOURCE" refId="13"/>    
-    <end type="TARGET" refId="21"/>  
-  </dependency>  
-  <dependency id="72">    
-    <end type="SOURCE" refId="20"/>    
-    <end type="TARGET" refId="28"/>  
-  </dependency>  
-  <dependency id="73">    
-    <end type="SOURCE" refId="5"/>    
-    <end type="TARGET" refId="25"/>  
-  </dependency>  
-  <dependency id="74">    
-    <bendpoint x="1602" y="759"/>    
-    <bendpoint x="1602" y="886"/>    
-    <bendpoint x="1602" y="1031"/>    
-    <bendpoint x="1602" y="1176"/>    
-    <bendpoint x="1602" y="1321"/>    
-    <bendpoint x="1602" y="1430"/>    
-    <bendpoint x="1602" y="1855"/>    
-    <bendpoint x="1602" y="2072"/>    
-    <end type="SOURCE" refId="14"/>    
-    <end type="TARGET" refId="19"/>  
-  </dependency>  
   <dependency id="75">    
-    <end type="SOURCE" refId="20"/>    
-    <end type="TARGET" refId="17"/>  
-  </dependency>  
-  <dependency id="76">    
-    <end type="SOURCE" refId="24"/>    
-    <end type="TARGET" refId="22"/>  
-  </dependency>  
-  <dependency id="77">    
-    <bendpoint x="296" y="380"/>    
-    <bendpoint x="296" y="759"/>    
-    <bendpoint x="296" y="886"/>    
-    <bendpoint x="296" y="1031"/>    
-    <bendpoint x="296" y="1176"/>    
-    <bendpoint x="296" y="1321"/>    
-    <bendpoint x="338" y="1430"/>    
-    <end type="SOURCE" refId="1"/>    
-    <end type="TARGET" refId="4"/>  
-  </dependency>  
-  <dependency id="78">    
-    <bendpoint x="679" y="1031"/>    
-    <bendpoint x="679" y="1176"/>    
-    <bendpoint x="679" y="1321"/>    
-    <end type="SOURCE" refId="13"/>    
-    <end type="TARGET" refId="8"/>  
-  </dependency>  
-  <dependency id="79">    
-    <bendpoint x="1359" y="759"/>    
-    <bendpoint x="1359" y="886"/>    
-    <bendpoint x="1317" y="1031"/>    
-    <bendpoint x="1317" y="1176"/>    
-    <end type="SOURCE" refId="14"/>    
+    <bendpoint x="1586" y="394"/>    
+    <bendpoint x="1586" y="787"/>    
+    <bendpoint x="1586" y="928"/>    
+    <bendpoint x="1586" y="1087"/>    
+    <bendpoint x="1586" y="1246"/>    
+    <bendpoint x="1586" y="1459"/>    
+    <bendpoint x="1544" y="1582"/>    
+    <end type="SOURCE" refId="15"/>    
     <end type="TARGET" refId="5"/>  
   </dependency>  
-  <association id="80">    
-    <end type="SOURCE" refId="25" navigable="false">      
-      <attribute id="81" name="mInputSource"/>      
-      <multiplicity id="82" minimum="0" maximum="1"/>    
-    </end>    
-    <end type="TARGET" refId="16" navigable="true"/>    
-    <display labels="false" multiplicity="false"/>  
-  </association>  
-  <dependency id="83">    
-    <end type="SOURCE" refId="24"/>    
-    <end type="TARGET" refId="26"/>  
-  </dependency>  
-  <association id="84">    
-    <end type="SOURCE" refId="25" navigable="false">      
-      <attribute id="85" name="mUniqueInstance"/>      
-      <multiplicity id="86" minimum="0" maximum="1"/>    
-    </end>    
-    <end type="TARGET" refId="25" navigable="true"/>    
-    <display labels="false" multiplicity="false"/>  
-  </association>  
-  <generalization id="87">    
-    <bendpoint x="860" y="759"/>    
-    <end type="SOURCE" refId="13"/>    
-    <end type="TARGET" refId="14"/>  
-  </generalization>  
-  <dependency id="88">    
-    <bendpoint x="417" y="1031"/>    
-    <bendpoint x="380" y="1176"/>    
-    <bendpoint x="359" y="1321"/>    
-    <bendpoint x="359" y="1430"/>    
-    <bendpoint x="359" y="1855"/>    
-    <end type="SOURCE" refId="13"/>    
+  <dependency id="76">    
+    <bendpoint x="297" y="394"/>    
+    <bendpoint x="297" y="787"/>    
+    <bendpoint x="297" y="928"/>    
+    <bendpoint x="297" y="1087"/>    
+    <bendpoint x="297" y="1246"/>    
+    <bendpoint x="297" y="1459"/>    
+    <end type="SOURCE" refId="15"/>    
     <end type="TARGET" refId="27"/>  
   </dependency>  
-  <dependency id="89">    
-    <end type="SOURCE" refId="12"/>    
-    <end type="TARGET" refId="21"/>  
+  <dependency id="77">    
+    <bendpoint x="1001" y="2021"/>    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="3"/>  
   </dependency>  
-  <dependency id="90">    
-    <bendpoint x="902" y="380"/>    
-    <bendpoint x="1338" y="759"/>    
-    <bendpoint x="1380" y="886"/>    
-    <bendpoint x="1380" y="1031"/>    
-    <bendpoint x="1380" y="1176"/>    
-    <bendpoint x="1380" y="1321"/>    
-    <end type="SOURCE" refId="1"/>    
+  <association id="78">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="79" name="mFilterDecorator"/>      
+      <multiplicity id="80" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <dependency id="81">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="82">    
+    <bendpoint x="521" y="787"/>    
+    <bendpoint x="521" y="928"/>    
+    <bendpoint x="521" y="1087"/>    
+    <bendpoint x="563" y="1246"/>    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <dependency id="83">    
+    <bendpoint x="1220" y="394"/>    
+    <bendpoint x="1220" y="787"/>    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="9"/>  
+  </dependency>  
+  <generalization id="84">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <dependency id="85">    
+    <bendpoint x="1523" y="1087"/>    
+    <bendpoint x="1544" y="1246"/>    
+    <bendpoint x="1565" y="1459"/>    
+    <bendpoint x="1565" y="1582"/>    
+    <bendpoint x="1565" y="2021"/>    
+    <end type="SOURCE" refId="13"/>    
     <end type="TARGET" refId="25"/>  
   </dependency>  
-  <dependency id="91">    
-    <bendpoint x="1401" y="759"/>    
-    <bendpoint x="1401" y="886"/>    
-    <bendpoint x="1401" y="1031"/>    
-    <bendpoint x="1401" y="1176"/>    
-    <bendpoint x="1359" y="1321"/>    
-    <bendpoint x="1359" y="1430"/>    
-    <bendpoint x="1359" y="1855"/>    
+  <association id="86">    
+    <bendpoint x="1544" y="394"/>    
+    <bendpoint x="1544" y="787"/>    
+    <bendpoint x="1544" y="928"/>    
+    <bendpoint x="1544" y="1087"/>    
+    <bendpoint x="1523" y="1246"/>    
+    <bendpoint x="1502" y="1459"/>    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="87" name="mFilters"/>      
+      <multiplicity id="88" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <generalization id="89">    
     <end type="SOURCE" refId="14"/>    
-    <end type="TARGET" refId="27"/>  
-  </dependency>  
-  <generalization id="92">    
-    <end type="SOURCE" refId="15"/>    
-    <end type="TARGET" refId="11"/>  
+    <end type="TARGET" refId="8"/>  
   </generalization>  
-  <dependency id="93">    
-    <bendpoint x="881" y="380"/>    
-    <bendpoint x="881" y="759"/>    
-    <end type="SOURCE" refId="1"/>    
-    <end type="TARGET" refId="10"/>  
+  <dependency id="90">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="1"/>  
   </dependency>  
-  <association id="94">    
-    <bendpoint x="1296" y="1176"/>    
-    <bendpoint x="1296" y="1321"/>    
-    <bendpoint x="1296" y="1430"/>    
-    <bendpoint x="1296" y="1855"/>    
-    <end type="SOURCE" refId="7" navigable="false">      
-      <attribute id="95" name="mImage"/>      
-      <multiplicity id="96" minimum="0" maximum="1"/>    
+  <dependency id="91">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="25"/>  
+  </dependency>  
+  <dependency id="92">    
+    <bendpoint x="839" y="928"/>    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="93">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="94">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="28"/>  
+  </dependency>  
+  <association id="95">    
+    <end type="SOURCE" refId="27" navigable="false">      
+      <attribute id="96" name="mUniqueInstance"/>      
+      <multiplicity id="97" minimum="0" maximum="1"/>    
     </end>    
     <end type="TARGET" refId="27" navigable="true"/>    
     <display labels="false" multiplicity="false"/>  
   </association>  
-  <dependency id="97">    
-    <end type="SOURCE" refId="6"/>    
-    <end type="TARGET" refId="27"/>  
-  </dependency>  
-  <dependency id="98">    
-    <bendpoint x="1088" y="1321"/>    
-    <bendpoint x="1088" y="1430"/>    
-    <bendpoint x="1088" y="1855"/>    
-    <end type="SOURCE" refId="3"/>    
-    <end type="TARGET" refId="27"/>  
-  </dependency>  
-  <dependency id="99">    
-    <end type="SOURCE" refId="4"/>    
-    <end type="TARGET" refId="27"/>  
-  </dependency>  
-  <association id="100">    
-    <bendpoint x="338" y="380"/>    
-    <bendpoint x="338" y="759"/>    
-    <bendpoint x="338" y="886"/>    
-    <bendpoint x="338" y="1031"/>    
-    <bendpoint x="359" y="1176"/>    
-    <bendpoint x="380" y="1321"/>    
-    <end type="SOURCE" refId="1" navigable="false">      
-      <attribute id="101" name="mFilters"/>      
-      <multiplicity id="102" minimum="0" maximum="2147483647"/>    
+  <association id="98">    
+    <bendpoint x="1136" y="787"/>    
+    <bendpoint x="1136" y="928"/>    
+    <bendpoint x="1079" y="1087"/>    
+    <bendpoint x="1022" y="1246"/>    
+    <bendpoint x="1022" y="1459"/>    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="99" name="mFilters"/>      
+      <multiplicity id="100" minimum="0" maximum="2147483647"/>    
     </end>    
-    <end type="TARGET" refId="8" navigable="true"/>    
+    <end type="TARGET" refId="3" navigable="true"/>    
     <display labels="false" multiplicity="false"/>  
   </association>  
-  <dependency id="103">    
-    <bendpoint x="1109" y="1430"/>    
-    <bendpoint x="1109" y="1855"/>    
-    <end type="SOURCE" refId="5"/>    
-    <end type="TARGET" refId="27"/>  
+  <dependency id="101">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="16"/>  
   </dependency>  
+  <dependency id="102">    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="17"/>  
+  </dependency>  
+  <generalization id="103">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="7"/>  
+  </generalization>  
   <dependency id="104">    
-    <bendpoint x="470" y="380"/>    
-    <bendpoint x="470" y="759"/>    
-    <end type="SOURCE" refId="1"/>    
-    <end type="TARGET" refId="12"/>  
+    <bendpoint x="986" y="1087"/>    
+    <bendpoint x="980" y="1246"/>    
+    <bendpoint x="980" y="1459"/>    
+    <bendpoint x="980" y="1582"/>    
+    <bendpoint x="980" y="2021"/>    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="25"/>  
   </dependency>  
-  <classifier-display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
+  <dependency id="105">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="25"/>  
+  </dependency>  
+  <association id="106">    
+    <bendpoint x="787" y="1246"/>    
+    <bendpoint x="787" y="1459"/>    
+    <bendpoint x="787" y="1582"/>    
+    <bendpoint x="787" y="2021"/>    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="107" name="mImage"/>      
+      <multiplicity id="108" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="25" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <dependency id="109">    
+    <bendpoint x="1460" y="1087"/>    
+    <bendpoint x="1460" y="1246"/>    
+    <bendpoint x="1460" y="1459"/>    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <classifier-display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" 
     sort-features="false" accessors="true" visibility="true">    
     <attributes public="true" package="true" protected="true" private="true" static="true"/>    
     <operations public="true" package="true" protected="true" private="true" static="true"/>  

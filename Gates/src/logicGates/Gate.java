@@ -5,11 +5,21 @@
  */
 package logicGates;
 
-import Pins.*;
-import Errors.*;
-import GatesApp.*;
-import java.util.*;
+//import Pins.*;
+//import Errors.*;
+//import GatesApp.*;
+import Pins.InputPin;
+import Pins.OutputPin;
+
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.LinkedList;
+
+//import java.util.*;
 //import static logicGates.And.table;
+
+import Errors.NoPinFound;
+import GatesApp.Value;
 
 /**
  *
@@ -23,8 +33,8 @@ public abstract class Gate extends Printable {
 
     public Gate(String name) {
         this.name = name;
-        inputs = new HashMap<>();
-        outputs = new HashMap<>();
+        inputs = new HashMap<String, InputPin>();
+        outputs = new HashMap<String, OutputPin>();
     }
 
     public InputPin getInput(String name) {
@@ -59,7 +69,7 @@ public abstract class Gate extends Printable {
         System.out.println(" )");
     }
 
-    @Feature(Feature.tables)
+    //@Feature(Feature.tables)
     public static void resetDB() {
         And.resetTable();
         Not.resetTable();
@@ -70,12 +80,12 @@ public abstract class Gate extends Printable {
     }
 
     public static void printDB() {
-        printTable("And", And.getTable());
-        printTable("Or", Or.getTable());
-        printTable("Not", Not.getTable());
-        printTable("Wire", Wire.getTable());
-        printTable("InputPort", InputPort.getTable());
-        printTable("OutputPort", OutputPort.getTable());
+        logicGates.Gate.printTable("And", And.getTable());
+        logicGates.Gate.printTable("Or", Or.getTable());
+        logicGates.Gate.printTable("Not", Not.getTable());
+        logicGates.Gate.printTable("Wire", Wire.getTable());
+        logicGates.Gate.printTable("InputPort", InputPort.getTable());
+        logicGates.Gate.printTable("OutputPort", OutputPort.getTable());
     }
 
     public static <G extends Printable> void printTable(String ttype, LinkedList<G> t) {
@@ -84,7 +94,7 @@ public abstract class Gate extends Printable {
         }
     }
 
-    @Feature(Feature.constraints)
+    //@Feature(Feature.constraints)
     public boolean extra() {  // subclasses override this method if something special needs to be done
         return true;
     }
@@ -114,7 +124,7 @@ public abstract class Gate extends Printable {
     }
 
     public static <G extends Gate> boolean verify(String label, LinkedList<G> table) {
-        HashSet<String> hs = new HashSet<>();
+        HashSet<String> hs = new HashSet<String>();
         boolean OK = true;
         for (G a : table) {
 
@@ -142,6 +152,6 @@ public abstract class Gate extends Printable {
         return OK;
     }
 
-    @Feature(Feature.eval)    
-    public abstract Value getValue();  // evaluate gate(inputs)
+    //@Feature(Feature.eval)    
+    public abstract int getValue();  // evaluate gate(inputs)
 }

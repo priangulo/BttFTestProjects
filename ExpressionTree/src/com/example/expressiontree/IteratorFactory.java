@@ -13,14 +13,6 @@ import java.util.HashMap;
  *        in the Factory Method pattern.
  */
 public class IteratorFactory {
-    /** 
-     * This interface uses the Command pattern to create @a Iterator
-     * implementations at runtime.
-     */
-    public static interface IIteratorFactoryCommand {
-        public Iterator<ExpressionTree> execute(ExpressionTree tree);
-    }
-
     /**
      * Map used to validate input requests for @a Iterator
      * implementations and dispatch the execute() method of the

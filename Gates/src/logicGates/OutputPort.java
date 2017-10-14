@@ -5,10 +5,16 @@
  */
 package logicGates;
 
-import Pins.*;
-import GatesApp.*;
-import java.util.*;
+//import Pins.*;
+//import GatesApp.*;
+import Pins.InputPin;
+
+import java.util.LinkedList;
+
+//import java.util.*;
 //import static logicGates.InputPort.table;
+
+import GatesApp.Value;
 
 /**
  *
@@ -20,28 +26,28 @@ public class OutputPort extends Gate {
         super(name);
         InputPin i1 = new InputPin("i1",this);
         inputs.put("i1",i1);
-        if (Feature.tables) {
+        //if (Feature.tables) {
             table.add(this);
-        }
+        //}
     }
     
     public InputPin getInput() { 
         return inputs.get("i1");
     }
     
-    @Feature(Feature.tables)     
+    //@Feature(Feature.tables)     
     static LinkedList<Gate> table;
     
     public static void resetTable() {
-        table = new LinkedList<>();
+        table = new LinkedList<Gate>();
     }
     
     public static LinkedList<Gate> getTable() { 
         return table;
     }
     
-    @Feature(Feature.eval)    
-    public Value getValue() {
+    //@Feature(Feature.eval)    
+    public int getValue() {
         return getInput().getValue();
     }
 }

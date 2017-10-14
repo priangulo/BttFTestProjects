@@ -1,7 +1,6 @@
 package com.example.expressiontree;
 
 import com.example.expressiontree.UninitializedState;
-import com.example.expressiontree.Interpreter.SymbolTable;
 
 /**
  * @class TreeOps

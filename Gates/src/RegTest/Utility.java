@@ -27,7 +27,7 @@ public class Utility {
     // internal utility methods
     private static void sortFile(String inFileName, String outFileName, String[] eliminate) {
         BufferedReader br;
-        LinkedList<String> lines = new LinkedList<>();
+        LinkedList<String> lines = new LinkedList<String>();
         String line;
 
         try {

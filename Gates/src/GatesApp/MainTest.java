@@ -13,6 +13,7 @@ import logicGates.Or;
 import logicGates.OutputPort;
 import logicGates.Wire;
 import org.junit.Test;
+import RegTest.Utility;
 //import static org.junit.Assert.*;
 
 /**
@@ -34,9 +35,9 @@ public class MainTest {
         RegTest.Utility.init();
         RegTest.Utility.redirectStdOut("output.txt");
         
-        if (Feature.tables) {
+        //if (Feature.tables) {
             Gate.resetDB();
-        }
+        //}
 
         a = new InputPort("a");
         b = new InputPort("b");
@@ -62,23 +63,23 @@ public class MainTest {
         new Wire(and1, r);
         new Wire(or3, t);
 
-        if (Feature.tables) {
+        //if (Feature.tables) {
             Gate.printDB();
-        }
+        //}
 
-        if (Feature.constraints) {
+        //if (Feature.constraints) {
             System.out.println("Model is correct: " + Gate.verify());
-        }
+        //}
 
-        if (Feature.eval) {
+        //if (Feature.eval) {
             boolean noErrors = true;
 
             a.setValue(Value.TRUE);
             b.setValue(Value.FALSE);
             c.setValue(Value.FALSE);
             d.setValue(Value.FALSE);
-            Value rvalue = r.getValue();
-            Value tvalue = t.getValue();
+            int rvalue = r.getValue();
+            int tvalue = t.getValue();
             if (rvalue != Value.FALSE) {
                 System.out.println("r value is wrong");
                 noErrors = false;
@@ -92,7 +93,7 @@ public class MainTest {
             }
             
             RegTest.Utility.validate("output.txt", "Correct/h2Example.txt", false);
-        }
+        //}
 
     }
     
@@ -108,9 +109,9 @@ public class MainTest {
         RegTest.Utility.init();
         RegTest.Utility.redirectStdOut("output.txt");
         
-        if (Feature.tables) {
+        //if (Feature.tables) {
             Gate.resetDB();
-        }
+        //}
         
         a = new InputPort("a");
         b = new InputPort("b");
@@ -131,29 +132,29 @@ public class MainTest {
         new Wire(a2,o1,"i2");
         new Wire(o1,r);
                 
-        if (Feature.tables) {
+        //if (Feature.tables) {
             Gate.printDB();
-        }
+        //}
         
-        if (Feature.constraints) {
+        //if (Feature.constraints) {
             boolean result = Gate.verify();
             System.out.println("Model is correct: " + result);
             if (!result)
                 return;
-        }
+        //}
         
-        if (Feature.eval) {
+        //if (Feature.eval) {
             a.setValue(Value.TRUE);
             b.setValue(Value.FALSE);
 
 
-            Value rvalue = r.getValue();
+            int rvalue = r.getValue();
             if (rvalue != Value.FALSE) {
                 System.out.println("r value is wrong");
             } else {
                 System.out.println("\nEvaluation of circuit is Correct!");
             }
-        }
+        //}
         RegTest.Utility.validate("output.txt", "Correct/aEQb.txt", false);
     }
 
@@ -164,9 +165,9 @@ public class MainTest {
         RegTest.Utility.init();
         RegTest.Utility.redirectStdOut("output.txt");
         
-        if (Feature.tables) {
+        //if (Feature.tables) {
             Gate.resetDB();
-        }
+        //}
         
         InputPort a = new InputPort("a");
         InputPort b = new InputPort("b");
@@ -192,30 +193,30 @@ public class MainTest {
         new Wire(a2,o1,"i2");
         new Wire(o1,r);
                 
-        if (Feature.tables) {
+        //if (Feature.tables) {
             Gate.printDB();
-        }
+        //}
         
-        if (Feature.constraints) {
+        //if (Feature.constraints) {
             boolean result = Gate.verify();
             System.out.println("Model is correct: " + result);
             if (!result)
                 return;
-        }
+        //}
         
-        if (Feature.eval) {
+        //if (Feature.eval) {
             
             a.setValue(Value.TRUE);
             b.setValue(Value.FALSE);
 
 
-            Value rvalue = r.getValue();
+            int rvalue = r.getValue();
             if (rvalue != Value.TRUE) {
                 System.out.println("r value is wrong");
             } else {
                 System.out.println("\nEvaluation of circuit is Correct!");
             }
-        }
+        //}
         
         RegTest.Utility.validate("output.txt", "Correct/aNEb.txt", false);
     }

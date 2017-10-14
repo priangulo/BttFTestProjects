@@ -9,14 +9,6 @@ import java.util.HashMap;
  *        designated @a Platform implementation at runtime.
  */
 public class PlatformFactory {
-    /** 
-     * This interface uses the Command pattern to create @a Platform
-     * implementations at runtime.
-     */
-    private static interface IPlatformFactoryCommand {
-        public Platform execute();
-    }
-	
     /**
      * HashMap used to map strings containing the Java platform names
      * and dispatch the execute() method of the associated @a Platform

@@ -5,9 +5,11 @@
  */
 package Pins;
 
-import GatesApp.*;
+//import GatesApp.*;
 import logicGates.Gate;
-import Errors.*;
+import Errors.PinAlreadySet;
+//import Errors.*;
+import GatesApp.Value;
 import logicGates.Wire;
 
 /**
@@ -36,7 +38,7 @@ public class InputPin {
         return inputOf.name + "." +name;
     }
     
-    @Feature(Feature.constraints)    
+    //@Feature(Feature.constraints)    
     public boolean isUsed() {
         return wireFrom != null;
     }
@@ -45,8 +47,8 @@ public class InputPin {
         return inputOf.name;
     }
     
-    @Feature(Feature.eval)    /*  this is for circuit execution */    
-    public Value getValue() {
+    //@Feature(Feature.eval)    /*  this is for circuit execution */    
+    public int getValue() {
         return wireFrom.getValue();
     }
 }

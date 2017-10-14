@@ -11,4 +11,8 @@ package GatesApp;
  *
  * @author don
  */
-public enum Value { TRUE, UNKNOWN, FALSE }
+public class Value { 
+	public static int TRUE = 1;
+	public static int UNKNOWN = 2;
+	public static int FALSE = 3;
+}

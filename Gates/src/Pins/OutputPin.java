@@ -5,9 +5,15 @@
  */
 package Pins;
 
-import java.util.*;
-import logicGates.*;
-import GatesApp.*;
+//import java.util.*;
+//import logicGates.*;
+
+import java.util.AbstractList;
+import java.util.LinkedList;
+
+import GatesApp.Value;
+//import GatesApp.*;
+import logicGates.Gate;
 import logicGates.Wire;
 
 /**
@@ -15,7 +21,7 @@ import logicGates.Wire;
  * @author don
  */
 public class OutputPin {
-    Value value;
+	int value;
     public String name;
     Gate outputOf;
     AbstractList<Wire> wiresFrom;
@@ -23,7 +29,7 @@ public class OutputPin {
     public OutputPin(String name, Gate parent) {
         this.name = name;
         outputOf = parent;
-        wiresFrom = new LinkedList<>();
+        wiresFrom = new LinkedList<Wire>();
         value = Value.UNKNOWN;
     }
     
@@ -39,13 +45,13 @@ public class OutputPin {
         return outputOf.name;
     }
     
-    @Feature(Feature.constraints)    
+    //@Feature(Feature.constraints)    
     public boolean isUsed() {
         return !wiresFrom.isEmpty();
     }
     
-    @Feature(Feature.eval)    
-    public Value getValue() {
+    //@Feature(Feature.eval)    
+    public int getValue() {
         return outputOf.getValue();
     }
 }

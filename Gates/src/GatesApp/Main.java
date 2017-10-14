@@ -1,5 +1,12 @@
 package GatesApp;
 
+import logicGates.And;
+import logicGates.Gate;
+import logicGates.InputPort;
+import logicGates.Not;
+import logicGates.Or;
+import logicGates.OutputPort;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -7,7 +14,7 @@ package GatesApp;
  */
 
 import logicGates.Wire;
-import logicGates.*;
+//import logicGates.*;
 
 /**
  *
@@ -25,9 +32,9 @@ public class Main {
     
     public static void aCircuit() {
         // is a == b?
-        if (Feature.tables) {
+        //if (Feature.tables) {
             Gate.resetDB();
-        }
+        //}
         
         InputPort a = new InputPort("a");
         InputPort b = new InputPort("b");
@@ -53,29 +60,29 @@ public class Main {
         new Wire(a2,o1,"i2");
         new Wire(o1,r);
                 
-        if (Feature.tables) {
+        //if (Feature.tables) {
             Gate.printDB();
-        }
+        //}
         
-        if (Feature.constraints) {
+        //if (Feature.constraints) {
             boolean result = Gate.verify();
             System.out.println("Model is correct: " + result);
             if (!result)
                 return;
-        }
+        //}
         
-        if (Feature.eval) {
+        //if (Feature.eval) {
             
             a.setValue(Value.TRUE);
             b.setValue(Value.FALSE);
 
 
-            Value rvalue = r.getValue();
+            int rvalue = r.getValue();
             if (rvalue != Value.TRUE) {
                 System.out.println("r value is wrong");
             } else {
                 System.out.println("\nEvaluation of circuit is Correct!");
             }
-        }
+        //}
     }
 }

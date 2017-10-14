@@ -18,14 +18,6 @@ public class UserCommandFactory {
      */
     private TreeOps treeOps;
 	
-    /** 
-     * This interface uses the Command pattern to create @a
-     * UserCommand implementations at runtime.
-     */
-    public static interface IUserCommandFactoryCommand {
-        public UserCommand execute(String param);
-    }
-	
     /**
      * Map used to validate input requests for @a UserCommand
      * implementations and dispatch the execute() method of the

@@ -41,13 +41,7 @@ public class AndroidPlatform extends Platform {
     /** True if the current GUI is verbose. */
     private boolean verboseField;
 	
-    /**
-     * The commandMenu interface precludes the use of an excessive
-     * if-statement to activate various GUI operations.
-     */ 
-    private interface CommandMenu {
-        public void select(boolean enable);
-    }
+    
     
     /** Tracks the error messages. */
     static int errorNumber = 0;

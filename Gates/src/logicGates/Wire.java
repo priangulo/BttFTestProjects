@@ -5,10 +5,15 @@
  */
 package logicGates;
 
-import Pins.*;
-import GatesApp.*;
+//import Pins.*;
+//import GatesApp.*;
+import Pins.InputPin;
+import Pins.OutputPin;
+
 import java.util.HashSet;
 import java.util.LinkedList;
+
+import GatesApp.Value;
 
 /**
  *
@@ -23,9 +28,9 @@ public class Wire extends Printable {
         this.o = o;
         i.addWire(this);
         o.addWire(this);
-        if (Feature.tables) {
+        //if (Feature.tables) {
             table.add(this);
-        }
+        //}
     }
     
     public Wire( InputPort o, Gate i, String name) {
@@ -48,18 +53,18 @@ public class Wire extends Printable {
         System.out.println("wire from " + o + " to " + i);   // param x is ignored
     }
     
-    @Feature(Feature.tables)    
+    //@Feature(Feature.tables)    
     static LinkedList<Wire> table;
     
     public static void resetTable() {
-        table = new LinkedList<>();
+        table = new LinkedList<Wire>();
     }
     
     public static LinkedList<Wire> getTable() { 
         return table;
     }
     
-    @Feature(Feature.constraints)    
+    //@Feature(Feature.constraints)    
     public boolean isUsed() {
         return i.isUsed() && o.isUsed();
     }
@@ -72,8 +77,8 @@ public class Wire extends Printable {
         return OK;
     }
     
-    @Feature(Feature.eval)    
-    public Value getValue() {
+    //@Feature(Feature.eval)    
+    public int getValue() {
         return o.getValue();
     }
 }

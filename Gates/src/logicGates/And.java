@@ -5,16 +5,24 @@
  */
 package logicGates;
 
-import Pins.*;
-import GatesApp.*;
-import java.util.*;
+//import Pins.*;
+//import GatesApp.*;
+import Pins.InputPin;
+import Pins.OutputPin;
+
+import java.util.LinkedList;
+
+//import java.util.*;
+
+import GatesApp.Value;
 
 /**
  *
  * @author don
  */
 public class And extends Gate {
-    InputPin i1, i2;
+    InputPin i1;
+	InputPin i2;
     OutputPin o;
 
     public And(String name) {
@@ -26,16 +34,16 @@ public class And extends Gate {
         o = new OutputPin("o",this);
         outputs.put("o", o);
         
-        if (Feature.tables) {
+        //if (Feature.tables) {
             table.add(this);
-        }
+        //}
     }
     
-    @Feature(Feature.tables)     
+    //@Feature(Feature.tables)     
     static LinkedList<Gate> table;
     
     public static void resetTable() {
-        table = new LinkedList<>();
+        table = new LinkedList<Gate>();
     }
     
     public static LinkedList<Gate> getTable() { 
@@ -43,10 +51,10 @@ public class And extends Gate {
     }
     
         
-    @Feature(Feature.eval)    /* for evaluation */    
-    public Value getValue() { 
-        Value v1 = i1.getValue();
-        Value v2 = i2.getValue();
+   // @Feature(Feature.eval)    /* for evaluation */    
+    public int getValue() { 
+    	int v1 = i1.getValue();
+        int v2 = i2.getValue();
         if (v1==Value.TRUE && v2==Value.TRUE)
             return Value.TRUE;
         else
