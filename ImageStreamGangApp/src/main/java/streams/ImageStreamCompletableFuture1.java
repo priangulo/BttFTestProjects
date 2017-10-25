@@ -115,12 +115,34 @@ public class ImageStreamCompletableFuture1
     @SuppressWarnings("unchecked")
 	private Stream<CompletableFuture<Image>> applyFiltersAsync(CompletableFuture<Image> imageFuture) throws InterruptedException, ExecutionException {
     	List<CompletableFuture<Image>> results = new ArrayList<CompletableFuture<Image>>();
-    	for(Filter filter : mFilters){
-    		FilterDecoratorWithImage fdima = makeFilterDecoratorWithImage(filter, imageFuture.get());
-    		CompletableFuture<Image> cfima = new CompletableFuture<Image>();
-    		cfima = cfima.thenApply((Function<? super Image, ? extends Image>) ImageStreamGang.makeFilterDecoratorWithImage(filter, imageFuture.get()));
-    		cfima = cfima.thenCompose((Function<? super Image, ? extends CompletionStage<Image>>) CompletableFuture.supplyAsync((Supplier<Image>) fdima.run(), this.getExecutor()));
-            results.add(cfima);                       
+    	for(final Filter filter : mFilters){
+    		final Image image = imageFuture.get();
+    		
+    		CompletableFuture<FilterDecoratorWithImage> cffilterDecoratorWithImage = 
+    				imageFuture.thenApply(new Function <Image, FilterDecoratorWithImage>(){
+						@Override
+						public FilterDecoratorWithImage apply(Image t) {
+							return makeFilterDecoratorWithImage(filter, image);
+						}
+		    		});
+    		
+    		CompletableFuture<Image> cfImage = 
+    				cffilterDecoratorWithImage.thenCompose(new Function<FilterDecoratorWithImage, CompletableFuture<Image>>(){
+						@Override
+						public CompletableFuture<Image> apply(FilterDecoratorWithImage t) {
+							return CompletableFuture.supplyAsync(
+									new Supplier<Image>() {
+										@Override
+										public Image get() {
+											// TODO Auto-generated method stub
+											return image;
+										}
+									},
+									getExecutor());
+						}
+    				});
+    		
+    		results.add(cfImage);                       
     	}
     	
     	return results.stream();

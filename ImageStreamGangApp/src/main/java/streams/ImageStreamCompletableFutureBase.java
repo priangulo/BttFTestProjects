@@ -5,6 +5,8 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
 import java.util.function.Supplier;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 import filters.Filter;
 import filters.FilterDecoratorWithImage;
@@ -31,7 +33,21 @@ public abstract class ImageStreamCompletableFutureBase
      * finishes downloading.
      */
     protected CompletableFuture<Image> downloadImageAsync(URL url) {
-    	return  CompletableFuture.supplyAsync((Supplier<Image>) downloadImage(url), getExecutor());
+    	final Image image = downloadImage(url);
+    	
+    	return  CompletableFuture.supplyAsync( new Supplier<Image>() {
+
+			@Override
+			public Image get() {
+				// TODO Auto-generated method stub
+				return image;
+			}
+		}  , getExecutor());
+    	
+    	//return  CompletableFuture.supplyAsync((Supplier<Image>) downloadImage(url), getExecutor());
+    	
+    	
+    	
         // Asynchronously download an Image from the url parameter.
 //        return CompletableFuture.supplyAsync(() -> downloadImage(url),
 //                                             getExecutor());
@@ -44,7 +60,20 @@ public abstract class ImageStreamCompletableFutureBase
      */
     protected CompletableFuture<Image> filterImageAsync
         (FilterDecoratorWithImage filterDecoratorWithImage) {
-    	 return CompletableFuture.supplyAsync((Supplier<Image>) filterDecoratorWithImage.run(), getExecutor());
+    	
+    	final Image image = filterDecoratorWithImage.run();
+    	
+    	return  CompletableFuture.supplyAsync( new Supplier<Image>() {
+
+			@Override
+			public Image get() {
+				// TODO Auto-generated method stub
+				return image;
+			}
+		}  , getExecutor());
+    	
+    	
+    	 //return CompletableFuture.supplyAsync((Supplier<Image>) filterDecoratorWithImage.run(), getExecutor());
     	
 //        // Asynchronously filter the image and store it in an output
 //        // file.

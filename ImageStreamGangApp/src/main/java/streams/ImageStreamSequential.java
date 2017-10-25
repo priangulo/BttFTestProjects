@@ -6,6 +6,8 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
+import java.util.function.Function;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import filters.Filter;
@@ -36,7 +38,21 @@ public class ImageStreamSequential
     	List<Image> collect = new ArrayList<Image>();
     	for(URL url : getInput()){
     		if(!urlCached(url)){
-    			collect.add((Image) applyFilters(ImageStreamGang.downloadImage(url)));
+    			Image image = ImageStreamGang.downloadImage(url);
+    			Stream<Image> sImage = applyFilters(image);
+    			
+    			/*while(sImage.iterator().hasNext()){
+    				Image newI =sImage.iterator().next();
+    				collect.add(newI);
+    			}*/
+    			
+    			List<Object> images = sImage.collect(Collectors.toList());
+    			for(Object o : images){
+    				collect.add((Image)o);
+    			}
+    			
+    			
+    			//collect.add((Image) applyFilters(ImageStreamGang.downloadImage(url)));
     		}
     	}
     	

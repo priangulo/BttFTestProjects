@@ -1,15 +1,25 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
+
 
 package Application;
 
+/// MsP:  untoggle the commmented import below and comment D.Gui to switch
+// between implementations
+
+//import BI.Gui;
 import D.Gui;
 
 public class Main {
+    public Gui g;
+    
+    public Main() {
+        g = new Gui("Calc");
+        g.display();
+    }
+    
     public static void main(String args[]) {
-        new Gui("DCalc").display();
-        //new BI.Gui("BICalc").display();
+        Main m = new Main();
+        m.g=new Gui("Calc");
+        m.g.display();
     }
 }
+

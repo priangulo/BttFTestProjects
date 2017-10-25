@@ -198,7 +198,10 @@ public class ImageStreamGangTest {
         List<ResultMap> listOfMaps = new ArrayList<ResultMap>();
         int i = 0;
         for(Entry<String, List<Long>> entry : resultsMap.entrySet()){
-        	listOfMaps.add((ResultMap) entry);
+        	ResultMap rmentry = new ResultMap();
+        	listOfMaps.add(rmentry);
+        	//rmentry.put(entry.getValue(), entry.getKey());
+        	//listOfMaps.add((ResultMap) entry);
         	i++;
         	if(i >= numberOfRuns){
         		break;

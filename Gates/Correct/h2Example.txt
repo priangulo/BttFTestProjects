@@ -1,0 +1,25 @@
+(avb)^(cvd)=r; (avb)v(cvd) = t;
+   And gate       and1 with inputs ( and1.i1, and1.i2 ) and outputs ( and1.o )
+    Or gate        or1 with inputs ( or1.i1, or1.i2 ) and outputs ( or1.o )
+    Or gate        or2 with inputs ( or2.i1, or2.i2 ) and outputs ( or2.o )
+    Or gate        or3 with inputs ( or3.i1, or3.i2 ) and outputs ( or3.o )
+wire from a.o to or1.i1
+wire from b.o to or1.i2
+wire from c.o to or2.i1
+wire from d.o to or2.i2
+wire from or1.o to and1.i1
+wire from or2.o to and1.i2
+wire from or1.o to or3.i1
+wire from or2.o to or3.i2
+wire from and1.o to r.i1
+wire from or3.o to t.i1
+InputPort gate          a with inputs (  ) and outputs ( a.o )
+InputPort gate          b with inputs (  ) and outputs ( b.o )
+InputPort gate          c with inputs (  ) and outputs ( c.o )
+InputPort gate          d with inputs (  ) and outputs ( d.o )
+OutputPort gate          r with inputs ( r.i1 ) and outputs (  )
+OutputPort gate          t with inputs ( t.i1 ) and outputs (  )
+Model is correct: true
+
+Evaluation of circuit is Correct!
+---------------------

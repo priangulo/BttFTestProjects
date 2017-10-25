@@ -9,6 +9,8 @@ import java.util.concurrent.CompletableFuture;
 import java.util.function.Function;
 import java.util.function.Predicate;
 
+import filters.FilterDecoratorWithImage;
+
 /**
  * Helpful methods for manipulating various Java 8 Streams features.
  */
@@ -30,22 +32,31 @@ public class StreamsUtils {
      *         joined results.
      */
     public static <T, U> CompletableFuture<List<T>> 
-        joinAll (List<CompletableFuture<T>> futureList) {
+        joinAll (final List<CompletableFuture<T>> futureList) {
         // Use CompletableFuture.allOf() to obtain a CompletableFuture
         // that will itself be complete when all CompletableFutures in
         // futureList parameter have completed.
-        CompletableFuture<Void>
+        final CompletableFuture<Void>
             allDoneFuture = CompletableFuture.allOf
             (futureList.toArray(new CompletableFuture[futureList.size()]));
 
         // When all futures have completed get a CompletableFuture to
         // a list of joined elements of type T.
-        CompletableFuture<List<T>> allDoneList = new CompletableFuture<List<T>>();
-        //List<T> listT = new ArrayList<T>(); 
-        for(CompletableFuture<T> cf : futureList){
-        	allDoneFuture.thenApply((Function<? super Void, ? extends U>) cf.join());
-        	//listT.add(cf.join());
-        }
+        
+        
+        CompletableFuture<List<T>> allDoneList = 
+	        allDoneFuture.thenApply(
+	        		new Function< Void, List<T> >() {
+						@Override
+						public List<T> apply(Void t) {
+							List<T> result = new ArrayList<T>(); 
+							for(CompletableFuture<T> cf : futureList){
+								result.add(cf.join());
+							}
+							return result;
+						}
+	        		});
+        
         
         
 //        CompletableFuture<List<T>> allDoneList = allDoneFuture

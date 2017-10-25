@@ -1,0 +1,22 @@
+a != b
+   And gate         a1 with inputs ( a1.i1, a1.i2 ) and outputs ( a1.o )
+   And gate         a2 with inputs ( a2.i1, a2.i2 ) and outputs ( a2.o )
+    Or gate         o1 with inputs ( o1.i1, o1.i2 ) and outputs ( o1.o )
+   Not gate         n1 with inputs ( n1.i1 ) and outputs ( n1.o )
+   Not gate         n2 with inputs ( n2.i1 ) and outputs ( n2.o )
+wire from a.o to n1.i1
+wire from n1.o to a1.i1
+wire from b.o to a1.i2
+wire from a.o to a2.i1
+wire from b.o to n2.i1
+wire from n2.o to a2.i2
+wire from a1.o to o1.i1
+wire from a2.o to o1.i2
+wire from o1.o to r.i1
+InputPort gate          a with inputs (  ) and outputs ( a.o )
+InputPort gate          b with inputs (  ) and outputs ( b.o )
+OutputPort gate          r with inputs ( r.i1 ) and outputs (  )
+Model is correct: true
+
+Evaluation of circuit is Correct!
+---------------------

@@ -10,6 +10,7 @@ import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.CompletionStage;
 import java.util.concurrent.ExecutionException;
 import java.util.function.Function;
+import java.util.function.Supplier;
 
 import filters.Filter;
 import filters.FilterDecoratorWithImage;
@@ -40,14 +41,17 @@ public class ImageStreamCompletableFuture2
      */
     @Override
     protected void processStream() {
-    	List<CompletableFuture<List<Image>>> listOfFutures = null;
+    	List<CompletableFuture<List<Image>>> listOfFutures = new ArrayList<CompletableFuture<List<Image>>>();
+    	
     	
     	for(URL url : getInput()){
     		if(!(urlCached(url))){
     			CompletableFuture<Image> image = downloadImageAsync(url);
-    			CompletableFuture<List<FilterDecoratorWithImage>> listImage = null;
+    			CompletableFuture<List<FilterDecoratorWithImage>> listFilter = null;
+    			CompletableFuture<List<Image>> listImage = null;
+    			
 				try {
-					listImage = makeFilterDecorators(image);
+					listFilter = makeFilterDecorators(image);
 				} catch (InterruptedException e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
@@ -56,18 +60,8 @@ public class ImageStreamCompletableFuture2
 					e.printStackTrace();
 				}
     			try {
-					applyFiltersAsync(listImage);
-				} catch (InterruptedException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-				} catch (ExecutionException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-				}
-    			try {
-					for(FilterDecoratorWithImage i : listImage.get()){
-						listOfFutures.add(this.applyFiltersAsync(listImage));
-					}
+    				listImage = applyFiltersAsync(listFilter);
+    				listOfFutures.add(listImage);
 				} catch (InterruptedException e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
@@ -142,14 +136,34 @@ public class ImageStreamCompletableFuture2
      * @throws InterruptedException 
      */
     private CompletableFuture<List<FilterDecoratorWithImage>> makeFilterDecorators
-                (CompletableFuture<Image> imageFuture) throws InterruptedException, ExecutionException {
+                (final CompletableFuture<Image> imageFuture) throws InterruptedException, ExecutionException {
+    
+    	return imageFuture.thenApply(new Function <Image, List<FilterDecoratorWithImage> >(){
+			@Override
+			public List<FilterDecoratorWithImage> apply(Image t) {
+				List<FilterDecoratorWithImage> results = new ArrayList<FilterDecoratorWithImage>();
+				for(Filter filter : mFilters){
+		    		FilterDecoratorWithImage toadd = null;
+					try {
+						toadd = makeFilterDecoratorWithImage(filter, imageFuture.get());
+					} catch (InterruptedException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					} catch (ExecutionException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					} 
+		    		results.add(toadd);
+		    	}
+				return results;
+			}
+		});
     	
-    	List<FilterDecoratorWithImage> results = new ArrayList<FilterDecoratorWithImage>();
-    	for(Filter filter : mFilters){
-    		FilterDecoratorWithImage toadd = makeFilterDecoratorWithImage(filter, imageFuture.get()); 
-    		results.add(toadd);
-    	}
-    	return imageFuture.thenApply((Function<? super Image, ? extends List<FilterDecoratorWithImage>>) results);
+    	//return imageFuture.thenApply((Function<? super Image, ? extends List<FilterDecoratorWithImage>>) results);
+
+    	
+    	
+    	
     	
 //        // Returns a new CompletionStage that, when this stage
 //        // completes normally, is executed with this stage's result as
@@ -174,15 +188,21 @@ public class ImageStreamCompletableFuture2
      * @throws InterruptedException 
      */
     private CompletableFuture<List<Image>> applyFiltersAsync
-      (CompletableFuture<List<FilterDecoratorWithImage>> decoratedFiltersWithImageFuture) throws InterruptedException, ExecutionException {
+      (final CompletableFuture<List<FilterDecoratorWithImage>> decoratedFiltersWithImageFuture) throws InterruptedException, ExecutionException {
     	
-    	List<CompletableFuture<Image>> listOfFutures = new ArrayList<CompletableFuture<Image>>();
+    	final List<CompletableFuture<Image>> listOfFutures = new ArrayList<CompletableFuture<Image>>();
     	for(FilterDecoratorWithImage ima : decoratedFiltersWithImageFuture.get()){
     		listOfFutures.add(filterImageAsync(ima));
     	}
     	
-    	return decoratedFiltersWithImageFuture.thenCompose((Function<? super List<FilterDecoratorWithImage>, ? extends CompletionStage<List<Image>>>) StreamsUtils.joinAll(listOfFutures));
-    	
+    	return decoratedFiltersWithImageFuture.thenCompose(
+    			new Function<List<FilterDecoratorWithImage>, CompletableFuture<List<Image>> > (){
+					@Override
+					public CompletableFuture<List<Image>> apply(List<FilterDecoratorWithImage> t) {
+						return StreamsUtils.joinAll(listOfFutures);
+					}
+    				
+    			});
     	
 //        // Returns a new CompletionStage that, when this stage
 //        // completes normally, is executed with this stage's result as

@@ -131,35 +131,46 @@ public class Gui extends JFrame{
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    void EnterActionPerformed(ActionEvent evt) {//GEN-FIRST:event_EnterActionPerformed
+    //------------------- MSP 2 new methods and the rest become public : START HERE
+    public void ResultSetText(String x) {
+        Result.setText(x);
+    }
+    
+    public String ResultGetText() {
+        return Result.getText();
+    }
+    
+    public void EnterActionPerformed(ActionEvent evt) {//GEN-FIRST:event_EnterActionPerformed
         calc.set(Result.getText());
     }//GEN-LAST:event_EnterActionPerformed
 
-    void ClearActionPerformed(ActionEvent evt) {//GEN-FIRST:event_ClearActionPerformed
+    public void ClearActionPerformed(ActionEvent evt) {//GEN-FIRST:event_ClearActionPerformed
         calc.clear();
         Result.setText("0");
     }//GEN-LAST:event_ClearActionPerformed
 
-    void PlusActionPerformed(ActionEvent evt) {//GEN-FIRST:event_PlusActionPerformed
+    public void PlusActionPerformed(ActionEvent evt) {//GEN-FIRST:event_PlusActionPerformed
         calc.add( Result.getText());
         Result.setText(calc.get());
     }//GEN-LAST:event_PlusActionPerformed
 
-    void MinusActionPerformed(ActionEvent evt) {//GEN-FIRST:event_MinusActionPerformed
+    public void MinusActionPerformed(ActionEvent evt) {//GEN-FIRST:event_MinusActionPerformed
         calc.sub( Result.getText());
         Result.setText(calc.get());
     }//GEN-LAST:event_MinusActionPerformed
 
-    void TimesActionPerformed(ActionEvent evt) {//GEN-FIRST:event_TimesActionPerformed
+    public void TimesActionPerformed(ActionEvent evt) {//GEN-FIRST:event_TimesActionPerformed
         calc.mul( Result.getText());
         Result.setText(calc.get());
     }//GEN-LAST:event_TimesActionPerformed
 
-    void DivActionPerformed(ActionEvent evt) {//GEN-FIRST:event_DivActionPerformed
+    public void DivActionPerformed(ActionEvent evt) {//GEN-FIRST:event_DivActionPerformed
         calc.div( Result.getText());
         Result.setText(calc.get());
     }//GEN-LAST:event_DivActionPerformed
 
+    //------------------- MSP END HERE
+    
     // Variables declaration - do not modify//GEN-BEGIN:variables
     JButton Clear;
     JButton Div;

@@ -1,0 +1,12 @@
+(a^b)=r;
+   And gate       and1 with inputs ( and1.i1, and1.i2 ) and outputs ( and1.o )
+wire from a.o to and1.i1
+wire from b.o to and1.i2
+wire from and1.o to r.i1
+InputPort gate          a with inputs (  ) and outputs ( a.o )
+InputPort gate          b with inputs (  ) and outputs ( b.o )
+OutputPort gate          r with inputs ( r.i1 ) and outputs (  )
+Model is correct: true
+
+Evaluation of circuit is Correct!
+---------------------
